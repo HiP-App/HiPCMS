@@ -45,7 +45,7 @@ generates a report file.
 Testing
 =======
 
-TODO: Add testing description. 
+TODO: Add testing description.
 
 
 Reporting issues
