@@ -1,0 +1,851 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes
+compile options:
+4 items
+0 -> -deprecation
+1 -> -unchecked
+2 -> -encoding
+3 -> utf8
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+64 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/FetchLatest$.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/FetchLatest.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$initialPrices$lzycompute$1$1$$anonfun$apply$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$initialPrices$lzycompute$1$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$receive$1$$anonfun$applyOrElse$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$receive$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockHistory$.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockHistory.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockUpdate$.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockUpdate.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$2$$anonfun$apply$2.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$2.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$3.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$4.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/UnwatchStock$.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/UnwatchStock.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/WatchStock$.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/WatchStock.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$2.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$3$$anonfun$apply$2.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$3.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$apply$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$getAverageSentiment$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$getTweets$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$loadSentimentFromTweets$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$Tweet$.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$Tweet.class
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/ReverseApplication.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/ReverseAssets.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/ReverseStockSentiment.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/javascript/ReverseAssets.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/javascript/ReverseStockSentiment.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_ws1_invoker$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_at3_invoker$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_StockSentiment_get2_invoker$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/RoutesPrefix$$anonfun$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/RoutesPrefix$.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/RoutesPrefix.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index$.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0$.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0$index$$anonfun$f$1.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0$index.class
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0.class
+binary dependencies:
+25 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.akka/akka-actor_2.11/2.3.11/jars/akka-actor_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play-json_2.11/2.4.2/jars/play-json_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play-ws_2.11/2.4.2/jars/play-ws_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+7 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/app/utils/FakeStockQuote.java
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> /home/wever/ownCloud/Repositories/HiPCMS/app/utils/StockQuote.java
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/app/controllers/Application.java
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> /home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/routes.java
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+64 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.FetchLatest
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.FetchLatest$
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockActor
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockActor$$anonfun$initialPrices$lzycompute$1$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockActor$$anonfun$initialPrices$lzycompute$1$1$$anonfun$apply$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockActor$$anonfun$receive$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockActor$$anonfun$receive$1$$anonfun$applyOrElse$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockHistory
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockHistory$
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockUpdate
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StockUpdate$
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StocksActor
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StocksActor$
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StocksActor$$anonfun$receive$2
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$2
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$2$$anonfun$apply$2
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$3
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$4
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.UnwatchStock
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.UnwatchStock$
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.WatchStock
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors.WatchStock$
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$get$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$get$1$$anonfun$2
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$get$1$$anonfun$3
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$get$1$$anonfun$3$$anonfun$apply$2
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$get$1$$anonfun$apply$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$getAverageSentiment$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$getTweets$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$$anonfun$loadSentimentFromTweets$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$Tweet
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers.StockSentiment$Tweet$
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseApplication
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseAssets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> controllers.ReverseStockSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseApplication
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseAssets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers.javascript.ReverseStockSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$documentation$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Application_ws1_invoker$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_Assets_at3_invoker$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$router$Routes$$controllers_StockSentiment_get2_invoker$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$2
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$4
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router.Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix$
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router.RoutesPrefix$$anonfun$1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> views.html.index
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> views.html.index$
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> views.html.index_Scope0
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> views.html.index_Scope0$
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> views.html.index_Scope0$index
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> views.html.index_Scope0$index$$anonfun$f$1
+used names:
+482 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> !
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> #::
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> &&
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> *
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> +
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> -
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> :+
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> <init>
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> ==
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> A1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> AbstractFunction1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> AbstractFunction2
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Actor
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> ActorRef
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Akka
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> AnyRef
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> B1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> ClassTag
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Double
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Duration
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> ExecutionContext
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> FakeStockQuote
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> FetchLatest
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Function1
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> HashSet
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Implicits
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> JavaConverters
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> List
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> None
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Number
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Option
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Predef
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Product
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Props
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Queue
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Random
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> ScalaRunTime
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Serializable
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> StockActor
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> StockHistory
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> StockQuote
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> StockUpdate
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> StocksActor
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Stream
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> String
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> UnwatchStock
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> WatchStock
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> Zero
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> _hashCode
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> _toString
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actor
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actorOf
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actorRef2Scala
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> actors
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> akka
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> apply
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> asInstanceOf
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> asJava
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> canBuildFrom
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> cancel
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> child
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> children
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> collection
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> concurrent
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> consWrapper
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> context
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> double2Double
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> doubleValue
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> drop
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> duration
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> empty
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> eq
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> foreach
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> forward
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> getOrElse
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> global
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> history
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> immutable
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> initialPrices
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> initialPrices$lzy
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> isInstanceOf
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> java
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> lang
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> last
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> libs
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> map
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> materializeClassTag
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> millis
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> newPrice
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> nextDouble
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> package
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> play
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> previous
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> price
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> runtime
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> scala
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> schedule
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> scheduler
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> self
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> sender
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> seqAsJavaListConverter
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> size
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> stockHistory
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> stockHistory_=
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> stockQuote
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> stockTick
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> stocksActor
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> stop
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> symbol
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> system
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> take
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> to
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> toString
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> typedProductIterator
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> unchecked
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> util
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> utils
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> watchers
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> watchers_=
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> x
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> ||
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> &&
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> +
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> ->
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> /
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> <init>
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> ==
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> >
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> A1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> AbstractFunction1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Action
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> AnyContent
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> B1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Codec
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Controller
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Double
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> DoubleIsFractional
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> DoubleReads
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> DoubleWrites
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> ExecutionContext
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Function1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Future
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Implicits
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> InternalServerError
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> JsPath
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> JsString
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> JsValue
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> JsValueWrites
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Json
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Map
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> None
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Numeric
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> OK
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Ok
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Play
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Predef
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Product
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Reads
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Result
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> ScalaRunTime
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Seq
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Serializable
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> StockSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> String
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> StringReads
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Tweet
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> WS
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> WSResponse
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Writeable
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> Writes
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> \
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> \\
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> _2
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> _hashCode
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> _toString
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> api
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> apply
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> as
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> asInstanceOf
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> async
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> augmentString
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> canBuildFrom
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> classification
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> collection
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> concurrent
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> configuration
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> controllers
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> current
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> eq
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> flatMap
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> format
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> functional
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> futureSentiments
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> futureStockSentiments
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> get
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> getAverageSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> getString
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> getTextSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> getTweets
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> global
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> head
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> http
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> intWrapper
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> isInstanceOf
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> jsValueToJsLookup
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> json
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> label
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> length
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> libs
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> loadSentimentFromTweets
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> map
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> math
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> max
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> mvc
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> ne
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> neg
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> neutral
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> obj
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> package
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> play
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> pos
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> post
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> qual$1
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> qual$2
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> read
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> reads
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> recover
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> response
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> responses
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> runtime
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> scala
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> sentimentJson
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> sentiments
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> sequence
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> status
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> sum
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> symbol
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> syntax
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> text
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> toJsFieldJsValueWrapper
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> toString
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> traversableReads
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> tweet
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> tweetReads
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> tweets
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> typedProductIterator
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> unchecked
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> url
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> utf_8
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> withFilter
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> writeableOf_JsValue
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> writeableOf_urlEncodedForm
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> ws
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> x$2
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> x$3
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> x$4
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> x$5
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> ||
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> +
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> <byname>
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> <init>
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> AnyRef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Asset
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Assets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Call
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> HandlerDef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> JavascriptLiteral
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Map
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> PathBindable
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> Predef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> QueryStringBindable
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> ReverseApplication
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> ReverseAssets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> ReverseRouteContext
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> ReverseStockSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> String
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> _defaultPrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> _prefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> _root_
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> api
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> apply
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> bindableString
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> controllers
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> core
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> dynamicString
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> empty
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> endsWith
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> file
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> implicitly
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> mvc
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> package
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> play
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> queryString
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> routing
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> symbol
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> unbind
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> +
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <byname>
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> <init>
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> AnyRef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Asset
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Assets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Call
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> HandlerDef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> JavaScriptReverseRoute
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> JavascriptLiteral
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> PathBindable
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> Predef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> QueryStringBindable
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseApplication
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseAssets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseRouteContext
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> ReverseStockSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> String
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _defaultPrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _prefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> _root_
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> api
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> bindableString
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> controllers
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> core
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> dynamicString
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> empty
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> endsWith
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> implicitly
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascript
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> javascriptUnbind
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> mvc
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> play
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> queryString
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> routing
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> +
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> ++
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> :+
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> <init>
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> A1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Any
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Application
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Application_1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Asset
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Assets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Assets_0
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> B1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Function1
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> GeneratedRouter
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Handler
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> HandlerInvokerFactory
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> HttpErrorHandler
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> List
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Nil
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> None
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> PartialFunction
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> PathBindable
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Predef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> RequestHeader
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> ReverseRouteContext
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Right
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Route
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Routes
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> RoutesPrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Seq
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> StockSentiment
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> StockSentiment_2
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> String
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> Tuple3
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> api
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> apply
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> asInstanceOf
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> at
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> bindableString
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> call
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> canBuildFrom
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> collection
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_index0_invoker
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_index0_route
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_ws1_invoker
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Application_ws1_route
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Assets_at3_invoker
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_Assets_at3_route
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_StockSentiment_get2_invoker
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> controllers_StockSentiment_get2_route
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> core
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> createInvoker
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> defaultPrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> e
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> empty
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> endsWith
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> errorHandler
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> fakeValue
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> file
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> foldLeft
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> fromPath
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> get
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> getClass
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> getClassLoader
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> http
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> immutable
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> index
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> isEmpty
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> isInstanceOf
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> j
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> javaJsonWebSocket
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> mvc
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> package
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> params
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> passThrough
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> path
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> play
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> prefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> router
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> routing
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> s
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> setPrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> symbol
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> unapply
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> unary_!
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> unchecked
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> wrapJava
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> ws
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> <init>
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> AnyRef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> Function0
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> Predef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> RoutesPrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> String
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> Unit
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> _prefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> _prefix_=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> byNamePrefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> p
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> prefix
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> router
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> <init>
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Any
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> AnyRef
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Appendable
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Application
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Assets
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> BaseScalaTemplate
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Context
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Format
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Function0
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> HtmlFormat
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Http
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Implicit
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> ManifestFactory
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> PlayMagic
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Seq
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> Template0
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> TemplateMagic
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> _display_
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> _root_
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> api
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> apply
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> at
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> classType
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> collection
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> controllers
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> data
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> format
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> html
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> i18n
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> index
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> index_Scope0
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> models
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> mvc
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> play
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> raw
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> reflect
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> request
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> routes
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> scala
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> templates
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> twirl
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> views
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> webSocketURL
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> ws
+product stamps:
+64 items
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/FetchLatest$.class -> lastModified(1447591232000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/FetchLatest.class -> lastModified(1447591232000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$initialPrices$lzycompute$1$1$$anonfun$apply$1.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$initialPrices$lzycompute$1$1.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$receive$1$$anonfun$applyOrElse$1.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor$$anonfun$receive$1.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockActor.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockHistory$.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockHistory.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockUpdate$.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StockUpdate.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$2$$anonfun$apply$2.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$2.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$3.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2$$anonfun$applyOrElse$4.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$$anonfun$receive$2.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor$.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/StocksActor.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/UnwatchStock$.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/UnwatchStock.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/WatchStock$.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/actors/WatchStock.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/ReverseApplication.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/ReverseAssets.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/ReverseStockSentiment.class -> lastModified(1447591233000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$2.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$3$$anonfun$apply$2.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$3.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1$$anonfun$apply$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$get$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$getAverageSentiment$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$getTweets$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$$anonfun$loadSentimentFromTweets$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$Tweet$.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment$Tweet.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/StockSentiment.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/javascript/ReverseApplication.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/javascript/ReverseAssets.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/controllers/javascript/ReverseStockSentiment.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$documentation$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_index0_invoker$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Application_ws1_invoker$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_Assets_at3_invoker$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$router$Routes$$controllers_StockSentiment_get2_invoker$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1$$anonfun$apply$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2$$anonfun$apply$2.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$2.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3$$anonfun$apply$3.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$3.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4$$anonfun$apply$4.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1$$anonfun$applyOrElse$4.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes$$anonfun$routes$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/Routes.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/RoutesPrefix$$anonfun$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/RoutesPrefix$.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/router/RoutesPrefix.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index$.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0$.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0$index$$anonfun$f$1.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0$index.class -> lastModified(1447591234000)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/classes/views/html/index_Scope0.class -> lastModified(1447591234000)
+source stamps:
+12 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> hash(7e63e95b3519211457ca847861e2d93c6ea0c980)
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/UserActor.java -> hash(0737ac067cb6e91ab0764b3483301596ad922a33)
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/Application.java -> hash(7f23ffdf27911db3bfee0b447c103ed9ad6e26ee)
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> hash(419384f4986884a51b684ac9f58c55c8daa44fea)
+/home/wever/ownCloud/Repositories/HiPCMS/app/utils/FakeStockQuote.java -> hash(b08500a41be7b6c6370201bdfcf32f1c8cb1e172)
+/home/wever/ownCloud/Repositories/HiPCMS/app/utils/StockQuote.java -> hash(19803152af1815b2addce472d4f2905414e22be9)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> hash(bd2a795595fca709e652c650d152b838b4488500)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> hash(14b05ba91fb79680c24837dab5b2dc712dc9b180)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/routes.java -> hash(0b8a4f22b628010e4b5a5eb72f6f08497ef970bd)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> hash(b7ab42df21df16a35b3da6d70d98eea87646d19b)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> hash(4dffb1e715ea6bfefaff6ad18adcf17aa44bc01b)
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> hash(d0fd16c23bb450e27cab6779ced2ec2e9361e5bc)
+binary stamps:
+8 items
+/home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> lastModified(1441270764000)
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar -> lastModified(1441270764000)
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.akka/akka-actor_2.11/2.3.11/jars/akka-actor_2.11.jar -> lastModified(1441270764000)
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play-json_2.11/2.4.2/jars/play-json_2.11.jar -> lastModified(1441270764000)
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play-ws_2.11/2.4.2/jars/play-ws_2.11.jar -> lastModified(1441270764000)
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar -> lastModified(1441270764000)
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar -> lastModified(1441270764000)
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar -> lastModified(1445408388000)
+class names:
+8 items
+/home/wever/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.7.jar -> scala.Function0
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.fasterxml.jackson.core/jackson-databind/2.5.4/bundles/jackson-databind.jar -> com.fasterxml.jackson.databind.JsonNode
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.akka/akka-actor_2.11/2.3.11/jars/akka-actor_2.11.jar -> akka.actor.Actor
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play-json_2.11/2.4.2/jars/play-json_2.11.jar -> play.api.libs.json.Json
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play-ws_2.11/2.4.2/jars/play-ws_2.11.jar -> play.api.libs.ws.WS$
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar -> play.api.templates.PlayMagic$
+/home/wever/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/twirl-api_2.11/1.1.1/jars/twirl-api_2.11.jar -> play.twirl.api.Template0
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.65-3.b17.fc22.x86_64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+12 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCFImpVAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAACc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hw7sgOMnQABHNlbGZzcQB+AAvyF9/bdAAHY29udGV4dHVxAH4ACQAAADpzcQB+AAsvcKuddAAKU3RvY2tBY3RvcnNxAH4AC4odR3B0AAZub3RpZnlzcQB+AAtjh50TdAAHUmVjZWl2ZXNxAH4ACy0e3FF0AAR3YWl0c3EAfgALvPgRRHQADmNvcHkkZGVmYXVsdCQyc3EAfgALrm7KLXQADSRhc0luc3RhbmNlT2ZzcQB+AAs1NzB7dAALRmV0Y2hMYXRlc3RzcQB+AAvIf9nCdAAHaGlzdG9yeXNxAH4ACxxTMO90AAxwcm9kdWN0QXJpdHlzcQB+AAss+UjMdAAGZXF1YWxzc3EAfgALywZyNnQACldhdGNoU3RvY2tzcQB+AAtdJZhrdAAMYXNJbnN0YW5jZU9mc3EAfgALjXfDinQABXByaWNlc3EAfgALI5QpunQADHN5bmNocm9uaXplZHNxAH4AC7GyIb90AA0kaXNJbnN0YW5jZU9mc3EAfgALFAcyznQAB3JlY2VpdmVzcQB+AAslPB4odAAKcHJlUmVzdGFydHNxAH4ACzaBZyJ0AAtTdG9ja1VwZGF0ZXNxAH4AC/v5w1h0AA1hcm91bmRSZWNlaXZlc3EAfgALfPO7CHQACGNhbkVxdWFsc3EAfgALpHe6KHQACnN0b2NrUXVvdGVzcQB+AAv5j8u7dAALcG9zdFJlc3RhcnRzcQB+AAsdSeX8dAAIcG9zdFN0b3BzcQB+AAuS1SlydAANcHJvZHVjdFByZWZpeHNxAH4AC4LSeFl0AAlub3RpZnlBbGxzcQB+AAsQbLzHdAALcmVhZFJlc29sdmVzcQB+AAuBJYqydAALc3RvY2tzQWN0b3JzcQB+AAupzY3PdAARYXJvdW5kUG9zdFJlc3RhcnRzcQB+AAtOW7+zdAAMaXNJbnN0YW5jZU9mc3EAfgALlHX75XQAEGFyb3VuZFByZVJlc3RhcnRzcQB+AAtQOY+fdAAOYXJvdW5kUG9zdFN0b3BzcQB+AAt49EwxdAAGc3ltYm9sc3EAfgALxDf5O3QABjxpbml0PnNxAH4AC2dVvjB0AAlzdG9ja1RpY2tzcQB+AAtBZEOWdAAIcHJlU3RhcnRzcQB+AAtwQqoudAAJdW5oYW5kbGVkc3EAfgAL3PLwIXQADFN0b2NrSGlzdG9yeXNxAH4AC3yWodp0AAI9PXNxAH4AC/TUl290AAVjbG9uZXNxAH4AC02ltj90AARjb3B5c3EAfgAL0SRPIXQADHN0b2NrSGlzdG9yeXNxAH4AC3D0Ij90AAZzZW5kZXJzcQB+AAu9/hJhdAAMVW53YXRjaFN0b2Nrc3EAfgALB3USf3QACHRvU3RyaW5nc3EAfgALMRAUQXQAC1N0b2Nrc0FjdG9yc3EAfgALA69vAHQAAiE9c3EAfgALHrlu73QACGdldENsYXNzc3EAfgAL6UuT7XQADmNvcHkkZGVmYXVsdCQxc3EAfgALStDtjnQAAm5lc3EAfgALJWvCDXQACHdhdGNoZXJzc3EAfgALsXZ7eHQAEnN1cGVydmlzb3JTdHJhdGVneXNxAH4AC+2LKCd0AAJlcXNxAH4AC1UF1vp0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAuf47zHdAACIyNzcQB+AAtOxfFDdAAIZmluYWxpemVzcQB+AAu/91w2dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAvLMj7bdAAIaGFzaENvZGVzcQB+AAv5G9OmdAAOYXJvdW5kUHJlU3RhcnRzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAAIc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCPeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAARYWN0b3JzLlN0b2NrQWN0b3J1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AKh4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AKcAcHNxAH4ArHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgCPTAAJaW5oZXJpdGVkcQB+AI9MAAdwYXJlbnRzcQB+AI94cQB+ALBzcQB+AKcAcHNxAH4ArHVxAH4AigAAAABzcQB+AKcAcHNxAH4ArHVxAH4AigAAAABzcQB+AKcAcHNxAH4ArHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ar3QABUFjdG9yc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCvc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAR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
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/UserActor.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQso6TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAc3rAZ8tukasHZLNIMwFZatkioz
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/Application.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQso6TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFH8j/98nkR2zv+4LRHwQPtmtbibu
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCbWmMFAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAEc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwcYGeinQAD3JlcXVlc3Qyc2Vzc2lvbnNxAH4AC0Pynz10AA1yZXF1ZXN0MmZsYXNoc3EAfgALEvB9sHQADHJlcXVlc3QybGFuZ3NxAH4AC80UqPl0AAp0d2VldFJlYWRzdXEAfgAJAAABIXNxAH4ACxWafqp0AAtjaGVja0ZvckVvZnNxAH4AC1l7kz10AAxSZXNldENvbnRlbnRzcQB+AAtoqR3EdAANTm90QWNjZXB0YWJsZXNxAH4AC5IZ5hx0ABFUZW1wb3JhcnlSZWRpcmVjdHNxAH4AC8FPrEx0AAhzZW5kRmlsZXNxAH4AC2BWIAh0AA9hZGRpbmdUb1Nlc3Npb25zcQB+AAvugSkDdAAGTG9ja2Vkc3EAfgALTru4m3QABm5vdGlmeXNxAH4ACy3GBW50AARGUk9Nc3EAfgALpp8djnQAEENPTlRFTlRfTEFOR1VBR0VzcQB+AAtl4vyRdAAHQ1JFQVRFRHNxAH4ACweYXnF0AAd1bmFwcGx5c3EAfgAL90n89HQAEFRPT19NQU5ZX1JFUVVFU1RzcQB+AAs2eKRldAASdG9sZXJhbnRCb2R5UGFyc2Vyc3EAfgALrgNHD3QAB1dBUk5JTkdzcQB+AAusNyF+dAAPUGF5bWVudFJlcXVpcmVkc3EAfgALzyN3y3QACENPTlRJTlVFc3EAfgALxKiWP3QABGJvZHlzcQB+AAsyPGPldAAFY2h1bmtzcQB+AAvs/+eddAAOZm9ybSRkZWZhdWx0JDJzcQB+AAs7jZ/OdAALU0VUX0NPT0tJRTJzcQB+AAvfy6/xdAAISFRUUF8xXzFzcQB+AAsR8lr+dAATQ09OVEVOVF9ESVNQT1NJVElPTnNxAH4ACzjclo50AA1yYXckZGVmYXVsdCQxc3EAfgALwB8uu3QADENPTlRFTlRfVFlQRXNxAH4AC0qebA50AAZCSU5BUllzcQB+AAtcTg6VdAAEd2FpdHNxAH4ACy6wxmJ0ABxBQ0NFU1NfQ09OVFJPTF9BTExPV19NRVRIT0RTc3EAfgAL97LF9nQACkJhZEdhdGV3YXlzcQB+AAuc5sfadAAQTWV0aG9kTm90QWxsb3dlZHNxAH4AC0WsLk10AA5Ub29NYW55UmVxdWVzdHNxAH4ACxCsCCB0ABNkZWNodW5rV2l0aFRyYWlsZXJzc3EAfgALBG3TtnQAClVTRVJfQUdFTlRzcQB+AAubA0ArdAAWc2VuZFJlc291cmNlJGRlZmF1bHQkMnNxAH4AC+8cGMt0AARIT1NUc3EAfgALjpsQlnQAC0NPTlRFTlRfTUQ1c3EAfgALZNuLd3QADmNvcHkkZGVmYXVsdCQyc3EAfgALvnPY8HQAB0NyZWF0ZWRzcQB+AAtdVWP2dAANJGFzSW5zdGFuY2VPZnNxAH4AC2U3xq50AAVlbXB0eXNxAH4AC697rWJ0ABBYX0ZPUldBUkRFRF9QT1JUc3EAfgAL3HYZZHQACkphdmFTY3JpcHRzcQB+AAuIeQOadAALQkFEX1JFUVVFU1RzcQB+AAvn57lFdAAFdXNpbmdzcQB+AAt3/F6RdAAOTm90SW1wbGVtZW50ZWRzcQB+AAvLrUYndAAMTUFYX0ZPUldBUkRTc3EAfgAL4EA81XQAEFhfRk9SV0FSREVEX0hPU1RzcQB+AAtG3a6PdAAHY29tcG9zZXNxAH4AC9p68p90AANDU1NzcQB+AAu132jAdAAMdG9sZXJhbnRKc29uc3EAfgALoADoGnQACFNlZU90aGVyc3EAfgALA4KOV3QAB1RSQUlMRVJzcQB+AAvwfxcEdAASUFJPWFlfQVVUSEVOVElDQVRFc3EAfgALc/XRc3QADUFVVEhPUklaQVRJT05zcQB+AAtneppsdAADWE1Mc3EAfgALQjPrJXQACmFueUNvbnRlbnRzcQB+AAuZFLbddAANQ0FDSEVfQ09OVFJPTHNxAH4AC24YYi90ABtOb25BdXRob3JpdGF0aXZlSW5mb3JtYXRpb25zcQB+AAtrYjnsdAAPTk9UX0lNUExFTUVOVEVEc3EAfgALMrw9tHQADHByb2R1Y3RBcml0eXNxAH4ACw7csbx0AAZlcXVhbHNzcQB+AAsMvm8HdAAQUEFZTUVOVF9SRVFVSVJFRHNxAH4AC8tjkil0AARqc29uc3EAfgALdyOQpnQACEFjY2VwdGVkc3EAfgALjBFtDXQAC1JFVFJZX0FGVEVSc3EAfgALKFA8L3QAElJlZGlyZWN0JGRlZmF1bHQkMnNxAH4AC8POMbp0AA5TdG9ja1NlbnRpbWVudHNxAH4AC5lFnpF0AA51cmxGb3JtRW5jb2RlZHNxAH4AC/NMLfN0AARKU09Oc3EAfgALgTliVnQACFJlZGlyZWN0c3EAfgAL5hdlzHQAE1BSRUNPTkRJVElPTl9GQUlMRURzcQB+AAt8yH6kdAAOUGFydGlhbENvbnRlbnRzcQB+AAvMVuYNdAAUVW5zdXBwb3J0ZWRNZWRpYVR5cGVzcQB+AAuEI7YAdAAIQ09ORkxJQ1RzcQB+AAvVSrpZdAASc2VuZEZpbGUkZGVmYXVsdCQyc3EAfgAL+2zOwXQADkFDQ0VQVF9DSEFSU0VUc3EAfgAL/zC02HQAE2dldEF2ZXJhZ2VTZW50aW1lbnRzcQB+AAsfdvmVdAARRXhwZWN0YXRpb25GYWlsZWRzcQB+AAvjCZ+xdAADVklBc3EAfgAL9bosZnQADGFzSW5zdGFuY2VPZnNxAH4AC7PnPPd0AA9SRVFVRVNUX1RJTUVPVVRzcQB+AAsUvEe+dAAQTVVMVElQTEVfQ0hPSUNFU3NxAH4AC6KSkJd0ABFNT1ZFRF9QRVJNQU5FTlRMWXNxAH4AC0JLbL10AAJURXNxAH4AC1NE4FF0AA5HYXRld2F5VGltZW91dHNxAH4AC7w6LiB0ABBDT05URU5UX0xPQ0FUSU9Oc3EAfgALxnEuoXQAD1BBUlRJQUxfQ09OVEVOVHNxAH4AC8iKc490ABNyZW1vdmluZ0Zyb21TZXNzaW9uc3EAfgALxZoTxXQAFElOU1VGRklDSUVOVF9TVE9SQUdFc3EAfgALQo31m3QAEW11bHRpcGFydEZvcm1EYXRhc3EAfgALq5HdLnQADEVWRU5UX1NUUkVBTXNxAH4AC4wf/Ex0AAxzeW5jaHJvbml6ZWRzcQB+AAu6/2sFdAAJZ2V0VHdlZXRzc3EAfgALMWgHj3QAEEZhaWxlZERlcGVuZGVuY3lzcQB+AAuZNb3idAAERVRBR3NxAH4AC+/3B2R0AA9MRU5HVEhfUkVRVUlSRURzcQB+AAvZJd+ldAAOd2l0aE5ld1Nlc3Npb25zcQB+AAvtNOGIdAAKSkFWQVNDUklQVHNxAH4AC/t4k6x0AA5FbnRpdHlUb29MYXJnZXNxAH4ACwqkaH10AAxVTkFVVEhPUklaRURzcQB+AAuDUfPddAASc2VuZFBhdGgkZGVmYXVsdCQyc3EAfgALslNBA3QAFlVOU1VQUE9SVEVEX01FRElBX1RZUEVzcQB+AAuJ58FAdAANJGlzSW5zdGFuY2VPZnNxAH4AC0cHUYZ0AAdSRUZFUkVSc3EAfgALVOQqFHQAB2FuZFRoZW5zcQB+AAueW45fdAAYUkVRVUVTVF9FTlRJVFlfVE9PX0xBUkdFc3EAfgAL7yBap3QABk9SSUdJTnNxAH4AC8btZvh0AAt3aXRoQ29va2llc3NxAH4AC/lqvsZ0AA9BQ0NFUFRfTEFOR1VBR0VzcQB+AAs/lwI6dAAMTk9UX01PRElGSUVEc3EAfgALikOpp3QAAmFzc3EAfgALY6E8PnQAC3dpdGhTZXNzaW9uc3EAfgALDAcRJXQAGkhUVFBfVkVSU0lPTl9OT1RfU1VQUE9SVEVEc3EAfgAL+f8JC3QAG0FDQ0VTU19DT05UUk9MX0FMTE9XX09SSUdJTnNxAH4AC7S1lkV0ABJzZW5kRmlsZSRkZWZhdWx0JDNzcQB+AAseaFvMdAATVW5wcm9jZXNzYWJsZUVudGl0eXNxAH4AC6GhggV0AA1yYXckZGVmYXVsdCQyc3EAfgALq2r2o3QABHRleHRzcQB+AAv7WjC/dAAIY2FuRXF1YWxzcQB+AAtO1udodAAITm90Rm91bmRzcQB+AAvYSkv+dAAGY29uZmlnc3EAfgALIGftxnQACElGX1JBTkdFc3EAfgALlUhxuXQAEnNlbmRGaWxlJGRlZmF1bHQkNHNxAH4AC+DFA4d0ABttdWx0aXBhcnRGb3JtRGF0YSRkZWZhdWx0JDJzcQB+AAvc0Y5bdAAIZmxhc2hpbmdzcQB+AAsMnnaddAAHZGVjaHVua3NxAH4AC3u+7BB0AARGT1JNc3EAfgALZC1bknQAE0lGX1VOTU9ESUZJRURfU0lOQ0VzcQB+AAsbfQV7dAATU1dJVENISU5HX1BST1RPQ09MU3NxAH4AC9qPSKV0ABJURU1QT1JBUllfUkVESVJFQ1RzcQB+AAs1wSeUdAANcHJvZHVjdFByZWZpeHNxAH4AC6OK4yx0AA5DT05URU5UX0xFTkdUSHNxAH4AC2VtlVt0AA10ZW1wb3JhcnlGaWxlc3EAfgALuUjgonQAClNFVF9DT09LSUVzcQB+AAuQBuJ5dAAJbm90aWZ5QWxsc3EAfgALDibkknQAC3JlYWRSZXNvbHZlc3EAfgALajctl3QAA0FHRXNxAH4AC3lFPIJ0ABREZWZhdWx0TWF4VGV4dExlbmd0aHNxAH4AC26zdq10AAtCQURfR0FURVdBWXNxAH4AC9LSYLd0ABJFWFBFQ1RBVElPTl9GQUlMRURzcQB+AAs1pGErdAAKQ09OTkVDVElPTnNxAH4ACywB4Vt0AAlGT1JXQVJERURzcQB+AAtCBTHUdAACT2tzcQB+AAvgHT5pdAAMaXNJbnN0YW5jZU9mc3EAfgALzrcX0HQAEE1vdmVkUGVybWFuZW50bHlzcQB+AAtDv4PNdAACT0tzcQB+AAstsKStdAARZGlzY2FyZGluZ0Nvb2tpZXNzcQB+AAtvgXrMdAAVQXBwbGljYXRpb25YbWxNYXRjaGVyc3EAfgALIUHZwnQAHEFDQ0VTU19DT05UUk9MX0FMTE9XX0hFQURFUlNzcQB+AAv62y43dAAOQ0FDSEVfTUFOSUZFU1RzcQB+AAukYOE8dAAJRm9yYmlkZGVuc3EAfgALyeqgk3QAF0h0dHBWZXJzaW9uTm90U3VwcG9ydGVkc3EAfgALNjegXXQABFRFWFRzcQB+AAtzGVmidAAKQmFkUmVxdWVzdHNxAH4AC0c3wYB0AAVGT1VORHNxAH4AC1dkZXF0AAY8aW5pdD5zcQB+AAvr6PaydAALTm90TW9kaWZpZWRzcQB+AAsNEKL2dAAEREFURXNxAH4AC2muXVR0AA9jcmVhdGVCYWRSZXN1bHRzcQB+AAs6apyjdAAFYXN5bmNzcQB+AAuDgmQfdAANQ09OVEVOVF9SQU5HRXNxAH4AC8jcDS90AAlVTkxJTUlURURzcQB+AAtYEzaQdAAEJGFtcHNxAH4AC1qHg+R0AAxzZW5kUmVzb3VyY2VzcQB+AAudiY+bdAAMdG9sZXJhbnRUZXh0c3EAfgALYtLFVnQAF2xvYWRTZW50aW1lbnRGcm9tVHdlZXRzc3EAfgALF7kpoHQAB2NodW5rZWRzcQB+AAt6t0N6dAARVFJBTlNGRVJfRU5DT0RJTkdzcQB+AAu5G8ExdAAFYXBwbHlzcQB+AAs24cwLdAADcmF3c3EAfgALVtf0lXQABWVycm9yc3EAfgALl9JfKnQAA3htbHNxAH4AC+MkKWt0AAVwYXJzZXNxAH4AC3P5ACR0ABNQUk9YWV9BVVRIT1JJWkFUSU9Oc3EAfgALvxfAEXQAAj09c3EAfgALEIjwzHQABEdPTkVzcQB+AAshhiIFdAAER29uZXNxAH4ACx7B7vB0ACBBQ0NFU1NfQ09OVFJPTF9BTExPV19DUkVERU5USUFMU3NxAH4AC7jTi010AA5OT1RfQUNDRVBUQUJMRXNxAH4AC6ezSFN0AAVjbG9uZXNxAH4ACzDXqsh0AAZzdHJlYW1zcQB+AAso3VXWdAAGRVhQRUNUc3EAfgAL4Dw8WHQAFnNlbmRSZXNvdXJjZSRkZWZhdWx0JDNzcQB+AAsP7NfydAAHZGVmYXVsdHNxAH4AC4jrNeN0ABJTZXJ2aWNlVW5hdmFpbGFibGVzcQB+AAsSprHGdAAITE9DQVRJT05zcQB+AAugAAspdAASc2VuZFBhdGgkZGVmYXVsdCQ0c3EAfgALA+OZonQABFZBUllzcQB+AAu2BHtpdAAQV1dXX0FVVEhFTlRJQ0FURXNxAH4AC1/B/Cl0AAVUd2VldHNxAH4AC/ywwdx0ABBnZXRUZXh0U2VudGltZW50c3EAfgAL2XYq0HQABGZlZWRzcQB+AAsQGpUadAANc2VudGltZW50SnNvbnNxAH4AC0nycWt0AARUT0RPc3EAfgALQrbHx3QAD1hfRk9SV0FSREVEX0ZPUnNxAH4AC2kIG6p0AA5mb3JtJGRlZmF1bHQkM3NxAH4ACxzVrHR0ABJQcmVjb25kaXRpb25GYWlsZWRzcQB+AAvGLIB/dAAIQUNDRVBURURzcQB+AAs3185udAAESHRtbHNxAH4ACx9kS290AApOT19DT05URU5Uc3EAfgAL94jSinQACEhUVFBfMV8wc3EAfgAL+sJTGXQAFUlOVEVSTkFMX1NFUlZFUl9FUlJPUnNxAH4ACyQIXkB0AA9jaHVuayRkZWZhdWx0JDFzcQB+AAv8RmO1dAAHVVBHUkFERXNxAH4ACyudj+t0ABZ0b2xlcmFudEZvcm1VcmxFbmNvZGVkc3EAfgALnCN6ZHQACU5PVF9GT1VORHNxAH4AC0GihP90AAdzZXNzaW9uc3EAfgAL6Ax8SnQAD0FDQ0VQVF9FTkNPRElOR3NxAH4AC0leatN0ABNJbnRlcm5hbFNlcnZlckVycm9yc3EAfgALnpR7jXQAB0VYUElSRVNzcQB+AAsjMFogdAAOY29weSRkZWZhdWx0JDNzcQB+AAvyywpOdAAEY29weXNxAH4ACwF4wix0AB9SRVFVRVNURURfUkFOR0VfTk9UX1NBVElTRklBQkxFc3EAfgAL4aAcWXQABmhlYWRlcnNxAH4AC5QHbah0ABREZWZhdWx0TWF4RGlza0xlbmd0aHNxAH4AC5rqe2d0AAh0b1N0cmluZ3NxAH4AC48R+KR0AAxVbmF1dGhvcml6ZWRzcQB+AAuJXqPtdAAEZmlsZXNxAH4AC05XXLl0AA5SZXF1ZXN0VGltZW91dHNxAH4AC17EabJ0AAZBQ0NFUFRzcQB+AAvXY3/5dAAKVXJpVG9vTG9uZ3NxAH4AC0zgh8p0AA9HQVRFV0FZX1RJTUVPVVRzcQB+AAv109R4dAALTXVsdGlTdGF0dXNzcQB+AAtXKOJ7dAAGU0VSVkVSc3EAfgALhLDe9HQAHUFDQ0VTU19DT05UUk9MX1JFUVVFU1RfTUVUSE9Ec3EAfgALE/fNf3QAFFVOUFJPQ0VTU0FCTEVfRU5USVRZc3EAfgALyRvm1HQAFkFDQ0VTU19DT05UUk9MX01BWF9BR0VzcQB+AAtcNv5fdAAIc2VuZFBhdGhzcQB+AAsBa68NdAACIT1zcQB+AAum7XdYdAANTEFTVF9NT0RJRklFRHNxAH4ACx4YOyJ0AB1BQ0NFU1NfQ09OVFJPTF9FWFBPU0VfSEVBREVSU3NxAH4AC4C6U5p0AB5BQ0NFU1NfQ09OVFJPTF9SRVFVRVNUX0hFQURFUlNzcQB+AAuV8xHzdAADZ2V0c3EAfgALRfho83QAC3dpdGhDaGFyc2V0c3EAfgALcrmFpHQACENvbmZsaWN0c3EAfgALeQjP0nQACmNvbm5lY3Rpb25zcQB+AAuO4GF7dAAFQUxMT1dzcQB+AAuqe+b2dAAGQ09PS0lFc3EAfgALHpi0FXQAEUlGX01PRElGSUVEX1NJTkNFc3EAfgALQ6HD7XQACGdldENsYXNzc3EAfgALEw85YnQAA1htbHNxAH4AC6qxzqt0ABlDT05URU5UX1RSQU5TRkVSX0VOQ09ESU5Hc3EAfgALL98zu3QADmNvcHkkZGVmYXVsdCQxc3EAfgALD7i0UnQABEhUTUxzcQB+AAtZMeZedAAFRm91bmRzcQB+AAsLz9wudAAdTk9OX0FVVEhPUklUQVRJVkVfSU5GT1JNQVRJT05zcQB+AAtqJSJZdAAEZm9ybXNxAH4AC/ijZ3F0AAZyZW5kZXJzcQB+AAvb2oBmdAAGUFJBR01Bc3EAfgALarW82nQACElGX01BVENIc3EAfgALuFvBYHQAHVBST1hZX0FVVEhFTlRJQ0FUSU9OX1JFUVVJUkVEc3EAfgALkbdTynQADVJFU0VUX0NPTlRFTlRzcQB+AAslTU3JdAAJU0VFX09USEVSc3EAfgALeduo9XQAEUZBSUxFRF9ERVBFTkRFTkNZc3EAfgALkpzmBXQAAm5lc3EAfgALOMIW9HQAEENPTlRFTlRfRU5DT0RJTkdzcQB+AAvXy3HpdAATSW5zdWZmaWNpZW50U3RvcmFnZXNxAH4ACy7KQxF0AAVSQU5HRXNxAH4AC7gJPS10AA93aXRoRGF0ZUhlYWRlcnNzcQB+AAvkzCmbdAAJVVNFX1BST1hZc3EAfgAL8n9biXQAB0FjY2VwdHNzcQB+AAsM9t/PdAAHQ0hVTktFRHNxAH4AC0bjprt0ABRSRVFVRVNUX1VSSV9UT09fTE9OR3NxAH4AC4gna1p0ABJSZWRpcmVjdCRkZWZhdWx0JDNzcQB+AAuajvAbdAAGTE9DS0VEc3EAfgALE0pXFnQABHdoZW5zcQB+AAsRGbrpdAASc2VuZFBhdGgkZGVmYXVsdCQzc3EAfgALz3iDAHQABmlnbm9yZXNxAH4AC/Rz+n50AARKc29uc3EAfgALoCnoonQACW1heExlbmd0aHNxAH4AC3/+XdR0AAlGT1JCSURERU5zcQB+AAsq1HAEdAASTUVUSE9EX05PVF9BTExPV0VEc3EAfgAL6/VEDXQAAmVxc3EAfgALs4/Yx3QAGWNyZWF0ZUJhZFJlc3VsdCRkZWZhdWx0JDJzcQB+AAuLgiWqdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgALAM1EJHQADUlGX05PTkVfTUFUQ0hzcQB+AAvFgiIXdAANQUNDRVBUX1JBTkdFU3NxAH4AC43jyPJ0AAlOb0NvbnRlbnRzcQB+AAtA4mTKdAAQWF9SRVFVRVNURURfV0lUSHNxAH4AC73e64l0ABFYX0ZPUldBUkRFRF9QUk9UT3NxAH4AC6a7BYl0AAt0b2xlcmFudFhtbHNxAH4AC/U5ghp0AAxNVUxUSV9TVEFUVVNzcQB+AAu4eUIedAACIyNzcQB+AAvIPLIzdAAIZmluYWxpemVzcQB+AAvoQ/4+dAATU0VSVklDRV9VTkFWQUlMQUJMRXNxAH4AC3Z8aGF0AA5wcm9kdWN0RWxlbWVudHNxAH4AC1R3KWJ0AAhoYXNoQ29kZXNxAH4ACxD1Aq10AAZTdGF0dXNzcQB+AAtTLgy6dAALd2l0aEhlYWRlcnNzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgJheHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADHhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAaY29udHJvbGxlcnMuU3RvY2tTZW50aW1lbnR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+Anp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AnkAcHNxAH4CfnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgJhTAAJaW5oZXJpdGVkcQB+AmFMAAdwYXJlbnRzcQB+AmF4cQB+AoJzcQB+AnkAcHNxAH4CfnVxAH4CXAAAAABzcQB+AnkAcHNxAH4CfnVxAH4CXAAAAABzcQB+AnkAcHNxAH4CfnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAMc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgAMTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4CgXQACkNvbnRyb2xsZXJzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AoFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgAMeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABHBsYXlzcQB+Ap50AANhcGlzcQB+Ap50AANtdmNzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Cn3NxAH4CknQACVJlbmRlcmluZ3EAfgKYc3EAfgKSdAARUmVxdWVzdEV4dHJhY3RvcnNxAH4CmHNxAH4CknQAEEFjY2VwdEV4dHJhY3RvcnNxAH4CmHNxAH4CknQADENvbnRlbnRUeXBlc3NxAH4ClnNxAH4CmXVxAH4CnAAAAARzcQB+Ap50AARwbGF5c3EAfgKecQB+AqNzcQB+Ap50AARodHRwcQB+AqdzcQB+ApJ0AAtIZWFkZXJOYW1lc3EAfgKwc3EAfgKSdAAGU3RhdHVzcQB+ArBzcQB+ApJ0AAxIdHRwUHJvdG9jb2xxAH4CsHNxAH4CknQAC0JvZHlQYXJzZXJzcQB+AphzcQB+ApJ0AAdSZXN1bHRzcQB+AphzcQB+ApJ0AAZPYmplY3RzcQB+ApZzcQB+Apl1cQB+ApwAAAADc3EAfgKedAAEamF2YXNxAH4CnnQABGxhbmdxAH4Cp3NxAH4CknQAA0FueXNxAH4ClnNxAH4CmXVxAH4CnAAAAAJzcQB+Ap50AAVzY2FsYXEAfgKndXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADHhwdAALY29udHJvbGxlcnNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVELKOkxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAMTAAPc291cmNlRGlyZWN0b3J5cQB+AAx4cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFEGThPSYaISlG2hKyfWMVcjapE/q
+/home/wever/ownCloud/Repositories/HiPCMS/app/utils/FakeStockQuote.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQso6TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFLCFAKQb57bGNwIBvfzzLxyMseFy
+/home/wever/ownCloud/Repositories/HiPCMS/app/utils/StockQuote.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQso6TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBmAMVKvGBWyrdzkctTykFQU4ivp
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDmanmBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCyBWld0AAZub3RpZnlzcQB+AAy/K0jmdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAyYVM7ydAAEd2FpdHNxAH4ADEjHs/t0AA0kYXNJbnN0YW5jZU9mc3EAfgAMHbkTC3QABmVxdWFsc3NxAH4ADFSWoa50AAxhc0luc3RhbmNlT2ZzcQB+AAzBpWnFdAAMc3luY2hyb25pemVkc3EAfgAMLHvhXHQADSRpc0luc3RhbmNlT2ZzcQB+AAyoZOr2dAAVUmV2ZXJzZVN0b2NrU2VudGltZW50c3EAfgAM1ILSV3QADVJldmVyc2VBc3NldHNzcQB+AAzFesM/dAAJbm90aWZ5QWxsc3EAfgAMVjBEnnQADGlzSW5zdGFuY2VPZnNxAH4ADD2p8vR0AAY8aW5pdD5zcQB+AAyVATo5dAACYXRzcQB+AAynG30odAACPT1zcQB+AAw2I3VRdAAFY2xvbmVzcQB+AAw+erd9dAAIdG9TdHJpbmdzcQB+AAwTHA01dAACIT1zcQB+AAypXfOrdAADZ2V0c3EAfgAMS2nuf3QACGdldENsYXNzc3EAfgAM3YQkvXQAAm5lc3EAfgAMIvtk7XQAAndzc3EAfgAMzfn1XnQAAmVxc3EAfgAMYRWgOXQAElJldmVyc2VBcHBsaWNhdGlvbnNxAH4ADDXqzQd0AAIjI3NxAH4ADMwhTQZ0AAhmaW5hbGl6ZXNxAH4ADGXWPbx0AAVpbmRleHNxAH4ADP8/Br50AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABljb250cm9sbGVycy5SZXZlcnNlQXNzZXRzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBoeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBnAHBzcQB+AGxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AT0wACWluaGVyaXRlZHEAfgBPTAAHcGFyZW50c3EAfgBPeHEAfgBwc3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AG90AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AG9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIx0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AI1zcQB+AIB0AANBbnlzcQB+AIRzcQB+AId1cQB+AIoAAAACc3EAfgCMdAAFc2NhbGFxAH4Ak3NxAH4ATHEAfgBZdXEAfgBaAAAAAHNxAH4AXAB0ACFjb250cm9sbGVycy5SZXZlcnNlU3RvY2tTZW50aW1lbnR1cQB+AF8AAAAAcQB+AGN1cQB+AGUAAAAAc3EAfgBnAHBzcQB+AGxxAH4AcXNxAH4AZwBwc3EAfgBsc3EAfgB0c3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cQB+AH4AAAACc3EAfgCAcQB+AINzcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMcQB+AI9zcQB+AIxxAH4AkXEAfgCTc3EAfgCAcQB+AJVzcQB+AIRzcQB+AId1cQB+AIoAAAACc3EAfgCMcQB+AJpxAH4Ak3NxAH4ATHEAfgBZdXEAfgBaAAAAAHNxAH4AXAB0AB5jb250cm9sbGVycy5SZXZlcnNlQXBwbGljYXRpb251cQB+AF8AAAAAcQB+AGN1cQB+AGUAAAAAc3EAfgBnAHBzcQB+AGxxAH4AcXNxAH4AZwBwc3EAfgBsc3EAfgB0c3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cQB+AH4AAAACc3EAfgCAcQB+AINzcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMcQB+AI9zcQB+AIxxAH4AkXEAfgCTc3EAfgCAcQB+AJVzcQB+AIRzcQB+AId1cQB+AIoAAAACc3EAfgCMcQB+AJpxAH4Ak3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAABc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAC2NvbnRyb2xsZXJzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRCyjpMXVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEIvaG9tZS93ZXZlci9vd25DbG91ZC9SZXBvc2l0b3JpZXMvSGlQQ01TL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABS9KnlVlfynCeZSxlDRUrg4tEiFAA==
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAOEgzGAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDcdvjV0AAZub3RpZnlzcQB+AAw+NNqGdAAOX2RlZmF1bHRQcmVmaXhzcQB+AAyw88wMdAAEd2FpdHNxAH4ADAdiK8V0AA0kYXNJbnN0YW5jZU9mc3EAfgAMT/bDN3QABmVxdWFsc3NxAH4ADAlkS8J0AAxhc0luc3RhbmNlT2ZzcQB+AAwKn+pkdAAMc3luY2hyb25pemVkc3EAfgAMYpY+tXQADSRpc0luc3RhbmNlT2ZzcQB+AAwRj3cAdAAVUmV2ZXJzZVN0b2NrU2VudGltZW50c3EAfgAMpugYs3QADVJldmVyc2VBc3NldHNzcQB+AAysxtXCdAAJbm90aWZ5QWxsc3EAfgAMbKeRbHQADGlzSW5zdGFuY2VPZnNxAH4ADKvSsEd0AAY8aW5pdD5zcQB+AAwinbQNdAACYXRzcQB+AAyN96K0dAACPT1zcQB+AAxED0yIdAAFY2xvbmVzcQB+AAw/n1tBdAAIdG9TdHJpbmdzcQB+AAytn6/1dAACIT1zcQB+AAz+J1XndAADZ2V0c3EAfgAMhf6yXnQACGdldENsYXNzc3EAfgAMwKbvc3QAAm5lc3EAfgAMsgiPZHQAAndzc3EAfgAMEg3t+3QAAmVxc3EAfgAMlQITBnQAElJldmVyc2VBcHBsaWNhdGlvbnNxAH4ADO8C8mV0AAIjI3NxAH4ADNzBWWd0AAhmaW5hbGl6ZXNxAH4ADB0aLvh0AAVpbmRleHNxAH4ADDw4xqN0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAANzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACRjb250cm9sbGVycy5qYXZhc2NyaXB0LlJldmVyc2VBc3NldHN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGh4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGcAcHNxAH4AbHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBPTAAJaW5oZXJpdGVkcQB+AE9MAAdwYXJlbnRzcQB+AE94cQB+AHBzcQB+AGcAcHNxAH4AbHVxAH4ASgAAAABzcQB+AGcAcHNxAH4AbHVxAH4ASgAAAABzcQB+AGcAcHNxAH4AbHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ab3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ab3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AjHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AjXNxAH4AgHQAA0FueXNxAH4AhHNxAH4Ah3VxAH4AigAAAAJzcQB+AIx0AAVzY2FsYXEAfgCTc3EAfgBMcQB+AFl1cQB+AFoAAAAAc3EAfgBcAHQALGNvbnRyb2xsZXJzLmphdmFzY3JpcHQuUmV2ZXJzZVN0b2NrU2VudGltZW50dXEAfgBfAAAAAHEAfgBjdXEAfgBlAAAAAHNxAH4AZwBwc3EAfgBscQB+AHFzcQB+AGcAcHNxAH4AbHNxAH4AdHNxAH4AZwBwc3EAfgBsdXEAfgBKAAAAAHNxAH4AZwBwc3EAfgBsdXEAfgBKAAAAAHNxAH4AZwBwc3EAfgBsdXEAfgB+AAAAAnNxAH4AgHEAfgCDc3EAfgCEc3EAfgCHdXEAfgCKAAAAA3NxAH4AjHEAfgCPc3EAfgCMcQB+AJFxAH4Ak3NxAH4AgHEAfgCVc3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHEAfgCacQB+AJNzcQB+AExxAH4AWXVxAH4AWgAAAABzcQB+AFwAdAApY29udHJvbGxlcnMuamF2YXNjcmlwdC5SZXZlcnNlQXBwbGljYXRpb251cQB+AF8AAAAAcQB+AGN1cQB+AGUAAAAAc3EAfgBnAHBzcQB+AGxxAH4AcXNxAH4AZwBwc3EAfgBsc3EAfgB0c3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cQB+AEoAAAAAc3EAfgBnAHBzcQB+AGx1cQB+AH4AAAACc3EAfgCAcQB+AINzcQB+AIRzcQB+AId1cQB+AIoAAAADc3EAfgCMcQB+AI9zcQB+AIxxAH4AkXEAfgCTc3EAfgCAcQB+AJVzcQB+AIRzcQB+AId1cQB+AIoAAAACc3EAfgCMcQB+AJpxAH4Ak3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAACc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAFmNvbnRyb2xsZXJzLmphdmFzY3JpcHRzcQB+ANt0AAtjb250cm9sbGVyc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQso6TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABCL2hvbWUvd2V2ZXIvb3duQ2xvdWQvUmVwb3NpdG9yaWVzL0hpUENNUy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUFLBbqR+3loDCSDfatbLccS3JsYA=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/routes.java -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC4IVHqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQso6TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+ABp4cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAuKTyK2KAEOS1pety9vCEl++XC9
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBrR7HDAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cE2B+bZ0AAZub3RpZnlzcQB+AAxlm95SdAAKYmFkUmVxdWVzdHNxAH4ADICYB9J0AAR3YWl0c3EAfgAMcvaVfXQADSRhc0luc3RhbmNlT2ZzcQB+AAxJNkt3dAAGcm91dGVzc3EAfgAMnnvHSXQADWNyZWF0ZUludm9rZXJzcQB+AAw6Cm0edAAGZXF1YWxzc3EAfgAMVMff73QABnByZWZpeHNxAH4ADO6xBt50AAxhc0luc3RhbmNlT2ZzcQB+AAwCT/NKdAANZG9jdW1lbnRhdGlvbnNxAH4ADCg8mPh0ACZjb250cm9sbGVyc19BcHBsaWNhdGlvbl9pbmRleDBfaW52b2tlcnNxAH4ADMgBwOB0AAxzeW5jaHJvbml6ZWRzcQB+AAzaUbeFdAANJGlzSW5zdGFuY2VPZnNxAH4ADEOocK90AApoYW5kbGVyRm9yc3EAfgAMI4lF6XQAJWNvbnRyb2xsZXJzX1N0b2NrU2VudGltZW50X2dldDJfcm91dGVzcQB+AAzxTVAydAAJbm90aWZ5QWxsc3EAfgAMyGaE1HQADGlzSW5zdGFuY2VPZnNxAH4ADM5LRah0AAxlcnJvckhhbmRsZXJzcQB+AAy8IS8ndAAhY29udHJvbGxlcnNfQXBwbGljYXRpb25fd3MxX3JvdXRlc3EAfgAMIB7Ha3QABjxpbml0PnNxAH4ADDwVw810ABxjb250cm9sbGVyc19Bc3NldHNfYXQzX3JvdXRlc3EAfgAMWuhnt3QAAj09c3EAfgAMMd3HrHQABWNsb25lc3EAfgAMNHgYq3QAI2NvbnRyb2xsZXJzX0FwcGxpY2F0aW9uX3dzMV9pbnZva2Vyc3EAfgAMkibqRHQABlJvdXRlc3NxAH4ADMrI8YR0AB5jb250cm9sbGVyc19Bc3NldHNfYXQzX2ludm9rZXJzcQB+AAy3SOvwdAAIdG9TdHJpbmdzcQB+AAyKx7IXdAAnY29udHJvbGxlcnNfU3RvY2tTZW50aW1lbnRfZ2V0Ml9pbnZva2Vyc3EAfgAMyb8nyHQAAiE9c3EAfgAMylHjK3QACWZha2VWYWx1ZXNxAH4ADHSi/xh0AAhnZXRDbGFzc3NxAH4ADAhRBwF0ACRjb250cm9sbGVyc19BcHBsaWNhdGlvbl9pbmRleDBfcm91dGVzcQB+AAwyYEmkdAACbmVzcQB+AAwFcfEsdAAKd2l0aFByZWZpeHNxAH4ADJMuPrJ0AARjYWxsc3EAfgAM91S/fnQAAmVxc3EAfgAMxe5FOHQADWRlZmF1bHRQcmVmaXhzcQB+AAz3Ur0QdAACIyNzcQB+AAxtA/WddAAIZmluYWxpemVzcQB+AAyFs1FvdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBneHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAANcm91dGVyLlJvdXRlc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAXQAE2phdmF4LmluamVjdC5JbmplY3RzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AIF4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AIAAcHNxAH4AhXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBnTAAJaW5oZXJpdGVkcQB+AGdMAAdwYXJlbnRzcQB+AGd4cQB+AIlzcQB+AIAAcHNxAH4AhXVxAH4AYgAAAABzcQB+AIAAcHNxAH4AhXVxAH4AYgAAAABzcQB+AIAAcHNxAH4AhXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AiHQAD0dlbmVyYXRlZFJvdXRlcnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AiHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABHNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEcGxheXNxAH4ApXQABGNvcmVzcQB+AKV0AAdyb3V0aW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKZzcQB+AJl0AAZSb3V0ZXJzcQB+AJ1zcQB+AKB1cQB+AKMAAAAEc3EAfgCldAAEcGxheXNxAH4ApXQAA2FwaXNxAH4ApXQAB3JvdXRpbmdxAH4ArnNxAH4AmXQABk9iamVjdHNxAH4AnXNxAH4AoHVxAH4AowAAAANzcQB+AKV0AARqYXZhc3EAfgCldAAEbGFuZ3EAfgCuc3EAfgCZdAADQW55c3EAfgCdc3EAfgCgdXEAfgCjAAAAAnNxAH4ApXQABXNjYWxhcQB+AK51cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVELKOkxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFLerQt8h3xajWz2m1w2Y7qh2RtGb
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBcdvxBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cN0jWmN0AAZub3RpZnlzcQB+AAw6mfPpdAAMYnlOYW1lUHJlZml4c3EAfgAMGqAuKnQABHdhaXRzcQB+AAwiihQedAANJGFzSW5zdGFuY2VPZnNxAH4ADGlC0gh0AAZlcXVhbHNzcQB+AAxzjiBXdAAGcHJlZml4c3EAfgAMoe4en3QADGFzSW5zdGFuY2VPZnNxAH4ADLjZuch0AAxSb3V0ZXNQcmVmaXhzcQB+AAzBVSPudAAMc3luY2hyb25pemVkc3EAfgAM3PW0o3QADSRpc0luc3RhbmNlT2ZzcQB+AAxQkfPHdAAHX3ByZWZpeHNxAH4ADL28U7F0AAlub3RpZnlBbGxzcQB+AAz/ysYxdAAMaXNJbnN0YW5jZU9mc3EAfgAM2W34NHQAAj09c3EAfgAMxTNSy3QABWNsb25lc3EAfgAM+6h7k3QACHRvU3RyaW5nc3EAfgAMjL/9EnQAAiE9c3EAfgAMFWcPZ3QACGdldENsYXNzc3EAfgAMRJBH63QACXNldFByZWZpeHNxAH4ADA44Ta90AAJuZXNxAH4ADBnhnUh0AAJlcXNxAH4ADBp2Pzd0AAIjI3NxAH4ADAff5nh0AAhmaW5hbGl6ZXNxAH4ADIIAnnp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABNyb3V0ZXIuUm91dGVzUHJlZml4dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AYHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXwBwc3EAfgBkc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AaHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBndAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCEdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCFc3EAfgB4dAADQW55c3EAfgB8c3EAfgB/dXEAfgCCAAAAAnNxAH4AhHQABXNjYWxhcQB+AIt1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAZyb3V0ZXJzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVELKOkxdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFE3/secV6mv++v9q0Yrc8XqkS8Ab
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAsf9gzAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLS+QU10AAZub3RpZnlzcQB+AAxQf3PrdAAGZm9ybWF0c3EAfgAMVtIRoXQABHdhaXRzcQB+AAxKygp4dAANJGFzSW5zdGFuY2VPZnNxAH4ADCKh30h0AAxwcm9kdWN0QXJpdHlzcQB+AAx/zHL+dAAGZXF1YWxzc3EAfgAMUyrnj3QADGFzSW5zdGFuY2VPZnNxAH4ADHeAxkV0AAFmc3EAfgAMkLniQXQADHN5bmNocm9uaXplZHNxAH4ADB1SNXV0AAlfZGlzcGxheV9zcQB+AAyY8Oy2dAANJGlzSW5zdGFuY2VPZnNxAH4ADCzIbWR0AANyZWZzcQB+AAyjSKeidAAIY2FuRXF1YWxzcQB+AAzQ/BnBdAAMaW5kZXhfU2NvcGUwc3EAfgAMs6ty1nQADXByb2R1Y3RQcmVmaXhzcQB+AAxpq4t3dAAJbm90aWZ5QWxsc3EAfgAM1hxODHQAC3JlYWRSZXNvbHZlc3EAfgAMu41roHQADGlzSW5zdGFuY2VPZnNxAH4ADI25paV0AAY8aW5pdD5zcQB+AAzj0OxPdAAFYXBwbHlzcQB+AAzXQQF9dAACPT1zcQB+AAyP2tpCdAAFY2xvbmVzcQB+AAx3dajcdAAEY29weXNxAH4ADEYLyvp0AAh0b1N0cmluZ3NxAH4ADHsslD90AAIhPXNxAH4ADIfoUUx0AAhnZXRDbGFzc3NxAH4ADLIMbAF0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADFr6frp0AAZyZW5kZXJzcQB+AAypHxuedAACbmVzcQB+AAyRuGGXdAACZXFzcQB+AAxOmHwzdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMmBGk5XQAAiMjc3EAfgAMWGIkOXQACGZpbmFsaXplc3EAfgAMdCYN+nQABWluZGV4c3EAfgAMR9kkDnQADnByb2R1Y3RFbGVtZW50c3EAfgAMAD7BwnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAnNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAF3ZpZXdzLmh0bWwuaW5kZXhfU2NvcGUwdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AeHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AdwBwc3EAfgB8c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AF9MAAlpbmhlcml0ZWRxAH4AX0wAB3BhcmVudHNxAH4AX3hxAH4AgHNxAH4AdwBwc3EAfgB8dXEAfgBaAAAAAHNxAH4AdwBwc3EAfgB8dXEAfgBaAAAAAHNxAH4AdwBwc3EAfgB8dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZ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
+external apis:
+0 items
+source infos:
+12 items
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/StockActor.scala -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/app/actors/UserActor.java -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/Application.java -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/app/controllers/StockSentiment.scala -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/app/utils/FakeStockQuote.java -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/app/utils/StockQuote.java -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/ReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/javascript/JavaScriptReverseRoutes.scala -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/controllers/routes.java -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/Routes.scala -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/routes/main/router/RoutesPrefix.scala -> 
+AAAAAAAAAAA=
+/home/wever/ownCloud/Repositories/HiPCMS/target/scala-2.11/twirl/main/views/html/index.template.scala -> 
+AAAAAAAAAAA=
+compilations:
+2 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQsiepZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQASy9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9yZWFjdGl2ZS1zdG9ja3MvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUQso6TF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQi9ob21lL3dldmVyL293bkNsb3VkL1JlcG9zaXRvcmllcy9IaVBDTVMvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS8=

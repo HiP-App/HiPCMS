@@ -1,0 +1,112 @@
+New log file opened at Sun Nov 15 13:35:44 CET 2015 by 4121@wever-workstation
+Taking next connection to: 35016
+New client attempting to connect on port: 38558-35016
+  Address = /192.168.1.103:35016
+This client on port 38558 has uuid 78a1688f-dc01-44df-a8df-dd2158a711e0 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-78a1688f-dc01-44df-a8df-dd2158a711e0
+Taking next connection to: 35016
+New client attempting to connect on port: 38590-35016
+  Address = /192.168.1.103:35016
+Handshake exception on socket: 38590
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 35016
+New client attempting to connect on port: 38592-35016
+  Address = /192.168.1.103:35016
+This client on port 38592 has uuid 7cb813ec-c99a-41c0-9b85-cedd317b147a configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-78a1688f-dc01-44df-a8df-dd2158a711e0, activator-7cb813ec-c99a-41c0-9b85-cedd317b147a
+Taking next connection to: 35016
+New client attempting to connect on port: 38920-35016
+  Address = /192.168.1.103:35016
+Handshake exception on socket: 38920
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 35016
+New client attempting to connect on port: 38928-35016
+  Address = /192.168.1.103:35016
+This client on port 38928 has uuid ea5199fa-960c-4286-aea1-81e7c25c753a configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-ea5199fa-960c-4286-aea1-81e7c25c753a
+Taking next connection to: 35016
+New client attempting to connect on port: 38930-35016
+  Address = /192.168.1.103:35016
+Handshake exception on socket: 38930
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 35016
+New client attempting to connect on port: 38932-35016
+  Address = /192.168.1.103:35016
+This client on port 38932 has uuid 7239b718-1eb1-4c51-95c0-87fa6732e15f configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-ea5199fa-960c-4286-aea1-81e7c25c753a, activator-7239b718-1eb1-4c51-95c0-87fa6732e15f
+Taking next connection to: 35016
+New client attempting to connect on port: 38934-35016
+  Address = /192.168.1.103:35016
+Handshake exception on socket: 38934
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:209)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 35016
+New client attempting to connect on port: 38936-35016
+  Address = /192.168.1.103:35016
+This client on port 38936 has uuid f3648daf-b763-4692-a7aa-e89975fb320d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-ea5199fa-960c-4286-aea1-81e7c25c753a, activator-7239b718-1eb1-4c51-95c0-87fa6732e15f, activator-f3648daf-b763-4692-a7aa-e89975fb320d
+Taking next connection to: 35016
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 35016
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 35016
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 35016
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 35016
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 35016
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 35016
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 35016
