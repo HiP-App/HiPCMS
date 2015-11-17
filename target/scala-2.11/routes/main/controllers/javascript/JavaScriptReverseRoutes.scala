@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/wever/ownCloud/Repositories/HiPCMS/conf/routes
-// @DATE:Sun Nov 15 13:38:15 CET 2015
+// @SOURCE:C:/Users/wever/reactive-stocks/conf/routes
+// @DATE:Tue Nov 17 19:48:43 CET 2015
 
 import play.api.routing.JavaScriptReverseRoute
 import play.api.mvc.{ QueryStringBindable, PathBindable, Call, JavascriptLiteral }

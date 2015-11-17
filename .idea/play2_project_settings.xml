@@ -3,10 +3,10 @@
   <component name="Play2ExcludedModulesSettings">
     <option name="INFO">
       <map>
-        <entry key="reactive-stocks">
+        <entry key="HiPCMS">
           <value>
             <ProjectSettingsEntry>
-              <option name="playDistrPath" value="$USER_HOME$/Downloads/typesafe/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar" />
+              <option name="playDistrPath" value="D:/activator-dist-1.3.6/repository/com.typesafe.play/play_2.11/2.4.2/jars/play_2.11.jar" />
             </ProjectSettingsEntry>
           </value>
         </entry>

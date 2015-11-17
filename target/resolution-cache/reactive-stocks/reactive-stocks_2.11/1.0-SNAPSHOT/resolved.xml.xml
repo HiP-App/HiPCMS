@@ -4,7 +4,7 @@
 		module="reactive-stocks_2.11"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20151115135720"
+		publication="20151117202518"
 	>
 		<description>
 		reactive-stocks
@@ -34,6 +34,8 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="twirl-api_2.11" rev="1.1.1" conf="compile->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-server_2.11" rev="2.4.2" conf="compile->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.4.2" conf="test->default(compile)"/>
 		<dependency org="com.typesafe.play" name="play-omnidoc_2.11" rev="2.4.2" conf="docs->default(compile)"/>

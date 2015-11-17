@@ -73,8 +73,8 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 object index extends index_Scope0.index
               /*
                   -- GENERATED --
-                  DATE: Sun Nov 15 13:38:16 CET 2015
-                  SOURCE: /home/wever/ownCloud/Repositories/HiPCMS/app/views/index.scala.html
+                  DATE: Tue Nov 17 19:48:44 CET 2015
+                  SOURCE: C:/Users/wever/reactive-stocks/app/views/index.scala.html
                   HASH: aba29b959f1190c1bd19743cc3f7e78730452abc
                   MATRIX: 648->0|691->58|718->59|841->156|855->162|924->211|1002->263|1016->269|1070->303|1154->360|1169->366|1222->398|1293->442|1308->448|1367->486|1447->539|1462->545|1520->582|1600->635|1615->641|1670->675|1737->715|1752->721|1810->758
                   LINES: 25->1|27->4|28->5|31->8|31->8|31->8|32->9|32->9|32->9|33->10|33->10|33->10|34->11|34->11|34->11|35->12|35->12|35->12|36->13|36->13|36->13|38->15|38->15|38->15
