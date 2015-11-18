@@ -1,0 +1,13 @@
+New log file opened at Tue Nov 17 19:57:00 CET 2015 by 15048@DESKTOP-OSKV2LJ
+Taking next connection to: 57061
+New client attempting to connect on port: 57062-57061
+  Address = /192.168.178.37:57061
+This client on port 57062 has uuid 653e2dcd-4928-4645-b168-20e905760aa5 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-653e2dcd-4928-4645-b168-20e905760aa5
+Taking next connection to: 57061
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 15048@DESKTOP-OSKV2LJ logs at Tue Nov 17 20:00:00 CET 2015, goodbye.
