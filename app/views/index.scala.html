@@ -4,29 +4,70 @@
 
 <html>
 <head>
-    <title>Reactive Stock News Dashboard</title>
+    <title>HiPCMS</title>
     <link rel='stylesheet' href='@routes.Assets.at("lib/bootstrap/css/bootstrap.min.css")'>
     <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
     <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
     <script type='text/javascript' src='@routes.Assets.at("lib/jquery/jquery.min.js")'></script>
-    <script type='text/javascript' src='@routes.Assets.at("lib/flot/jquery.flot.js")'></script>
     <script type='text/javascript' src='@routes.Assets.at("javascripts/index.js")'></script>
+    <script type='text/javascript' src='@routes.Assets.at("node_modules/angular/angular.min.js")'></script>
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
 </head>
-<body data-ws-url="@routes.Application.ws.webSocketURL(request)">
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="brand" href="#">Reactive Stocks</a>
-                <form id="addsymbolform" class="navbar-form pull-right">
-                    <input id="addsymboltext" type="text" class="span2" placeholder="SYMBOL">
-                    <button type="submit" class="btn">Add Stock</button>
-                </form>
-            </div>
-        </div>
-    </div>
+<body>
 
-    <div id="stocks" class="container">
-
+    <div class="navbar navbar-inverse navbar-fixed-top hipcms-navbar" style="margin: 0px;">
+		<div class="navbar-collapsable navbar-right">
+			<div class="navbar-collapse">
+				
+			</div>
+			<a href="#">Hilfe</a>
+			<a href="#">Kontakt</a>
+		</div>
+        <a href="#" style="display: inline"><div class="hipcms-brand"></div></a>
     </div>
+	
+	<div class="jumbotron hipcms-jumbotron" style="margin:-5px;">
+		<div class="container">
+			<div class="login-form pull-right">
+				<h3 class="login-head">Anmelden</h3>
+						
+				<label>
+					<span class="hipcms-label">E-Mailadresse</span>
+					<input type="text" />
+				</label>
+						
+				<label>
+					<span class="hipcms-label">Passwort</span>
+					<input type="password" />
+				</label>
+				<button type="button" class="btn btn-material material-primary pull-right">Anmelden</button>
+				<a href class="hipcms-a">Passwort vergessen?</a>
+				
+				<div class="vspace-50"></div>
+				<h3 class="login-head">Noch neu hier?</h3>
+				Jetzt kostenlos registrieren<br />
+				
+				<button type="button" class="btn btn-material material-success">Registrieren</button>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-sm-4">
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+			</div>
+			
+			<div class="col-sm-4">
+				<img src="assets/images/hipcms-laptop.png" />
+			</div>
+		
+		</div>
+	
+	</div>
+
 </body>
 </html>
