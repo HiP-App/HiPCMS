@@ -14,5 +14,9 @@
     "url": "https://git.cs.upb.de/HiP/HiPCMS.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^0.13.19",
+    "protractor": "^3.0.0"
+  }
 }
