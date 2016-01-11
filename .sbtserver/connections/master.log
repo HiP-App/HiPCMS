@@ -1,7 +1,0 @@
-New log file opened at Sun Nov 22 10:59:18 CET 2015 by 5584@DESKTOP-OSKV2LJ
-Taking next connection to: 53374
-New client attempting to connect on port: 53375-53374
-  Address = /192.168.178.37:53374
-This client on port 53375 has uuid 92d08efd-8eb9-4ac9-b2ee-58db0935989e configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-92d08efd-8eb9-4ac9-b2ee-58db0935989e
-Taking next connection to: 53374
