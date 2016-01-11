@@ -1,73 +1,18 @@
 <!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <title>Play Scala</title>
+    <link rel="stylesheet" media="screen" href="@routes.Assets.versioned("stylesheets/application.css")">
+    <link rel="shortcut icon" type="image/png" href="@routes.Assets.versioned("images/favicon.png")">
+  </head>
+  <body>
+    <input type="text" ng-model="test">
+    {{ test }}
 
-@import play.mvc.Http.Context.Implicit._
-
-<html>
-<head>
-    <title>HiPCMS</title>
-    <link rel='stylesheet' href='@routes.Assets.at("lib/bootstrap/css/bootstrap.min.css")'>
-    <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
-    <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
-    <script type='text/javascript' src='@routes.Assets.at("lib/jquery/jquery.min.js")'></script>
-    <script type='text/javascript' src='@routes.Assets.at("javascripts/index.js")'></script>
-    <script type='text/javascript' src='@routes.Assets.at("node_modules/angular/angular.min.js")'></script>
-	
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
-</head>
-<body>
-
-    <div class="navbar navbar-inverse navbar-fixed-top hipcms-navbar" style="margin: 0px;">
-		<div class="navbar-collapsable navbar-right">
-			<div class="navbar-collapse">
-				
-			</div>
-			<a href="#">Hilfe</a>
-			<a href="#">Kontakt</a>
-		</div>
-        <a href="#" style="display: inline"><div class="hipcms-brand"></div></a>
-    </div>
-	
-	<div class="jumbotron hipcms-jumbotron" style="margin:-5px;">
-		<div class="container">
-			<div class="login-form pull-right">
-				<h3 class="login-head">Anmelden</h3>
-						
-				<label>
-					<span class="hipcms-label">E-Mailadresse</span>
-					<input type="text" />
-				</label>
-						
-				<label>
-					<span class="hipcms-label">Passwort</span>
-					<input type="password" />
-				</label>
-				<button type="button" class="btn btn-material material-primary pull-right">Anmelden</button>
-				<a href class="hipcms-a">Passwort vergessen?</a>
-				
-				<div class="vspace-50"></div>
-				<h3 class="login-head">Noch neu hier?</h3>
-				Jetzt kostenlos registrieren<br />
-				
-				<button type="button" class="btn btn-material material-success">Registrieren</button>
-			</div>
-		</div>
-	</div>
-	
-	<div class="container">
-		<div class="row">
-			
-			<div class="col-sm-4">
-				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-			</div>
-			
-			<div class="col-sm-4">
-				<img src="assets/images/hipcms-laptop.png" />
-			</div>
-		
-		</div>
-	
-	</div>
-
-</body>
+    <script src='@routes.Assets.versioned("bower_components/jquery/dist/jquery.min.js")'></script>
+    <script src='@routes.Assets.versioned("bower_components/bootstrap/dist/js/bootstrap.min.js")'></script>
+    <script src='@routes.Assets.versioned("bower_components/angular/angular.min.js")'></script>
+    <script src='@routes.Assets.versioned("bower_components/angular-ui-router/release/angular-ui-router.min.js")'></script>
+    <script src="@routes.Assets.versioned("javascripts/application.js")" type="text/javascript"></script>
+  </body>
 </html>
