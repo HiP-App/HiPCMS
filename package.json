@@ -1,0 +1,18 @@
+{
+  "name": "hipcms",
+  "version": "1.0.0",
+  "description": "https://hip.upb.de/\r ===================",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.cs.upb.de/HiP/HiPCMS.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
