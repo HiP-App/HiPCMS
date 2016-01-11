@@ -1,0 +1,22 @@
+{
+  "name": "HiPCMS",
+  "authors": [
+    "uxman-sherwani <uxman.sherwani@gmail.com>"
+  ],
+  "description": "Content management system for the Humanities",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "hipcms"
+  ],
+  "license": "Apache License",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
