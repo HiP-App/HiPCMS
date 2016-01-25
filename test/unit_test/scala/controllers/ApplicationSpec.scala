@@ -1,3 +1,8 @@
+/* This is an example for unit test wih ScalaTest plus play.
+ * Please refer Official Documentation for Syntax and rules.
+ *
+ * */
+
 import org.scalatestplus.play._
 
 import scala.collection.mutable.Stack

@@ -17,6 +17,9 @@ exports.config = {
         'browserName': 'firefox'
     },
 
+    //If the ng-app is not declared on body, then specify where it is declared.
+    rootElement: 'html',
+
     //this can be replaced by localhost address to run tests locally, the following address is the old staging server address
     baseUrl: 'http://localhost:9000'
 };
