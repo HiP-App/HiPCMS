@@ -13,7 +13,11 @@ libraryDependencies ++= Seq(
   specs2 % Test
 )
 
-libraryDependencies += "org.scalatest" %% "scalatest" % "2.2.6" % "test"
+
+libraryDependencies ++= Seq(
+  "org.scalatest" %% "scalatest" % "2.2.6" % "test",
+  "org.scalatestplus" %% "play" % "1.4.0-M3" % "test"
+)
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 
