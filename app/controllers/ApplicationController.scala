@@ -20,8 +20,7 @@ import scala.concurrent.Future
  */
 class ApplicationController @Inject() (
   val messagesApi: MessagesApi,
-  val env: Environment[User, CookieAuthenticator],
-  socialProviderRegistry: SocialProviderRegistry)
+  val env: Environment[User, CookieAuthenticator])
   extends Silhouette[User, CookieAuthenticator] {
 
   /**
@@ -41,7 +40,7 @@ class ApplicationController @Inject() (
   def signIn = UserAwareAction.async { implicit request =>
     request.identity match {
       case Some(user) => Future.successful(Redirect(routes.ApplicationController.index()))
-      case None => Future.successful(Ok(views.html.signIn(SignInForm.form, socialProviderRegistry)))
+      case None => Future.successful(Ok(views.html.signIn(SignInForm.form)))
     }
   }
 
