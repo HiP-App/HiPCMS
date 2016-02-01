@@ -7,6 +7,7 @@ import selenium._
  *  The WebBrowser has a subtrait for each WebDriver. Below example uses firefox.
  */
 
+/*
 class FunctionalSpec extends FlatSpec with Matchers with Firefox {
 
   val host = "http://localhost:9000/"
@@ -16,4 +17,4 @@ class FunctionalSpec extends FlatSpec with Matchers with Firefox {
     pageTitle should be ("Play Scala")
   }
 
-}
+}*/
