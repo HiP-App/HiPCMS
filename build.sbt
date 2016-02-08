@@ -12,6 +12,14 @@ resolvers += Resolver.sonatypeRepo("snapshots")
 
 resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
 
+libraryDependencies ++= Seq(
+  cache,
+  ws,
+  evolutions,
+  "mysql" % "mysql-connector-java" % "5.1.34",
+  "com.typesafe.play" %% "play-slick" % "1.1.1",
+  "com.typesafe.play" %% "play-slick-evolutions" % "1.1.1"
+)
 
 libraryDependencies ++= Seq(
   "com.mohiva" %% "play-silhouette" % "3.0.2",
@@ -24,10 +32,7 @@ libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-slick" % "1.0.1",
   "com.typesafe.play" %% "play-slick-evolutions" % "1.0.1",
   "com.h2database" % "h2" % "1.4.188",
-  cache,
-  evolutions,
   filters,
-  ws,
   "org.scalatest" %% "scalatest" % "2.2.6" % "test",
   "org.scalatestplus" %% "play" % "1.4.0-M3" % "test",
   "org.seleniumhq.selenium" % "selenium-java" % "2.48.0" % "test",
