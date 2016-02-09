@@ -16,13 +16,14 @@ module.exports = function (grunt) {
   require('jit-grunt')(grunt, {
     useminPrepare: 'grunt-usemin',
     ngtemplates: 'grunt-angular-templates',
-    cdnify: 'grunt-google-cdn'
+    cdnify: 'grunt-google-cdn',
+    configureProxies: 'grunt-connect-proxy'
   });
 
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
-    dist: 'dist'
+    dist: '../server/public/app'
   };
 
   // Define the configuration for all the tasks
@@ -70,27 +71,39 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-        port: 9000,
+        port: 9090,
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost',
         livereload: 35729
       },
+      proxies: [{
+        context: '/api', // the context of the data service
+        host: 'localhost', // wherever the data service is running
+        port: 9000, // the port that the data service is running on
+        changeOrigin: true
+      }],
       livereload: {
         options: {
           open: true,
           middleware: function (connect) {
-            return [
-              connect.static('.tmp'),
-              connect().use(
-                '/bower_components',
-                connect.static('./bower_components')
-              ),
-              connect().use(
-                '/app/styles',
-                connect.static('./app/styles')
-              ),
-              connect.static(appConfig.app)
-            ];
+            var middlewares = [];
+
+            // Setup the proxy
+            middlewares.push(require('grunt-connect-proxy/lib/utils').proxyRequest);
+
+            // Serve static files
+            middlewares.push(connect.static('.tmp'));
+            middlewares.push(connect().use(
+              '/bower_components',
+              connect.static('./bower_components')
+            ));
+            middlewares.push(connect().use(
+              '/app/styles',
+              connect.static('./app/styles')
+            ));
+            middlewares.push(connect.static(appConfig.app));
+
+            return middlewares;
           }
         }
       },
@@ -220,7 +233,7 @@ module.exports = function (grunt) {
             }
           }
       }
-    }, 
+    },
 
     // Renames files for browser caching purposes
     filerev: {
@@ -437,6 +450,7 @@ module.exports = function (grunt) {
       'wiredep',
       'concurrent:server',
       'postcss:server',
+      'configureProxies:server',
       'connect:livereload',
       'watch'
     ]);
