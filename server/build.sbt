@@ -7,14 +7,18 @@ lazy val root = (project in file(".")).enablePlugins(PlayScala)
 scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
-  jdbc,
   cache,
   ws
 )
 
+// Dependencies needed for MySQL with slick integration and evolutions
+libraryDependencies ++= Seq(
+  "mysql" % "mysql-connector-java" % "5.1.34",
+  "com.typesafe.play" %% "play-slick" % "1.1.1",
+  "com.typesafe.play" %% "play-slick-evolutions" % "1.1.1"
+)
 
 // Below Dependency is for ScalaTests, ScalaTestsplus play, Selenium WebDiver Dependency and Scalac-scoverage-runtime.
-//Becareful with using the correct versions.
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.6" % "test",
   "org.scalatestplus" %% "play" % "1.4.0-M3" % "test",
