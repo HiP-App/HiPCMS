@@ -20,6 +20,11 @@ module.exports = function (grunt) {
     configureProxies: 'grunt-connect-proxy'
   });
 
+  //Load Custom tasks here
+  grunt.loadNpmTasks('grunt-shell-spawn');
+  grunt.loadNpmTasks('grunt-env');
+  grunt.loadNpmTasks("grunt-protractor-runner");
+
   // Configurable paths for the application
   var appConfig = {
     app: require('./bower.json').appPath || 'app',
@@ -452,10 +457,24 @@ module.exports = function (grunt) {
           }
         }
       }
+    },
+    //Below Config is for headless browser behaviour, Remove these, if results are intended to be seen in real browser.
+    shell: {
+      xvfb: {
+        command: 'Xvfb :99 -ac -screen 0 1600x1200x24',
+          options: {
+          async: true
+        }
+      }
+    },
+    env: {
+      xvfb: {
+        DISPLAY: ':99'
+      }
     }
   });
 
-  grunt.loadNpmTasks("grunt-protractor-runner");
+
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
@@ -484,9 +503,14 @@ module.exports = function (grunt) {
     'concurrent:test',
     'postcss',
     'connect:test',
+    'shell:xvfb',     //*
+    'env:xvfb',       //*
     'karma',
-    'protractor:run'
+    'protractor:run',
+    'shell:xvfb:kill' //*
   ]);
+
+  //*Remove this line to run in a live browser
 
   grunt.registerTask('build', [
     'clean:dist',
