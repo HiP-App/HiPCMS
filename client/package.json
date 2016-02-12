@@ -41,5 +41,12 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "dependencies": {
+    "grunt-autoprefixer": "^3.0.3",
+    "grunt-bower-install": "^1.6.0",
+    "grunt-contrib-compass": "^1.0.4",
+    "grunt-rev": "^0.1.0",
+    "load-grunt-tasks": "^3.4.0"
   }
 }
