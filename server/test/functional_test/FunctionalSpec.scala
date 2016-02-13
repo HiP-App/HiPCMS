@@ -7,7 +7,7 @@ import selenium._
  *  The WebBrowser has a subtrait for each WebDriver. Below example uses firefox.
  */
 
-class FunctionalSpec extends FlatSpec with Matchers with Firefox {
+class FunctionalSpec extends FlatSpec with Matchers with HtmlUnit {
 
   val host = "http://localhost:9000/"
 
