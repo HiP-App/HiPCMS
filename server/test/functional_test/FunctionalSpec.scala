@@ -4,7 +4,7 @@ import selenium._
 /**
  *Trait that provides a domain specific language (DSL) for writing browser-based tests using Selenium.
  * This extends Flat Spec as an example. To use ScalaTest's Selenium DSL, mix trait WebBrowser into your test class.
- *  The WebBrowser has a subtrait for each WebDriver. Below example uses firefox.
+ *  The WebBrowser has a subtrait for each WebDriver. Below example uses headless browser HtmlUnit.
  */
 
 class FunctionalSpec extends FlatSpec with Matchers with HtmlUnit {
