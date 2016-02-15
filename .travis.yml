@@ -18,10 +18,12 @@ install:
 
 script:
   - PROJECT_ROOT=$(pwd)
-  - cd $PROJECT_ROOT/server &&
+    echo "\nStarting server test\n" &&
+    cd $PROJECT_ROOT/server &&
     sbt clean coverage test &&
-    sbt coverageAggregate
-  - cd $PROJECT_ROOT/client &&
+    sbt coverageAggregate &&
+    echo "\nStarting client test\n" &&
+    cd $PROJECT_ROOT/client &&
     grunt test
 
 after_success:
