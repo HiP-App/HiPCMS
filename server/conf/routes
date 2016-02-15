@@ -3,7 +3,7 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index
+GET     /                           com.tuplejump.playYeoman.Yeoman.index
 
 GET         /user                            controllers.ApplicationController.user
 GET         /signOut                         controllers.ApplicationController.signOut
@@ -20,5 +20,3 @@ GET         /assets/*file                    controllers.Assets.at(path="/public
 
 ->          /                                yeoman.Routes
 
-# Map static resources from the /public folder to the /assets URL path
-GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)

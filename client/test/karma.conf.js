@@ -22,9 +22,22 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
+      'bower_components/es5-shim/es5-shim.js',
       'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
       'bower_components/bootstrap/dist/js/bootstrap.js',
+      'bower_components/json3/lib/json3.js',
+      'bower_components/angular-resource/angular-resource.js',
+      'bower_components/angular-messages/angular-messages.js',
+      'bower_components/angular-animate/angular-animate.js',
+      'bower_components/angular-strap/dist/angular-strap.js',
+      'bower_components/angular-strap/dist/angular-strap.tpl.js',
+      'bower_components/angular-route/angular-route.js',
+      'bower_components/angular-cookies/angular-cookies.js',
+      'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+      'bower_components/bootstrap-sass-official/assets/javascripts/bootstrap.js',
+      'bower_components/angular-ui-router/release/angular-ui-router.js',
+      'bower_components/ui-router/release/angular-ui-router.js',
       'bower_components/angular-mocks/angular-mocks.js',
       // endbower
       "app/scripts/**/*.js",
@@ -65,7 +78,7 @@ module.exports = function(config) {
 
     // level of logging
     // possible values: LOG_DISABLE || LOG_ERROR || LOG_WARN || LOG_INFO || LOG_DEBUG
-    logLevel: config.LOG_INFO,
+    logLevel: config.LOG_INFO
 
     // Uncomment the following lines if you are using grunt's server to run the tests
     // proxies: {
