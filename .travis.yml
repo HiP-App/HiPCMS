@@ -24,7 +24,7 @@ script:
     sbt coverageAggregate &&
     echo "\nStarting client test\n" &&
     cd $PROJECT_ROOT/client &&
-    grunt test
+    npm test
 
 after_success:
   - cd $PROJECT_ROOT/server &&
