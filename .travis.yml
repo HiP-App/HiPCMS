@@ -24,6 +24,10 @@ script:
   - sbt coverageAggregate
   - echo "\nStarting client test\n"
   - cd $PROJECT_ROOT/client
+  # We need to tell npm that we use the local installation of grunt
+  # We do not install grunt globally because this would prevent us from using the
+  # container based travis ci infrastructure
+  - alias grunt=./node_modules/.bin/grunt
   - npm test
 
 after_success:
