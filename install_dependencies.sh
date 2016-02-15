@@ -5,6 +5,6 @@ nvm install stable
 nvm use stable
 cd $PROJECT_ROOT/client
 npm install bower grunt-cli
-bower install
+./node_modules/bower/bin/bower install
 cd $PROJECT_ROOT/server
 sbt update
