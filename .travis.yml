@@ -6,6 +6,7 @@ cache:
   directories:
     - $HOME/.ivy2/cache
     - $HOME/.sbt/boot/
+    - client/node_modules/
 
 scala:
    - 2.11.3
