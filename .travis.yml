@@ -1,0 +1,27 @@
+sudo: false
+
+language: scala
+
+cache:
+  directories:
+    - $HOME/.ivy2/cache
+    - $HOME/.sbt/boot/
+
+scala:
+   - 2.10.0
+
+jdk:
+  - oraclejdk8
+
+script: sbt test
+
+# Publish coverage results to https://coveralls.io/github/ironjan/HiP-CMS_CI_Test
+
+script:
+  - cd server && \
+    sbt clean coverage test && \
+    sbt coverageAggregate
+
+after_success:
+  - cd server && \
+    sbt coveralls
