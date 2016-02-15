@@ -17,15 +17,15 @@ install:
   - ./install_dependencies.sh
 
 script:
-  - PROJECT_ROOT=$(pwd) &&
-    echo "\nStarting server test\n" &&
-    cd $PROJECT_ROOT/server &&
-    sbt clean coverage test &&
-    sbt coverageAggregate &&
-    echo "\nStarting client test\n" &&
-    cd $PROJECT_ROOT/client &&
-    npm test
+  - PROJECT_ROOT=$(pwd)
+  - echo "\nStarting server test\n"
+  - cd $PROJECT_ROOT/server
+  - sbt clean coverage test
+  - sbt coverageAggregate
+  - echo "\nStarting client test\n"
+  - cd $PROJECT_ROOT/client
+  - npm test
 
 after_success:
-  - cd $PROJECT_ROOT/server &&
-    sbt coveralls
+  - cd $PROJECT_ROOT/server
+  - sbt coveralls
