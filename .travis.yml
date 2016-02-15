@@ -8,20 +8,25 @@ cache:
     - $HOME/.sbt/boot/
 
 scala:
-   - 2.10.0
+   - 2.11.3
 
 jdk:
   - oraclejdk8
 
-script: sbt test
-
-# Publish coverage results to https://coveralls.io/github/ironjan/HiP-CMS_CI_Test
+install:
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
+  - cd client && npm install bower grunt-cli && bower install
+  - cd server && sbt update
 
 script:
-  - cd server && 
-    sbt clean coverage test && 
+  - cd server &&
+    sbt clean coverage test &&
     sbt coverageAggregate
+  - cd client &&
+    grunt test
 
 after_success:
-  - cd server && 
+  - cd server &&
     sbt coveralls
