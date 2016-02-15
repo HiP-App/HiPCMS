@@ -14,15 +14,7 @@ jdk:
   - oraclejdk8
 
 install:
-  - . $HOME/.nvm/nvm.sh
-  - nvm install stable
-  - nvm use stable
-  - cd client
-  - npm install bower grunt-cli
-  - bower install
-  - cd
-  - cd server
-  - sbt update
+  - ./install_dependencies.sh
 
 script:
   - cd && cd server &&
