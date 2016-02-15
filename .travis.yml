@@ -17,12 +17,13 @@ install:
   - ./install_dependencies.sh
 
 script:
-  - cd && cd server &&
+  - PROJECT_ROOT=$(pwd)
+  - cd $PROJECT_ROOT/server &&
     sbt clean coverage test &&
     sbt coverageAggregate
-  - cd && cd client &&
+  - cd $PROJECT_ROOT/client &&
     grunt test
 
 after_success:
-  - cd server &&
+  - cd $PROJECT_ROOT/server &&
     sbt coveralls
