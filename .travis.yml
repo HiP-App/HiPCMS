@@ -18,10 +18,10 @@ script: sbt test
 # Publish coverage results to https://coveralls.io/github/ironjan/HiP-CMS_CI_Test
 
 script:
-  - cd server && \
-    sbt clean coverage test && \
+  - cd server && 
+    sbt clean coverage test && 
     sbt coverageAggregate
 
 after_success:
-  - cd server && \
+  - cd server && 
     sbt coveralls
