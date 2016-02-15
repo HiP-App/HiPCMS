@@ -17,8 +17,12 @@ install:
   - . $HOME/.nvm/nvm.sh
   - nvm install stable
   - nvm use stable
-  - cd && cd client && npm install bower grunt-cli && bower install
-  - cd && cd server && sbt update
+  - cd client
+  - npm install bower grunt-cli
+  - bower install
+  - cd
+  - cd server
+  - sbt update
 
 script:
   - cd && cd server &&
