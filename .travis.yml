@@ -27,8 +27,7 @@ script:
   # We need to tell npm that we use the local installation of grunt
   # We do not install grunt globally because this would prevent us from using the
   # container based travis ci infrastructure
-  - alias grunt=./node_modules/.bin/grunt
-  - npm test
+  - ./node_modules/.bin/grunt test
 
 after_success:
   - cd $PROJECT_ROOT/server
