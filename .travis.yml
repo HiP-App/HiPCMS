@@ -17,14 +17,14 @@ install:
   - . $HOME/.nvm/nvm.sh
   - nvm install stable
   - nvm use stable
-  - cd client && npm install bower grunt-cli && bower install
-  - cd server && sbt update
+  - cd && cd client && npm install bower grunt-cli && bower install
+  - cd && cd server && sbt update
 
 script:
-  - cd server &&
+  - cd && cd server &&
     sbt clean coverage test &&
     sbt coverageAggregate
-  - cd client &&
+  - cd && cd client &&
     grunt test
 
 after_success:
