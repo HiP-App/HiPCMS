@@ -506,7 +506,8 @@ module.exports = function (grunt) {
     'shell:xvfb',     //*
     'env:xvfb',       //*
     'karma',
-    'protractor:run',
+    // 'protractor:run',
+    // currently disabled for travis
     'shell:xvfb:kill' //*
   ]);
 
