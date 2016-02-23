@@ -22,7 +22,6 @@ libraryDependencies ++= Seq(
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.6" % "test",
   "org.scalatestplus" %% "play" % "1.4.0-M3" % "test",
-  "org.seleniumhq.selenium" % "selenium-java" % "2.48.0" % "test",
   "org.scoverage" %% "scalac-scoverage-runtime" % "1.1.1"
 )
 
