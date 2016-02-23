@@ -20,5 +20,5 @@ exports.config = {
     rootElement: 'html',
 
     //this can be replaced by localhost address to run tests locally, the following address is the old staging server address
-    baseUrl: ''
+    baseUrl: 'http://localhost:9000'
 };
