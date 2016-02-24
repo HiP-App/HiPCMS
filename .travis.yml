@@ -6,7 +6,6 @@ cache:
   directories:
     - $HOME/.ivy2/cache
     - $HOME/.sbt/boot/
-    - client/node_modules/
 
 scala:
    - 2.11.3
@@ -28,7 +27,9 @@ script:
   # We need to tell npm that we use the local installation of grunt
   # We do not install grunt globally because this would prevent us from using the
   # container based travis ci infrastructure
-  - ./node_modules/.bin/grunt test
+  # This workaround should be re-evaluated after release of grunt-cli@1.0.0-rc1
+  - alias grunt=./node_modules/.bin/grunt
+  - npm test
 
 after_success:
   - cd $PROJECT_ROOT/server
