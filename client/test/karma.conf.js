@@ -29,7 +29,7 @@ module.exports = function(config) {
       // endbower
       "app/scripts/**/*.js",
       "test/mock/**/*.js",
-      "test/spec/**/*.js"
+      "test/unit_tests/**/*.js"
     ],
 
     // list of files / patterns to exclude
@@ -37,7 +37,7 @@ module.exports = function(config) {
     ],
 
     // web server port
-    port: 8080,
+    port: 9876,
 
     // Start these browsers, currently available:
     // - Chrome
@@ -48,14 +48,10 @@ module.exports = function(config) {
     // - PhantomJS
     // - IE (only Windows)
     browsers: [
-      "PhantomJS"
+      "Firefox"
     ],
 
     // Which plugins to enable
-    plugins: [
-      "karma-phantomjs-launcher",
-      "karma-jasmine"
-    ],
 
     // Continuous Integration mode
     // if true, it capture browsers, run tests and exit
