@@ -1,6 +1,9 @@
 https://hip.upb.de/
 ===================
 
+[![Build Status](https://travis-ci.org/HiP-App/HiPCMS.svg?branch=master)](https://travis-ci.org/HiP-App/HiPCMS)
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/b905a3e6757a49979e2135f84f8feaef)](https://www.codacy.com/app/lippertsjan/HiPCMS)
+
 This application is developed to fill the system 'History in Paderborn' with data. We also develop an [Android app](https://git.cs.upb.de/HiP/HiP-Android/) to view the data, i.e. end users can use this app to view the data in HiP.
 
 See the LICENSE file for licensing information. 
