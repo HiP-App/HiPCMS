@@ -28,8 +28,8 @@ Project Structure
 
 The HiPCMS project contains client and server as separate projects which makes development and testing very easy.
 
- 1. client is an angular app which is built using yo angular generator. Please refer [README](https://github.com/HiP-App/HiPCMS/blob/develop/client/README.md) of client for development and testing.
- 2. server is a play app which uses Typesafe Activator that provides the build tool(sbt) . Please refer [README](https://github.com/HiP-App/HiPCMS/blob/develop/server/README.md) of server for development and testing.
+ 1. client is an angular app which is built using yo angular generator. Please refer [README](https://github.com/HiP-App/HiPCMS/blob/develop/client) of client for development and testing.
+ 2. server is a play app which uses Typesafe Activator that provides the build tool(sbt) . Please refer [README](https://github.com/HiP-App/HiPCMS/blob/develop/server) of server for development and testing.
 
 Reporting issues
 ================
