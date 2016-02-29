@@ -47,8 +47,5 @@
   "scripts": {
     "postinstall": "./node_modules/protractor/bin/webdriver-manager update",
     "test": "grunt test"
-  },
-  "dependencies": {
-    "codacy-coverage": "^1.1.3"
   }
 }
