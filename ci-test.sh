@@ -8,6 +8,7 @@ echo "------------------------------"
 cd $PROJECT_ROOT/server
 sbt clean coverage test
 sbt coverageAggregate
+sbt codacyCoverage
 
 echo "------------------------------"
 echo "Starting client test"
