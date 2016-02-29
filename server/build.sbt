@@ -28,8 +28,6 @@ libraryDependencies ++= Seq(
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
 
-resolvers += "Typesafe Repository" at "https://repo.typesafe.com/typesafe/releases/"
-
 // syncing the binary with the sbt-plugin-releases repo
 resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
 
