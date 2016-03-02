@@ -27,4 +27,16 @@ hash sbt 2>/dev/null || { echo >&2 "sbt is not installed. Installation cannot co
 #
 #####################################################################
 
-sbt 'update' 'npm install' 'bower install' 'grunt build'
+# We're using the node_modules here for two reasons:
+#  - support for Travis CI
+#  - more independence of the environment
+
+sbt update
+
+npm install
+npm install bower
+./node_modules/bower/bin/bower install
+./node_modules/bower/bin/bower grunt
+./node_modules/protractor/bin/webdriver-manager
+
+sbt 'grunt build'

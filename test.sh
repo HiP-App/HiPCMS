@@ -1,2 +1,3 @@
 #!/bin/bash
-return 0
+echo "Dummy test script"
+exit 0

@@ -6,7 +6,7 @@ cache:
   directories:
     - "$HOME/.ivy2/cache"
     - "$HOME/.sbt/boot/"
-    - client/node_modules/
+    - node_modules/
 
 scala:
    - 2.11.3
@@ -18,7 +18,7 @@ install:
   - "./setup.sh"
 
 script:
-  - "./ci-test.sh"
+  - "./test.sh"
 
 after_success:
   - cd $PROJECT_ROOT/server
