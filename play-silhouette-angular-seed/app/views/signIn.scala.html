@@ -1,4 +1,4 @@
-@(socialProviders: com.mohiva.play.silhouette.impl.providers.SocialProviderRegistry)(implicit request: RequestHeader, messages: Messages)
+@()(implicit request: RequestHeader, messages: Messages)
 
 @import forms.SignInForm.form
 @import b3.inline.fieldConstructor
@@ -28,15 +28,5 @@
             <p class="not-a-member">@Messages("not.a.member") <a ui-sref="signUp">@Messages("sign.up.now")</a></p>
         </div>
 
-        @if(socialProviders.providers.nonEmpty) {
-            <div class="social-providers">
-                <p>@Messages("or.use.social")</p>
-                <div>
-                @for(p <- socialProviders.providers) {
-                    <a ng-click="authenticate('@p.id')" class="provider @p.id" title="@Messages(p.id)"><img src="@routes.Assets.at(s"images/providers/${p.id}.png")" width="64px" height="64px" alt="@Messages(p.id)"></a>
-                }
-                </div>
-            </div>
-        }
     </form>
 </fieldset>

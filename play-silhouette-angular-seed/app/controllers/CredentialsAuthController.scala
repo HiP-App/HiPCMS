@@ -32,7 +32,6 @@ import scala.concurrent.duration._
  * @param userService The user service implementation.
  * @param authInfoRepository The auth info repository implementation.
  * @param credentialsProvider The credentials provider.
- * @param socialProviderRegistry The social provider registry.
  * @param configuration The Play configuration.
  * @param clock The clock instance.
  */
@@ -42,7 +41,6 @@ class CredentialsAuthController @Inject() (
   userService: UserService,
   authInfoRepository: AuthInfoRepository,
   credentialsProvider: CredentialsProvider,
-  socialProviderRegistry: SocialProviderRegistry,
   configuration: Configuration,
   clock: Clock)
   extends Silhouette[User, JWTAuthenticator] {
@@ -82,8 +80,10 @@ class CredentialsAuthController @Inject() (
           case None => Future.failed(new IdentityNotFoundException("Couldn't find user"))
         }
       }.recover {
-        case e: ProviderException =>
+        case e: ProviderException => {
+          logger.error(e.getMessage, e)
           Unauthorized(Json.obj("message" -> Messages("invalid.credentials")))
+      }
       }
     }.recoverTotal {
       case error =>

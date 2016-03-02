@@ -16,12 +16,10 @@ import scala.concurrent.Future
  *
  * @param messagesApi The Play messages API.
  * @param env The Silhouette environment.
- * @param socialProviderRegistry The social provider registry.
  */
 class ApplicationController @Inject() (
   val messagesApi: MessagesApi,
-  val env: Environment[User, JWTAuthenticator],
-  socialProviderRegistry: SocialProviderRegistry)
+  val env: Environment[User, JWTAuthenticator])
   extends Silhouette[User, JWTAuthenticator] {
 
   /**
@@ -51,7 +49,7 @@ class ApplicationController @Inject() (
     template match {
       case "home" => Ok(views.html.home())
       case "signUp" => Ok(views.html.signUp())
-      case "signIn" => Ok(views.html.signIn(socialProviderRegistry))
+      case "signIn" => Ok(views.html.signIn())
       case "navigation" => Ok(views.html.navigation())
       case _ => NotFound
     }

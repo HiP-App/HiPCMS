@@ -8,8 +8,6 @@ GET         /user                            controllers.ApplicationController.u
 GET         /signOut                         controllers.ApplicationController.signOut
 POST        /signIn                          controllers.CredentialsAuthController.authenticate
 POST        /signUp                          controllers.SignUpController.signUp
-GET         /authenticate/:provider          controllers.SocialAuthController.authenticate(provider)
-POST        /authenticate/:provider          controllers.SocialAuthController.authenticate(provider)
 
 # Dynamic part of the url
 GET         /views/$template<.+>.html        controllers.ApplicationController.view(template)
