@@ -66,6 +66,12 @@ Consulate the [Silhouette documentation](http://silhouette.mohiva.com/docs) for 
   $ run
   ```
 
+  You can also run ```setup.sh```.
+
+## Run all tests
+
+  Use the provided script ```test.sh```. You can also run tests manually by using the commands from that script.
+
 ## Activator
 
 See https://typesafe.com/activator/template/play-silhouette-angular-seed

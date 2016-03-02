@@ -1,0 +1,29 @@
+sudo: false
+
+language: scala
+
+cache:
+  directories:
+    - "$HOME/.ivy2/cache"
+    - "$HOME/.sbt/boot/"
+    - client/node_modules/
+
+scala:
+   - 2.11.3
+
+jdk:
+  - oraclejdk8
+
+install:
+  - "./setup.sh"
+
+script:
+  - "./ci-test.sh"
+
+after_success:
+  - cd $PROJECT_ROOT/server
+  - sbt coveralls
+
+notifications:
+  slack:
+    secure: 547VjsttlSB9Hv0QFmJwhJGeVcR7ZVZErATVRz7wXVQoipn8Iz60P1P4cFhovIdiKrxrFgZlaL2qF7MqUQD7g/yniFjv6QbywUP66g0UFH7KE5md/ayxpUDuE2QJ9WEj2to4S5UVAW7V/eZawYyI8YeARAeBf1Qg7pbkTVQtpEy+uJDJ1K/KB9aH8Nyp3ICRP13Re6jsqgggpswQBKpsN6ekHsp6tQBRQ6lUznaYERfQyyni5FNfVikRD/dhRYblvRPnMjvfvuPouc6Fa/Nf5wXYLMToRu1bRIb4CFiCkLWNQGTCdLJhVDDWzyWaB7Hy/iOMUThyr0gDrAiRPCvZBT0CcnbsFaKgZp8ikJ7FQrtO+hwkt3JGtJ3WC4lynP2WDO18OVYU0UTS00H7d+tc6WApp8b0wmNza0heOkn4zwKAnf+6OjXCky4TMDuk0p4rUa8TTzXIYNXt/iueE8XlLuF907HrSMcONWcuZc5PH/HhZzJFIg5JcCYq2Z0Ck5lB65Q3VCuFRaMGZNSFe+oFvIm7RtAqQ2LMw96WRmSu/8R+END3LZsLKXFpnMxe9OHlGrmt4gBbC93vAAFx27c96Y0Y2PuwVAZvBNV+0d15SgfoYrUs8KDt4lT3QfUArRJ0iGjVdxtEloJgOFj7TerY2EZHmU5oVsqLS7ArUFj52R4=
