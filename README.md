@@ -1,67 +1,81 @@
-https://hip.upb.de/
-===================
+Play Silhouette Angular Seed Project
+=====================================
 
- * develop: [![Build Status Develop](https://travis-ci.org/HiP-App/HiPCMS.svg?branch=develop)](https://travis-ci.org/HiP-App/HiPCMS)
- * master: [![Build Status Master](https://travis-ci.org/HiP-App/HiPCMS.svg?branch=develop)](https://travis-ci.org/HiP-App/HiPCMS)
- * Code Quality: [![Codacy Badge](https://api.codacy.com/project/badge/grade/b905a3e6757a49979e2135f84f8feaef)](https://www.codacy.com/app/lippertsjan/HiPCMS)
+The Play Silhouette Angular Seed project shows how [Silhouette](https://github.com/mohiva/play-silhouette) can be used
+to create a SPA with [AngularJS](https://angularjs.org/)/[Satellizer](https://github.com/sahat/satellizer) and Play
+scaffolded by [yeoman](https://github.com/tuplejump/play-yeoman). It's a starting point which can be extended to fit
+your needs.
 
-This application is developed to fill the system 'History in Paderborn' with data. We also develop an [Android app](https://git.cs.upb.de/HiP/HiP-Android/) to view the data, i.e. end users can use this app to view the data in HiP.
+## Example
 
-See the LICENSE file for licensing information. 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-See the git history for information about authors. The [graphs page](https://git.cs.upb.de/HiP/HiPCMS/graphs/master) has a nice visual overview of contributors.
+(The "Build App" phase will take a few minutes)
 
-Documentation
-=============
+Or you can find a running example of this template under the following URL: https://play-silhouette-angular-seed.herokuapp.com/
 
-The documentation of this project is done in the [project groups's Confluence wiki](http://jira-hip.cs.upb.de:8090/display/DOC/).
+## Features
 
-Getting Started
-===============
+* Sign Up
+* Sign In (Credentials)
+* JWT authentication
+* Social Auth (Facebook, Google+, VK, Twitter, Xing)
+* Dependency Injection with Guice
+* Publishing Events
+* Avatar service
+* Remember me functionality
+* [Security headers](https://www.playframework.com/documentation/2.4.x/SecurityHeaders)
+* [CSRF Protection](https://www.playframework.com/documentation/2.4.x/ScalaCsrf)
 
-A step-wise guide to setup your development environment can be found in the Confluence article ["Set up development environment"](http://jira-hip.cs.upb.de:8090/display/DOC/Set+up+development+environment).
+## Documentation
 
-Running HiP
-===========
+Consulate the [Silhouette documentation](http://silhouette.mohiva.com/docs) for more information. If you need help with the integration of Silhouette into your project, don't hesitate and ask questions in our [mailing list](https://groups.google.com/forum/#!forum/play-silhouette) or on [Stack Overflow](http://stackoverflow.com/questions/tagged/playframework).
 
- 1. Clone the repository
- 2. Run ```./activator run```
+## Getting started
 
-More information about the activator can be found at [typesafe](https://www.typesafe.com/get-started).
+1. Make sure u have [Ruby](https://www.ruby-lang.org/de/) and [node.js](http://nodejs.org/) installed.
 
-How to develop
-==============
+  Then you must install the node packages [yo](http://yeoman.io), [grunt](http://gruntjs.com/) and [bower](http://bower.io/):
 
-The source code is hosted at [the gitlab server of the University of Paderborn](https://git.cs.upb.de/HiP/HiPBackend).
+  ```
+  npm install -g yo grunt grunt-cli bower
+  ```
 
+  And the ruby packages [sass](http://sass-lang.com/) and [compass](http://compass-style.org/):
 
-To run the application you can either use your IDE or you can use the activator file: ```./activator run```
+  ```
+  gem install sass compass
+  ```
 
-For more information about using the activator script, see https://www.typesafe.com/community/core-tools/activator-and-sbt
+  Alternative you can use Bundler to install the ruby packages:
 
-Dependency updates
-------------------
+  ```
+  bundle install -j4 --path .bundle
+  ```
+2. Start sbt and run the following:
 
-To see the dependencies that can be updated, the plugin [sbt-updates](https://github.com/rtimush/sbt-updates) is used. It 
-provides the tasks "dependencyUpdates" and "dependencyUpdatesReport". The first one shows the updateable dependencies whereas the second one 
-generates a report file.
+  ```
+  $ update
 
-Testing
-=======
+  $ npm install
 
-TODO: Add testing description.
+  $ bower install
 
+  $ grunt build
 
-Reporting issues
-================
+  $ run
+  ```
 
-This project group is using the Scaled Agile Framework. See [Scaled Agile Framework® (SAFe®)](http://jira-hip.cs.upb.de:8090/pages/viewpage.action?pageId=3276965) and [Scrum](http://jira-hip.cs.upb.de:8090/display/SEM/Scrum) for an introduction.
+  You can also run ```setup.sh```.
 
-All Issues of this project are tracked on http://jira-hip.cs.upb.de:8080/
+## Run all tests
 
-Application stack
-=================
+  Use the provided script ```test.sh```. You can also run tests manually by using the commands from that script.
 
-From A full application stack for a Modern Web application, lets review the components:
+## Activator
 
-TODO: add the list of components.
+See https://typesafe.com/activator/template/play-silhouette-angular-seed
+
+# License
+
+The code is licensed under [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0).

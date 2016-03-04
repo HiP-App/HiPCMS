@@ -1,0 +1,69 @@
+# --- !Ups
+CREATE TABLE user (
+  userID VARCHAR(255) NOT NULL PRIMARY KEY,
+  firstName VARCHAR(255),
+  lastName VARCHAR(255),
+  fullName VARCHAR(255),
+  email VARCHAR(255),
+  avatarURL VARCHAR(255)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+CREATE TABLE logininfo (
+  id BIGINT(255) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  providerID VARCHAR(255) NOT NULL,
+  providerKey VARCHAR(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+CREATE TABLE userlogininfo (
+  userID VARCHAR(255) NOT NULL,
+  loginInfoId BIGINT(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+CREATE TABLE passwordinfo (
+  hasher VARCHAR(255) NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  salt VARCHAR(255),
+  loginInfoId BIGINT(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+CREATE TABLE oauth1info (
+  id BIGINT(255) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  token VARCHAR(255) NOT NULL,
+  secret VARCHAR(255) NOT NULL,
+  loginInfoId BIGINT(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+CREATE TABLE oauth2info (
+  id BIGINT(255) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+  accesstoken VARCHAR(255) NOT NULL,
+  tokentype VARCHAR(255),
+  expiresin INT,
+  refreshtoken VARCHAR(255),
+  loginInfoId BIGINT(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+CREATE TABLE openidinfo (
+  id VARCHAR(255) NOT NULL PRIMARY KEY,
+  loginInfoId BIGINT(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+CREATE TABLE openidattributes (
+  id VARCHAR(255) NOT NULL,
+  `key` VARCHAR(255) NOT NULL,
+  `value` VARCHAR(255) NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ROW_FORMAT=COMPRESSED;
+
+
+
+ 
+ 
+# --- !Downs
+drop table openidattributes;
+drop table openidinfo;
+drop table oauth2info;
+drop table oauth1info;
+drop table passwordinfo;
+drop table userlogininfo;
+drop table logininfo;
+drop table user;
+
