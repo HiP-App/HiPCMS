@@ -13,6 +13,7 @@
     "angular-route": "1.4.3",
     "angular-cookies": "1.4.3",
     "bootstrap-sass-official": "3.3.5",
-    "ui-router": "0.2.15"
+    "ui-router": "0.2.15",
+    "satellizer": "^0.14.0"
   }
 }
