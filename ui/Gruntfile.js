@@ -15,6 +15,11 @@ module.exports = function (grunt) {
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
 
+  //Load Custom tasks here
+  grunt.loadNpmTasks('grunt-shell-spawn');
+  grunt.loadNpmTasks('grunt-env');
+  grunt.loadNpmTasks("grunt-protractor-runner");
+
   // Define the configuration for all the tasks
   grunt.initConfig({
 
@@ -42,10 +47,10 @@ module.exports = function (grunt) {
         files: ['test/spec/{,*/}*.js'],
         tasks: ['newer:jshint:test', 'karma']
       },
-      compass: {
-        files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-        tasks: ['compass:server', 'autoprefixer']
-      },
+      //compass: {
+      //  files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+      //  tasks: ['compass:server', 'autoprefixer']
+      //},
       gruntfile: {
         files: ['Gruntfile.js']
       },
@@ -156,7 +161,7 @@ module.exports = function (grunt) {
     },
 
     // Compiles Sass to CSS and generates necessary files if requested
-    compass: {
+    /*compass: {
       options: {
         sassDir: '<%= yeoman.app %>/styles',
         cssDir: '.tmp/styles',
@@ -182,7 +187,7 @@ module.exports = function (grunt) {
           debugInfo: true
         }
       }
-    },
+    },*/
 
     // Renames files for browser caching purposes
     rev: {
@@ -328,13 +333,13 @@ module.exports = function (grunt) {
     // Run some tasks in parallel to speed up the build process
     concurrent: {
       server: [
-        'compass:server'
+        //'compass:server'
       ],
       test: [
-        'compass'
+        //'compass'
       ],
       dist: [
-        'compass:dist',
+        //'compass:dist',
         'imagemin',
         'svgmin'
       ]
@@ -367,12 +372,42 @@ module.exports = function (grunt) {
     // },
 
     // Test settings
-    //karma: {
-    //  unit: {
-    //    configFile: 'karma.conf.js',
-    //    singleRun: true
-    //  }
-    //}
+    karma: {
+      unit: {
+        configFile: 'test/karma.conf.js',
+        singleRun: true
+      }
+    },
+
+    protractor: {
+      options: {
+        keepAlive: true,
+        configFile: "test/conf.js"
+      },
+      run: {},
+      auto: {
+        keepAlive: true,
+        options: {
+          args: {
+            seleniumPort: 4444
+          }
+        }
+      }
+    },
+    //Below Config is for headless browser behaviour, Remove these, if results are intended to be seen in real browser.
+    shell: {
+      xvfb: {
+        command: 'Xvfb :99 -ac -screen 0 1600x1200x24',
+        options: {
+          async: true
+        }
+      }
+    },
+    env: {
+      xvfb: {
+        DISPLAY: ':99'
+      }
+    }
   });
 
 
@@ -400,9 +435,14 @@ module.exports = function (grunt) {
     'clean:server',
     'concurrent:test',
     'autoprefixer',
-    'connect:test'
-    //'karma'
+    'connect:test',
+    'shell:xvfb',     //*
+    'env:xvfb',       //*
+    'karma',
+    'protractor:run',
+    'shell:xvfb:kill' //*
   ]);
+  //*Remove this line to run in a live browser
 
   grunt.registerTask('build', [
     'clean:dist',
