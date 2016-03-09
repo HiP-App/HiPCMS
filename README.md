@@ -21,7 +21,8 @@ for a list of code contributions.
 
 ## Requirements:
 
- * [Jana JDK 8](http://www.oracle.com/technetwork/java/javase/)
+ * [Java JDK 8](http://www.oracle.com/technetwork/java/javase/)
+ * [SBT 0.13.8](http://www.scala-sbt.org/)
  * [node.js](http://nodejs.org/)
  * [MySQL](https://www.mysql.de/)
 
@@ -35,6 +36,12 @@ and [bower](http://bower.io/):
 ```
 npm install -g yo grunt grunt-cli bower
 ```
+
+## Technolgies and Frameworks
+
+HiPCMS is a Play-Application based on Play 2.4.6 and AngularJs.
+
+We are using [Silhouette](http://silhouette.mohiva.com/) as an Authentification framework.
 
 ## Getting started
 
