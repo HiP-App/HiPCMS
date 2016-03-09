@@ -1,80 +1,63 @@
-Play Silhouette Angular Seed Project
-=====================================
+HiPCMS
+======
 
-The Play Silhouette Angular Seed project shows how [Silhouette](https://github.com/mohiva/play-silhouette) can be used
-to create a SPA with [AngularJS](https://angularjs.org/)/[Satellizer](https://github.com/sahat/satellizer) and Play
-scaffolded by [yeoman](https://github.com/tuplejump/play-yeoman). It's a starting point which can be extended to fit
-your needs.
+  This content management system is developed by the project group [History in Paderborn](http://is.uni-paderborn.de/fachgebiete/fg-engels/lehre/ss15/hip-app/pg-hip-app.html). is developed to fill the system 'History in Paderborn' with data. This Backend is only used to manage the data. We also develop an Android app to view the data, i.e. end users can use this app to view the data in HiP.
 
-## Example
+  In another team of the project group, an Android app is developed that will make the content of HiPCMS accessable to the
+  public. Information about the app will be added as soon as it is available.
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+  HiPCMS will replac the original project which was known as HiPBackend. HiPBackend's code unfortunately was not
+  maintainable anymore and a rewrite was decided.
 
-(The "Build App" phase will take a few minutes)
+  See the LICENSE file for licensing information.
 
-Or you can find a running example of this template under the following URL: https://play-silhouette-angular-seed.herokuapp.com/
+  See [the graphs page](https://github.com/HiP-App/HiPCMS/graphs/contributors) for a list of code contributions.
 
-## Features
+## Requirments:
 
-* Sign Up
-* Sign In (Credentials)
-* JWT authentication
-* Dependency Injection with Guice
-* Publishing Events
-* Avatar service
-* Remember me functionality
-* [Security headers](https://www.playframework.com/documentation/2.4.x/SecurityHeaders)
-* [CSRF Protection](https://www.playframework.com/documentation/2.4.x/ScalaCsrf)
+   * [Jana JDK 8](http://www.oracle.com/technetwork/java/javase/)
+   * [node.js](http://nodejs.org/)
+   * [MySQL](https://www.mysql.de/)
 
-## Documentation
+  By default HiPCMS expects a database called ```HiPCMSdb``` and uses ```hipcms``` without password to connect. You can
+  override this setting by specifying a jdbc-URL in an Environment Variable called ```DATABASE_URL```.
 
-Consulate the [Silhouette documentation](http://silhouette.mohiva.com/docs) for more information. If you need help with the integration of Silhouette into your project, don't hesitate and ask questions in our [mailing list](https://groups.google.com/forum/#!forum/play-silhouette) or on [Stack Overflow](http://stackoverflow.com/questions/tagged/playframework).
-
-## Getting started
-
-1. Make sure u have [Ruby](https://www.ruby-lang.org/de/) and [node.js](http://nodejs.org/) installed.
-
-  Then you must install the node packages [yo](http://yeoman.io), [grunt](http://gruntjs.com/) and [bower](http://bower.io/):
+  Then you must install the node packages [yo](http://yeoman.io), [grunt](http://gruntjs.com/) and
+  [bower](http://bower.io/):
 
   ```
   npm install -g yo grunt grunt-cli bower
   ```
 
-  And the ruby packages [sass](http://sass-lang.com/) and [compass](http://compass-style.org/):
+## Getting started
 
-  ```
-  gem install sass compass
-  ```
+   * Use ```setup.sh``` to install all sbt and node-dependencies
+   * Use ```test.sh``` to execute the tests
+   * You can **start the application** via ```./activator run``` with auto-reload enabled
+   * For more information about the Activator see [the product homepage](https://www.lightbend.com/activator/download)
 
-  Alternative you can use Bundler to install the ruby packages:
+  Note: the scripts setup.sh and test.sh are also used by TravisCI; they were created to keep setup and test-execution
+  independent of a CI server.
 
-  ```
-  bundle install -j4 --path .bundle
-  ```
-2. Start sbt and run the following:
 
-  ```
-  $ update
+## How to develop
 
-  $ npm install
+   * The latest code is available on [the project's Github-page](https://github.com/HiP-App/HiPCMS/)
+   * You can [fork the repo](https://help.github.com/articles/fork-a-repo/) or [clone our repo](https://help.github.com/articles/cloning-a-repository/)
+     * To submit patches you should fork and then [create a Pull Request](https://help.github.com/articles/using-pull-requests/)
+     * If you are part of the project group, you can create new branches on the main repo as described [in our internal
+       Confluence](http://atlassian-hip.cs.upb.de:8090/display/DCS/Conventions+for+git)
 
-  $ bower install
+  We are using [IntelliJ Ultimate](https://www.jetbrains.com/idea/) which is [free-to-use for students](https://www.jetbrains.com/student/).
+  To import the project into IntelliJ, you can use *import project* (*from external model* - *SBT*). Just select the ```build.sbt```
+  which is located in the project root directory.
 
-  $ grunt build
 
-  $ run
-  ```
+# Open TODOs in this README
 
-  You can also run ```setup.sh```.
-
-## Run all tests
-
-  Use the provided script ```test.sh```. You can also run tests manually by using the commands from that script.
-
-## Activator
-
-See https://typesafe.com/activator/template/play-silhouette-angular-seed
-
-# License
-
-The code is licensed under [Apache License v2.0](http://www.apache.org/licenses/LICENSE-2.0).
+* descriptions of all the project, and all sub-modules and libraries
+* instruction to grab the documentation
+  * We are using an internal Confluence.
+* instructions to submit bugs, feature requests, submit patches, join mailing list, get announcements, or join the user or dev community in other forms
+* other contact info (email address, website, company name, address, etc)
+* legal notices (crypto stuff)
