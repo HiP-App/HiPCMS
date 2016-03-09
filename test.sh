@@ -1,3 +1,7 @@
 #!/bin/bash
-echo "Dummy test script"
+echo "Tests"
+sbt clean coverage test
+sbt coverageReport
+sbt coverageAggregate
+sbt codacyCoverage
 exit 0

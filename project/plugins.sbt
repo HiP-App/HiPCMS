@@ -29,3 +29,5 @@ addSbtPlugin("com.tuplejump" % "sbt-yeoman" % "0.8.1")
 
 addSbtPlugin("com.heroku" % "sbt-heroku" % "0.4.3")
 
+addSbtPlugin("com.codacy" % "sbt-codacy-coverage" % "1.2.1")
+
