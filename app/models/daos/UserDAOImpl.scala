@@ -1,7 +1,6 @@
 package models.daos
 
 import java.util.UUID
-
 import com.mohiva.play.silhouette.api.LoginInfo
 import models.User
 import play.api.libs.concurrent.Execution.Implicits.defaultContext

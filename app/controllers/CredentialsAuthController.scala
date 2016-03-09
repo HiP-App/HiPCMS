@@ -61,6 +61,9 @@ class CredentialsAuthController @Inject() (
    */
   def authenticate = Action.async(parse.json) { implicit request =>
     request.body.validate[SignInForm.Data].map { data =>
+
+      logger.debug(s"Authentification Request: $data")
+
       credentialsProvider.authenticate(Credentials(data.email, data.password)).flatMap { loginInfo =>
         userService.retrieve(loginInfo).flatMap {
           case Some(user) => env.authenticatorService.create(loginInfo).map {
@@ -81,12 +84,13 @@ class CredentialsAuthController @Inject() (
         }
       }.recover {
         case e: ProviderException => {
-          logger.error(e.getMessage, e)
+          logger.error(s"ProviderException: $e.getMessage", e)
           Unauthorized(Json.obj("message" -> Messages("invalid.credentials")))
       }
       }
     }.recoverTotal {
-      case error =>
+      case e: JsError =>
+        logger.error(e.toString)
         Future.successful(Unauthorized(Json.obj("message" -> Messages("invalid.credentials"))))
     }
   }
