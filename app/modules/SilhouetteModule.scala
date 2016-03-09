@@ -29,6 +29,8 @@ import play.api.libs.ws.WSClient
 
 /**
  * The Guice module which wires all Silhouette dependencies.
+ *
+ * This implementation is based on https://github.com/sbrunk/play-silhouette-slick-seed
  */
 class SilhouetteModule extends AbstractModule with ScalaModule {
 
@@ -39,8 +41,6 @@ class SilhouetteModule extends AbstractModule with ScalaModule {
     bind[UserService].to[UserServiceImpl]
     bind[UserDAO].to[UserDAOImpl]
     bind[DelegableAuthInfoDAO[PasswordInfo]].to[PasswordInfoDAO]
-    bind[DelegableAuthInfoDAO[OAuth1Info]].to[OAuth1InfoDAO]
-    bind[DelegableAuthInfoDAO[OAuth2Info]].to[OAuth2InfoDAO]
     bind[CacheLayer].to[PlayCacheLayer]
     bind[OAuth2StateProvider].to[DummyStateProvider]
     bind[IDGenerator].toInstance(new SecureRandomIDGenerator())
@@ -48,6 +48,10 @@ class SilhouetteModule extends AbstractModule with ScalaModule {
     bind[FingerprintGenerator].toInstance(new DefaultFingerprintGenerator(false))
     bind[EventBus].toInstance(EventBus())
     bind[Clock].toInstance(Clock())
+
+    // We are not using OAuth, but Silhoette expects an implementation for these DAOs
+    bind[DelegableAuthInfoDAO[OAuth1Info]].to[OAuth1InfoDAO]
+    bind[DelegableAuthInfoDAO[OAuth2Info]].to[OAuth2InfoDAO]
   }
 
   /**

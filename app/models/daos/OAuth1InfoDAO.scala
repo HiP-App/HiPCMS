@@ -9,7 +9,9 @@ import play.api.db.slick.DatabaseConfigProvider
 import scala.concurrent.Future
 
 /**
- * The DAO to store the OAuth1 information.
+ * We do not use OAuth, but Silhouette requires implementations for OAuth1InfoDAO and OAuth2InfoDAO.
+ *
+ * This implementation is based on https://github.com/sbrunk/play-silhouette-slick-seed
  */
 class OAuth1InfoDAO @Inject() (protected val dbConfigProvider: DatabaseConfigProvider)
     extends DelegableAuthInfoDAO[OAuth1Info] with DAOSlick {
