@@ -14,7 +14,7 @@ import models.User
 import models.services.UserService
 import play.api.i18n.{ MessagesApi, Messages }
 import play.api.libs.concurrent.Execution.Implicits._
-import play.api.libs.json.Json
+import play.api.libs.json.{JsError, Json}
 import play.api.mvc.Action
 
 import scala.concurrent.Future
@@ -73,7 +73,8 @@ class SignUpController @Inject() (
           }
       }
     }.recoverTotal {
-      case error =>
+      case e: JsError =>
+        logger.error(e.toString)
         Future.successful(Unauthorized(Json.obj("message" -> Messages("invalid.data"))))
     }
   }
