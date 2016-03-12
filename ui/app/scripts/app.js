@@ -3,19 +3,19 @@
 /**
  * The application.
  */
-var app = angular.module('uiApp', [
+angular.module('uiApp', [
   'ngResource',
   'ngMessages',
   'ngCookies',
   'ui.router',
   'mgcrea.ngStrap',
   'satellizer'
-]);
+])
 
 /**
  * The run configuration.
  */
-app.run(function($rootScope) {
+.run(function($rootScope, $state) {
 
   /**
    * The user data.
@@ -23,32 +23,58 @@ app.run(function($rootScope) {
    * @type {{}}
    */
   $rootScope.user = {};
-});
+
+  /*$rootScope.$on("$stateChangeStart", function(event, toState, toParams){
+
+    if(toState.authenticate && !AuthFactory.isAuthenticated()){
+
+      //user isn't authenticated
+      $state.transitionTo("signIn");
+      event.preventdefault();
+    }
+  })*/
+
+
+})
 
 /**
  * The application routing.
  */
-app.config(function ($urlRouterProvider, $stateProvider, $httpProvider, $authProvider) {
+.config(function ($urlRouterProvider, $stateProvider, $httpProvider, $authProvider) {
 
   $urlRouterProvider.otherwise('/home');
 
   $stateProvider
-    .state('home', { url: '/home', templateUrl: '/views/home.html', resolve: {
-      authenticated: function($q, $location, $auth) {
-        var deferred = $q.defer();
+    /*.state('home', { url: '/home', templateUrl: '/views/home.html', resolve: {
+   authenticated: function($q, $location, $auth) {
+   var deferred = $q.defer();
 
-        if (!$auth.isAuthenticated()) {
-          $location.path('/signIn');
-        } else {
-          deferred.resolve();
-        }
+   if (!$auth.isAuthenticated()) {
+   $location.path('/signIn');
+   } else {
+   deferred.resolve();
+   }
 
-        return deferred.promise;
-      }
-    }})
+   return deferred.promise;
+   }
+   }})*/
+
+   .state('home', {
+        url: '/home',
+        templateUrl:'/views/home.html',
+        authenticate:'true'
+      })
+      .state('test', {
+        url: '/test',
+        templateUrl:'/views/test.html',
+        controller:'TestCtrl',
+        authenticate:'true'
+      })
+
     .state('signUp', { url: '/signUp', templateUrl: '/views/signUp.html' })
     .state('signIn', { url: '/signIn', templateUrl: '/views/signIn.html' })
-    .state('signOut', { url: '/signOut', template: null,  controller: 'SignOutCtrl' });
+    .state('signOut', { url: '/signOut', template: null,  controller: 'SignOutCtrl' })
+
 
   $httpProvider.interceptors.push(function($q, $injector) {
     return {

@@ -5,7 +5,7 @@
 /**
  * The sign out controller.
  */
-app.controller('SignOutCtrl', ['$auth', '$alert', function($auth, $alert) {
+angular.module('uiApp').controller('SignOutCtrl', ['$auth', '$alert', function($auth, $alert) {
   if (!$auth.isAuthenticated()) {
     return;
   }

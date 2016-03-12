@@ -5,7 +5,7 @@
 /**
  * The sign up controller.
  */
-app.controller('SignUpCtrl', ['$scope', '$alert', '$auth', function($scope, $alert, $auth) {
+angular.module('uiApp').controller('SignUpCtrl', ['$scope', '$alert', '$auth', function($scope, $alert, $auth) {
 
   /**
    * The submit method.

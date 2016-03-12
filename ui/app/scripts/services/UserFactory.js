@@ -5,7 +5,7 @@
 /**
  * The user factory.
  */
-app.factory('UserFactory', function($http) {
+angular.module('uiApp').factory('UserFactory', function($http) {
   return {
     get: function() {
       return $http.get('/user');

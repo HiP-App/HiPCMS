@@ -25,6 +25,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <!-- User is logged in -->
                     <li ng-if="isAuthenticated()"><a ui-sref="home">{{user.fullName ? user.fullName : user.firstName}}</a></li>
+                    <li ng-if="isAuthenticated()"><a ui-sref="test"> Admin </a></li>
                     <li ng-if="isAuthenticated()" ui-sref="signOut"><a href="">@Messages("sign.out")</a></li>
 
                     <!-- User is logged out -->
