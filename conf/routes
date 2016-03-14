@@ -19,4 +19,8 @@ GET         /views/$template<.+>.html        controllers.ApplicationController.v
 # Map static resources from the /public folder to the /assets URL path
 GET         /assets/*file                    controllers.Assets.at(path="/public", file)
 
-->          /                                yeoman.Routes
+# We override the yeoman routes with our own controller to prevent swagger-doc generation for them
+### NoDocs ###
+GET      /*file                                                controllers.yeoman.YeomanController.at(file)
+### NoDocs ###
+GET      /                                                     controllers.yeoman.YeomanController.index
