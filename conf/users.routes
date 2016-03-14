@@ -1,4 +1,4 @@
 GET         /                       @controllers.api.UsersController.userList
 
-POST        /*id                    @controllers.api.UsersController.updateUser(id)
+POST        /users/:id        @controllers.api.UsersController.updateUser(id: java.util.UUID)
 
