@@ -1,4 +1,36 @@
-GET         /                       @controllers.api.UsersController.userList
+###
+# summary: Gets all users
+# description: Returns an array of users.
+# responses:
+#   200:
+#     description: Success
+#   400:
+#     description: Request contained forbidden parameters
+#   401:
+#     description: Not Authorized
+#   404:
+#     description: Not Found
+#   405:
+#     description: Unallowed method
+#   501:
+#     description: Not implemented yet
+###
+GET         /users            @controllers.api.UsersController.userList(search: String ?= null, role: String ?= null)
 
+
+###
+# summary: Updates a single user
+# responses:
+#   200:
+#     description: Success
+#   400:
+#     description: Invalid or forbidden parameters
+#   401:
+#     description: Unauthorized
+#   409:
+#     description: Conflict
+#   501:
+#     description: Not implemented yet
+###
 POST        /users/:id        @controllers.api.UsersController.updateUser(id: java.util.UUID)
 
