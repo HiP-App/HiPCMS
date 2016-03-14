@@ -1,5 +1,57 @@
 @()
 
-<div class="user col-md-6 col-md-offset-3">
- <h1>{{myData}}</h1>
+
+<div class="row">
+
+
+<div id="search" class="col col-sm-8">
+ @* The Search box *@
+ <input class="form-control" ng-model="user.firstName" placeholder="Search user"/>
+</div>
+
+ <div id="drop"  class="col col-sm-4">
+
+ @* The Drop down list *@
+  <select ng-model="userRoles" class="btn btn-primary dropdown-toggle" ng-change="selectRole()">
+   <option ng-repeat="role in roles" value="{{role}}">{{role}}</option>
+  </select>
+
+ </div>
+
+ {{}}
+
+ @* Row end *@
+</div>
+
+
+
+<div id="admin-table" class="row">
+<div class="container table-responsive">
+<table class="table table-hover">
+ <thead>
+  <tr>
+   <th>Name</th>
+   <th>Email</th>
+   <th>Role</th>
+  </tr>
+ </thead>
+ <tbody>
+
+
+
+  <tr data-ng-repeat="user in users | filter: user.firstName">
+   <td>{{user.firstName}}&nbsp {{user.lastName}} </td>
+   <td>{{user.email}}</td>
+   <td>
+
+    <select ng-model="user.role" class="btn btn-primary dropdown-toggle" ng-change="setRole()">
+     <option ng-repeat="role in roles" value="{{role}}">{{role}}</option>
+    </select>
+
+   </td>
+   <td>{{user.role}}</td>
+  </tr>
+ </tbody>
+</table>
+</div>
 </div>

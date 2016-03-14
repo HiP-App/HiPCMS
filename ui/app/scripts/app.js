@@ -9,7 +9,8 @@ angular.module('uiApp', [
   'ngCookies',
   'ui.router',
   'mgcrea.ngStrap',
-  'satellizer'
+  'satellizer',
+  'ngMaterial'
 ])
 
 /**
@@ -67,7 +68,7 @@ angular.module('uiApp', [
       .state('test', {
         url: '/test',
         templateUrl:'/views/test.html',
-        controller:'TestCtrl',
+        controller:'AdminCtrl',
         authenticate:'true'
       })
 

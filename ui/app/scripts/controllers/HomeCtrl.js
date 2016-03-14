@@ -12,7 +12,6 @@ angular.module('uiApp').controller('HomeCtrl', ['$rootScope', '$scope', '$alert'
    */
   $scope.init = function() {
 
-    alert(UserFactory.get());
     UserFactory.get()
       .success(function(data) {
         $rootScope.user = data;
