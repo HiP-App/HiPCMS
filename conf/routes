@@ -1,23 +1,22 @@
 # Routes
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
+
+->          /api/users                       users.Routes
+
 GET         /user                            controllers.ApplicationController.user
 GET         /signOut                         controllers.ApplicationController.signOut
 POST        /signIn                          controllers.CredentialsAuthController.authenticate
 POST        /signUp                          controllers.SignUpController.signUp
 
-->          /api/users                       users.Routes
-
 GET         /docs/swagger.json               @controllers.swagger.ApiSpecs.specs
 
-# Dynamic part of the url
 GET         /views/$template<.+>.html        controllers.ApplicationController.view(template)
 
-# Map static resources from the /public folder to the /assets URL path
 GET         /assets/*file                    controllers.Assets.at(path="/public", file)
 
 # We override the yeoman routes with our own controller to prevent swagger-doc generation for them
 ### NoDocs ###
-GET      /*file                                                controllers.yeoman.YeomanController.at(file)
-### NoDocs ###
 GET      /                                                     controllers.yeoman.YeomanController.index
+### NoDocs ###
+GET      /*file                                                controllers.yeoman.YeomanController.at(file)
