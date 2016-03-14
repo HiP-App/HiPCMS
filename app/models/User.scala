@@ -23,6 +23,7 @@ case class User(
   lastName: Option[String],
   fullName: Option[String],
   email: Option[String],
+  role: Option[String],
   avatarURL: Option[String]) extends Identity
 
 /**
