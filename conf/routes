@@ -11,6 +11,7 @@ POST        /signUp                          controllers.SignUpController.signUp
 
 ->          /api/users                       users.Routes
 
+GET         /docs/swagger.json               @controllers.swagger.ApiSpecs.specs
 
 # Dynamic part of the url
 GET         /views/$template<.+>.html        controllers.ApplicationController.view(template)

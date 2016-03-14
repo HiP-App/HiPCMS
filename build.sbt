@@ -14,6 +14,8 @@ resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 
 resolvers += Resolver.sonatypeRepo("snapshots")
 
+resolvers += Resolver.jcenterRepo
+
 libraryDependencies ++= Seq(
   cache,
   ws,
@@ -25,8 +27,8 @@ libraryDependencies ++= Seq(
   "com.mohiva" %% "play-silhouette" % "3.0.2",
   "net.codingwell" %% "scala-guice" % "4.0.0",
   "net.ceedubs" %% "ficus" % "1.1.2",
-  "com.adrianhurt" %% "play-bootstrap3" % "0.4.4-P24"
-)
+  "com.adrianhurt" %% "play-bootstrap3" % "0.4.4-P24",
+  "com.iheart" %% "play-swagger" % "0.2.1")
 
 // Below Dependency is for ScalaTests, ScalaTestsplus play, Selenium WebDiver Dependency and Scalac-scoverage-runtime.
 //Becareful with using the correct versions.
