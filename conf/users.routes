@@ -1,0 +1,4 @@
+GET         /                       @controllers.api.UsersController.userList
+
+POST        /*id                    @controllers.api.UsersController.updateUser(id)
+

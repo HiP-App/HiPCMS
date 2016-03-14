@@ -9,6 +9,9 @@ GET         /signOut                         controllers.ApplicationController.s
 POST        /signIn                          controllers.CredentialsAuthController.authenticate
 POST        /signUp                          controllers.SignUpController.signUp
 
+->          /api/users                       users.Routes
+
+
 # Dynamic part of the url
 GET         /views/$template<.+>.html        controllers.ApplicationController.view(template)
 
