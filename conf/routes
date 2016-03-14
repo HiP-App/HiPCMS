@@ -4,15 +4,22 @@
 
 ->          /api/users                       users.Routes
 
+### NoDocs ###
 GET         /user                            controllers.ApplicationController.user
+### NoDocs ###
 GET         /signOut                         controllers.ApplicationController.signOut
+### NoDocs ###
 POST        /signIn                          controllers.CredentialsAuthController.authenticate
+### NoDocs ###
 POST        /signUp                          controllers.SignUpController.signUp
 
+### NoDocs ###
 GET         /docs/swagger.json               @controllers.swagger.ApiSpecs.specs
 
+### NoDocs ###
 GET         /views/$template<.+>.html        controllers.ApplicationController.view(template)
 
+### NoDocs ###
 GET         /assets/*file                    controllers.Assets.at(path="/public", file)
 
 # We override the yeoman routes with our own controller to prevent swagger-doc generation for them
