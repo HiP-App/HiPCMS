@@ -45,7 +45,6 @@ libraryDependencies ++= Seq(
   "net.codingwell" %% "scala-guice" % "4.0.0",
   "net.ceedubs" %% "ficus" % "1.1.2",
   "com.adrianhurt" %% "play-bootstrap3" % "0.4.4-P24",
-  "com.typesafe.play" %% "play-mailer" % "3.0.1",
   //"com.mohiva" %% "play-silhouette-testkit" % "3.0.0" % "test",
   cache,
   filters
