@@ -1,6 +1,8 @@
 HiPCMS
 ======
 
+[![Codacy Badge](https://api.codacy.com/project/badge/grade/b905a3e6757a49979e2135f84f8feaef)](https://www.codacy.com/app/HiP-App/HiPCMS)
+
 This content management system is developed by the project group [History in 
 Paderborn](http://is.uni-paderborn.de/fachgebiete/fg-engels/lehre/ss15/hip-app/pg-hip-app.html).
 It is developed to fill the system 'History in Paderborn' with data. This 
