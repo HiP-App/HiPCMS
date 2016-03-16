@@ -33,7 +33,6 @@ libraryDependencies ++= Seq(
 libraryDependencies ++= Seq(
   "org.scalatest" %% "scalatest" % "2.2.6" % "test",
   "org.scalatestplus" %% "play" % "1.4.0-M3" % "test",
-  "org.seleniumhq.selenium" % "selenium-java" % "2.48.0" % "test",
   "org.scoverage" %% "scalac-scoverage-runtime" % "1.1.1",
   "com.mohiva" %% "play-silhouette-testkit" % "3.0.2" % "test"
 )
@@ -46,7 +45,8 @@ libraryDependencies ++= Seq(
   "net.codingwell" %% "scala-guice" % "4.0.0",
   "net.ceedubs" %% "ficus" % "1.1.2",
   "com.adrianhurt" %% "play-bootstrap3" % "0.4.4-P24",
-  "com.mohiva" %% "play-silhouette-testkit" % "3.0.0" % "test",
+  "com.typesafe.play" %% "play-mailer" % "3.0.1",
+  //"com.mohiva" %% "play-silhouette-testkit" % "3.0.0" % "test",
   cache,
   filters
 )
