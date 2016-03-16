@@ -8,6 +8,9 @@ cache:
     - "$HOME/.sbt/boot/"
     - node_modules/
 
+services:
+  - mysql
+
 scala:
    - 2.11.3
 
@@ -16,6 +19,9 @@ jdk:
 
 install:
   - "./setup.sh"
+
+before_script:
+  - mysql -e 'create database HiPCMSdb;'
 
 script:
   - "./test.sh"
