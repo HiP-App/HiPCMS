@@ -2,13 +2,19 @@ package controllers
 
 import javax.inject.Inject
 
+
+import models.User
+import utils.silhouette.AuthenticationController
+
+import utils.silhouette.WithRole
+import play.api._
+import play.api.mvc._
 import com.mohiva.play.silhouette.api.{ Environment, LogoutEvent, Silhouette }
 import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
-import com.mohiva.play.silhouette.impl.providers.SocialProviderRegistry
-import models.User
 import play.api.i18n.MessagesApi
 import play.api.libs.json.Json
 
+import scala.concurrent.ExecutionContext.Implicits._
 import scala.concurrent.Future
 
 /**
@@ -20,14 +26,14 @@ import scala.concurrent.Future
 class ApplicationController @Inject() (
   val messagesApi: MessagesApi,
   val env: Environment[User, JWTAuthenticator])
-  extends Silhouette[User, JWTAuthenticator] {
+  extends Silhouette[User, JWTAuthenticator] with AuthenticationController {
 
   /**
    * Returns the user.
    *
    * @return The result to display.
    */
-  def user = SecuredAction.async { implicit request =>
+  def user = SecuredAction(WithRole("Student")).async { implicit request =>
     Future.successful(Ok(Json.toJson(request.identity)))
   }
 
