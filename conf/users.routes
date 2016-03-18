@@ -1,11 +1,11 @@
 ###
 # summary: Gets all users
-# description: Returns an array of users.
+# description: The user models also include a field "uuid" to identify the record.
 # responses:
 #   200:
 #     description: Success
 #     schema:
-#        $ref: '#/definitions/controllers.api.protocol.ListUserModel'
+#        $ref: '#/definitions/controllers.api.protocol.UsersResponse'
 #   400:
 #     description: Request contained forbidden parameters
 #   401:
@@ -15,7 +15,7 @@
 #   501:
 #     description: Not implemented yet
 ###
-GET         /            @controllers.api.UsersController.userList(search: String ?= null, role: String ?= null)
+GET         /           @controllers.api.UsersController.userList(search: Option[String], role: Option[String])
 
 
 ###

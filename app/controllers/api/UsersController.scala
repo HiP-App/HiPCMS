@@ -5,7 +5,7 @@ import javax.inject.Inject
 
 import com.mohiva.play.silhouette.api.{Environment, Silhouette}
 import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
-import controllers.api.protocol.ListUserModel
+import controllers.api.protocol.{UserResponseModel, UsersResponse}
 import models.User
 import play.api.i18n.MessagesApi
 import play.api.libs.json.Json
@@ -30,8 +30,8 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     * @return the users matching the given filter parameters.
     * @todo Implement controller method
     */
-  def userList(search: String, role: String) = SecuredAction.async { implicit request =>
-    val emptyList = Array[ListUserModel]()
+  def userList(search: Option[String], role: Option[String]) = SecuredAction.async { implicit request =>
+    val emptyList = UsersResponse(List[UserResponseModel]())
     Future.successful(NotImplemented(Json.toJson(emptyList)))
   }
 
