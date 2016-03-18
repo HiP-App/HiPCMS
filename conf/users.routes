@@ -10,8 +10,6 @@
 #     description: Not Authorized
 #   404:
 #     description: Not Found
-#   405:
-#     description: Unallowed method
 #   501:
 #     description: Not implemented yet
 ###
