@@ -1,11 +1,24 @@
 package controllers.api
 
 import java.util.UUID
+import javax.inject.Inject
+
+import com.mohiva.play.silhouette.api.{Environment, Silhouette}
+import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
+import controllers.api.protocol.ListUserModel
+import models.User
+import play.api.i18n.MessagesApi
+import play.api.libs.json.Json
+
+import scala.concurrent.Future
+
 
 /**
   * A controller to collect all API methods related to users.
   */
-class UsersController {
+class UsersController @Inject()(val messagesApi: MessagesApi,
+                                val env: Environment[User, JWTAuthenticator])
+  extends Silhouette[User, JWTAuthenticator] {
 
   /**
     * Finds the users matching the given filters.
@@ -17,7 +30,11 @@ class UsersController {
     * @return the users matching the given filter parameters.
     * @todo Implement controller method
     */
-  def userList(search: String, role: String) = play.mvc.Results.TODO
+  def userList(search: String, role: String) = SecuredAction.async { implicit request =>
+    val emptyList = Array[ListUserModel]()
+    Future.successful(NotImplemented(Json.toJson(emptyList)))
+  }
+
 
   /**
     *

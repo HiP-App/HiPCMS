@@ -4,6 +4,8 @@
 # responses:
 #   200:
 #     description: Success
+#     schema:
+#        $ref: '#/definitions/controllers.api.protocol.ListUserModel'
 #   400:
 #     description: Request contained forbidden parameters
 #   401:
