@@ -13,7 +13,7 @@
 #   501:
 #     description: Not implemented yet
 ###
-GET         /users            @controllers.api.UsersController.userList(search: String ?= null, role: String ?= null)
+GET         /            @controllers.api.UsersController.userList(search: String ?= null, role: String ?= null)
 
 
 ###
@@ -30,5 +30,5 @@ GET         /users            @controllers.api.UsersController.userList(search: 
 #   501:
 #     description: Not implemented yet
 ###
-POST        /users/:id        @controllers.api.UsersController.updateUser(id: java.util.UUID)
+POST        /:id        @controllers.api.UsersController.updateUser(id: java.util.UUID)
 
