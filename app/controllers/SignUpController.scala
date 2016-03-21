@@ -12,38 +12,38 @@ import com.mohiva.play.silhouette.impl.providers.CredentialsProvider
 import forms.SignUpForm
 import models.User
 import models.services.UserService
-import play.api.i18n.{ MessagesApi, Messages }
+import play.api.i18n.{Messages, MessagesApi}
 import play.api.libs.concurrent.Execution.Implicits._
-import play.api.libs.json.{JsError, Json}
+import play.api.libs.json.{JsError, JsValue, Json}
 import play.api.mvc.Action
 
 import scala.concurrent.Future
 
 /**
- * The sign up controller.
- *
- * @param messagesApi The Play messages API.
- * @param env The Silhouette environment.
- * @param userService The user service implementation.
- * @param authInfoRepository The auth info repository implementation.
- * @param avatarService The avatar service implementation.
- * @param passwordHasher The password hasher implementation.
- */
-class SignUpController @Inject() (
-  val messagesApi: MessagesApi,
-  val env: Environment[User, JWTAuthenticator],
-  userService: UserService,
-  authInfoRepository: AuthInfoRepository,
-  avatarService: AvatarService,
-  passwordHasher: PasswordHasher)
+  * The sign up controller.
+  *
+  * @param messagesApi        The Play messages API.
+  * @param env                The Silhouette environment.
+  * @param userService        The user service implementation.
+  * @param authInfoRepository The auth info repository implementation.
+  * @param avatarService      The avatar service implementation.
+  * @param passwordHasher     The password hasher implementation.
+  */
+class SignUpController @Inject()(
+                                  val messagesApi: MessagesApi,
+                                  val env: Environment[User, JWTAuthenticator],
+                                  userService: UserService,
+                                  authInfoRepository: AuthInfoRepository,
+                                  avatarService: AvatarService,
+                                  passwordHasher: PasswordHasher)
   extends Silhouette[User, JWTAuthenticator] {
 
   /**
-   * Registers a new user.
-   *
-   * @return The result to display.
-   */
-  def signUp = Action.async(parse.json) { implicit request =>
+    * Registers a new user.
+    *
+    * @return The result to display.
+    */
+  def signUp: Action[JsValue] = Action.async(parse.json) { implicit request =>
     request.body.validate[SignUpForm.Data].map { data =>
       val loginInfo = LoginInfo(CredentialsProvider.ID, data.email)
       userService.retrieve(loginInfo).flatMap {

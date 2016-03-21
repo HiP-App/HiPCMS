@@ -25,41 +25,41 @@ import scala.concurrent.Future
 import scala.concurrent.duration._
 
 /**
- * The credentials auth controller.
- *
- * @param messagesApi The Play messages API.
- * @param env The Silhouette environment.
- * @param userService The user service implementation.
- * @param authInfoRepository The auth info repository implementation.
- * @param credentialsProvider The credentials provider.
- * @param configuration The Play configuration.
- * @param clock The clock instance.
- */
-class CredentialsAuthController @Inject() (
-  val messagesApi: MessagesApi,
-  val env: Environment[User, JWTAuthenticator],
-  userService: UserService,
-  authInfoRepository: AuthInfoRepository,
-  credentialsProvider: CredentialsProvider,
-  configuration: Configuration,
-  clock: Clock)
+  * The credentials auth controller.
+  *
+  * @param messagesApi         The Play messages API.
+  * @param env                 The Silhouette environment.
+  * @param userService         The user service implementation.
+  * @param authInfoRepository  The auth info repository implementation.
+  * @param credentialsProvider The credentials provider.
+  * @param configuration       The Play configuration.
+  * @param clock               The clock instance.
+  */
+class CredentialsAuthController @Inject()(
+                                           val messagesApi: MessagesApi,
+                                           val env: Environment[User, JWTAuthenticator],
+                                           userService: UserService,
+                                           authInfoRepository: AuthInfoRepository,
+                                           credentialsProvider: CredentialsProvider,
+                                           configuration: Configuration,
+                                           clock: Clock)
   extends Silhouette[User, JWTAuthenticator] {
 
   /**
-   * Converts the JSON into a `SignInForm.Data` object.
-   */
+    * Converts the JSON into a `SignInForm.Data` object.
+    */
   implicit val dataReads = (
     (__ \ 'email).read[String] and
-    (__ \ 'password).read[String] and
-    (__ \ 'rememberMe).read[Boolean]
-  )(SignInForm.Data.apply _)
+      (__ \ 'password).read[String] and
+      (__ \ 'rememberMe).read[Boolean]
+    ) (SignInForm.Data.apply _)
 
   /**
-   * Authenticates a user against the credentials provider.
-   *
-   * @return The result to display.
-   */
-  def authenticate = Action.async(parse.json) { implicit request =>
+    * Authenticates a user against the credentials provider.
+    *
+    * @return The result to display.
+    */
+  def authenticate: Action[JsValue] = Action.async(parse.json) { implicit request =>
     request.body.validate[SignInForm.Data].map { data =>
 
       logger.debug(s"Authentification Request: $data")
@@ -86,7 +86,7 @@ class CredentialsAuthController @Inject() (
         case e: ProviderException => {
           logger.error(s"ProviderException: $e.getMessage", e)
           Unauthorized(Json.obj("message" -> Messages("invalid.credentials")))
-      }
+        }
       }
     }.recoverTotal {
       case e: JsError =>
