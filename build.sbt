@@ -8,6 +8,17 @@ version := "1.0-SNAPSHOT"
 
 scalaVersion := "2.11.7"
 
+lazy val root = (project in file(".")).enablePlugins(PlayScala)
+
+resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
+
+// syncing the binary with the sbt-plugin-releases repo
+resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
+
+resolvers += Resolver.sonatypeRepo("snapshots")
+
+resolvers += ("Atlassian Releases" at "https://maven.atlassian.com/public/")
+
 resolvers := ("Atlassian Releases" at "https://maven.atlassian.com/public/") +: resolvers.value
 
 resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
@@ -52,17 +63,6 @@ libraryDependencies ++= Seq(
   cache,
   filters
 )
-
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
-
-resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
-
-// syncing the binary with the sbt-plugin-releases repo
-resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
-
-resolvers += Resolver.sonatypeRepo("snapshots")
-
-resolvers += ("Atlassian Releases" at "https://maven.atlassian.com/public/")
 
 routesGenerator := InjectedRoutesGenerator
 
