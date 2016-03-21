@@ -6,7 +6,7 @@ import com.mohiva.play.silhouette.api.{Environment, LogoutEvent, Silhouette}
 import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
 import models.User
 import play.api.i18n.MessagesApi
-import play.api.libs.json.Json
+import play.api.libs.json.{JsValue, Json}
 import play.api.mvc.{Action, AnyContent}
 
 import scala.concurrent.Future
@@ -23,29 +23,29 @@ class ApplicationController @Inject() (
   extends Silhouette[User, JWTAuthenticator] {
 
   /**
-   * Returns the user.
-   *
-   * @return The result to display.
-   */
-    def user : Action[AnyContent] = SecuredAction.async { implicit request =>
+    * Returns the user.
+    *
+    * @return The result to display.
+    */
+  def user: Action[JsValue] = SecuredAction.async(parse.json) { implicit request =>
     Future.successful(Ok(Json.toJson(request.identity)))
   }
 
   /**
-   * Manages the sign out action.
-   */
-  def signOut : Action[AnyContent] = SecuredAction.async { implicit request =>
+    * Manages the sign out action.
+    */
+  def signOut: Action[JsValue] = SecuredAction.async(parse.json) { implicit request =>
     env.eventBus.publish(LogoutEvent(request.identity, request, request2Messages))
     env.authenticatorService.discard(request.authenticator, Ok)
   }
 
   /**
-   * Provides the desired template.
-   *
-   * @param template The template to provide.
-   * @return The template.
-   */
-  def view(template: String) : Action[AnyContent] = UserAwareAction { implicit request =>
+    * Provides the desired template.
+    *
+    * @param template The template to provide.
+    * @return The template.
+    */
+  def view(template: String): Action[AnyContent] = UserAwareAction { implicit request =>
     template match {
       case "home" => Ok(views.html.home())
       case "signUp" => Ok(views.html.signUp())
