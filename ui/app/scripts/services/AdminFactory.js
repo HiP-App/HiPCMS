@@ -8,31 +8,31 @@ angular.module('uiApp').service('AdminFactory', function(){
             firstName: "Lamija",
             lastName: "Halvadzija",
             email: "lh@lh.com",
-            role: "supervisor"
+            role: "Supervisor"
         },
         {
             firstName: "Nitish",
             lastName: "Patkar",
             email: "np@np.com",
-            role: "supervisor"
+            role: "Supervisor"
         },
         {
             firstName: "Venkatesh",
             lastName: "Penchala",
             email: "vp@vp.com",
-            role: "admin"
+            role: "Admin"
         },
         {
             firstName: "Usman",
             lastName: "Sherwani",
             email: "us@us.com",
-            role: "student"
+            role: "Student"
         },
         {
             firstName: "Jan",
             lastName: "Lippert",
             email: "jp@jp.com",
-            role: "supervisor"
+            role: "Supervisor"
         }
 
     ];
