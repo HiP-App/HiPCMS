@@ -12,9 +12,9 @@ import com.mohiva.play.silhouette.impl.providers.CredentialsProvider
 import forms.SignUpForm
 import models.User
 import models.services.UserService
-import play.api.i18n.{ MessagesApi, Messages }
+import play.api.i18n.{Messages, MessagesApi}
 import play.api.libs.concurrent.Execution.Implicits._
-import play.api.libs.json.{JsError, Json}
+import play.api.libs.json.{JsError, JsValue, Json}
 import play.api.mvc.Action
 
 import scala.concurrent.Future
@@ -43,7 +43,7 @@ class SignUpController @Inject() (
    *
    * @return The result to display.
    */
-  def signUp = Action.async(parse.json) { implicit request =>
+  def signUp : Action[JsValue]= Action.async(parse.json) { implicit request =>
     request.body.validate[SignUpForm.Data].map { data =>
       val loginInfo = LoginInfo(CredentialsProvider.ID, data.email)
       userService.retrieve(loginInfo).flatMap {

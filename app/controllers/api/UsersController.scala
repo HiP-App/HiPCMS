@@ -9,6 +9,7 @@ import controllers.api.protocol.{UserResponseModel, UsersResponse}
 import models.User
 import play.api.i18n.MessagesApi
 import play.api.libs.json.Json
+import play.api.mvc.{Action, AnyContent}
 
 import scala.concurrent.Future
 
@@ -30,7 +31,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     * @return the users matching the given filter parameters.
     * @todo Implement controller method
     */
-  def userList(search: Option[String], role: Option[String]) = SecuredAction.async { implicit request =>
+  def userList(search: Option[String], role: Option[String])  : Action[AnyContent] = SecuredAction.async { implicit request =>
     val emptyList = UsersResponse(List[UserResponseModel]())
     Future.successful(NotImplemented(Json.toJson(emptyList)))
   }
@@ -43,6 +44,6 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     * @todo Add documentationt
     * @todo Implement controller method
     */
-  def updateUser(id: UUID) = play.mvc.Results.TODO
+  def updateUser(id: UUID) : play.mvc.Result = play.mvc.Results.TODO
 
 }

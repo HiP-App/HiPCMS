@@ -2,12 +2,12 @@ package controllers
 
 import javax.inject.Inject
 
-import com.mohiva.play.silhouette.api.{ Environment, LogoutEvent, Silhouette }
+import com.mohiva.play.silhouette.api.{Environment, LogoutEvent, Silhouette}
 import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
-import com.mohiva.play.silhouette.impl.providers.SocialProviderRegistry
 import models.User
 import play.api.i18n.MessagesApi
 import play.api.libs.json.Json
+import play.api.mvc.{Action, AnyContent}
 
 import scala.concurrent.Future
 
@@ -27,14 +27,14 @@ class ApplicationController @Inject() (
    *
    * @return The result to display.
    */
-  def user = SecuredAction.async { implicit request =>
+    def user : Action[AnyContent] = SecuredAction.async { implicit request =>
     Future.successful(Ok(Json.toJson(request.identity)))
   }
 
   /**
    * Manages the sign out action.
    */
-  def signOut = SecuredAction.async { implicit request =>
+  def signOut : Action[AnyContent] = SecuredAction.async { implicit request =>
     env.eventBus.publish(LogoutEvent(request.identity, request, request2Messages))
     env.authenticatorService.discard(request.authenticator, Ok)
   }
@@ -45,7 +45,7 @@ class ApplicationController @Inject() (
    * @param template The template to provide.
    * @return The template.
    */
-  def view(template: String) = UserAwareAction { implicit request =>
+  def view(template: String) : Action[AnyContent] = UserAwareAction { implicit request =>
     template match {
       case "home" => Ok(views.html.home())
       case "signUp" => Ok(views.html.signUp())
