@@ -37,7 +37,13 @@ object UserResponseModel {
 
     import scala.util.Try
 
-    def check(s: String)(u: UUID): Boolean = (u != null && s == u.toString())
+    /**
+      * Checks if a String <code>s</code> matches a UUID <code>u</code>.
+      * @param s the String to check
+      * @param u the UUID to check
+      * @return true, if both match
+      */
+    def check(s: String)(u: UUID): Boolean = Try(s == u.toString).getOrElse(false)
 
     def parseUuid(s: String): Option[UUID] = {
       val uncheckedUuid = Try(UUID.fromString(s)).toOption
