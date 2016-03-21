@@ -6,7 +6,7 @@ import javax.inject.Inject
 import models.User
 import utils.silhouette.AuthenticationController
 
-import utils.silhouette.WithRole
+import utils.silhouette.WithRoles
 import play.api._
 import play.api.mvc._
 import com.mohiva.play.silhouette.api.{ Environment, LogoutEvent, Silhouette }
@@ -33,7 +33,7 @@ class ApplicationController @Inject() (
    *
    * @return The result to display.
    */
-  def user = SecuredAction(WithRole("Student")).async { implicit request =>
+  def user = SecuredAction(WithRoles(User.Roles.Student, User.Roles.Admin)).async { implicit request =>
     Future.successful(Ok(Json.toJson(request.identity)))
   }
 
