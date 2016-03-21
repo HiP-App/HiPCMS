@@ -12,14 +12,14 @@ import play.api.mvc.{Action, AnyContent}
 import scala.concurrent.Future
 
 /**
- * The basic application controller.
- *
- * @param messagesApi The Play messages API.
- * @param env The Silhouette environment.
- */
-class ApplicationController @Inject() (
-  val messagesApi: MessagesApi,
-  val env: Environment[User, JWTAuthenticator])
+  * The basic application controller.
+  *
+  * @param messagesApi The Play messages API.
+  * @param env         The Silhouette environment.
+  */
+class ApplicationController @Inject()(
+                                       val messagesApi: MessagesApi,
+                                       val env: Environment[User, JWTAuthenticator])
   extends Silhouette[User, JWTAuthenticator] {
 
   /**
@@ -27,7 +27,6 @@ class ApplicationController @Inject() (
     *
     * @note We are using `parse.json` in the implementation so that we're able to return Action[JsValue].
     *       There is no request validation.
-    *
     * @return The result to display.
     */
   def user: Action[JsValue] = SecuredAction.async(parse.json) { implicit request =>

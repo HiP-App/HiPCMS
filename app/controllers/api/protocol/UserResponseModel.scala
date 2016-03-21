@@ -18,7 +18,7 @@ import play.api.libs.json._
 case class UserResponseModel(userID: UUID,
                              firstName: Option[String],
                              lastName: Option[String],
-                             email: Option[String]) extends Identity{
+                             email: Option[String]) extends Identity {
 
 }
 
@@ -39,6 +39,7 @@ object UserResponseModel {
 
     /**
       * Checks if a String <code>s</code> matches a UUID <code>u</code>.
+      *
       * @param s the String to check
       * @param u the UUID to check
       * @return true, if both match

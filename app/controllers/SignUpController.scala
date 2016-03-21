@@ -20,30 +20,30 @@ import play.api.mvc.Action
 import scala.concurrent.Future
 
 /**
- * The sign up controller.
- *
- * @param messagesApi The Play messages API.
- * @param env The Silhouette environment.
- * @param userService The user service implementation.
- * @param authInfoRepository The auth info repository implementation.
- * @param avatarService The avatar service implementation.
- * @param passwordHasher The password hasher implementation.
- */
-class SignUpController @Inject() (
-  val messagesApi: MessagesApi,
-  val env: Environment[User, JWTAuthenticator],
-  userService: UserService,
-  authInfoRepository: AuthInfoRepository,
-  avatarService: AvatarService,
-  passwordHasher: PasswordHasher)
+  * The sign up controller.
+  *
+  * @param messagesApi        The Play messages API.
+  * @param env                The Silhouette environment.
+  * @param userService        The user service implementation.
+  * @param authInfoRepository The auth info repository implementation.
+  * @param avatarService      The avatar service implementation.
+  * @param passwordHasher     The password hasher implementation.
+  */
+class SignUpController @Inject()(
+                                  val messagesApi: MessagesApi,
+                                  val env: Environment[User, JWTAuthenticator],
+                                  userService: UserService,
+                                  authInfoRepository: AuthInfoRepository,
+                                  avatarService: AvatarService,
+                                  passwordHasher: PasswordHasher)
   extends Silhouette[User, JWTAuthenticator] {
 
   /**
-   * Registers a new user.
-   *
-   * @return The result to display.
-   */
-  def signUp : Action[JsValue]= Action.async(parse.json) { implicit request =>
+    * Registers a new user.
+    *
+    * @return The result to display.
+    */
+  def signUp: Action[JsValue] = Action.async(parse.json) { implicit request =>
     request.body.validate[SignUpForm.Data].map { data =>
       val loginInfo = LoginInfo(CredentialsProvider.ID, data.email)
       userService.retrieve(loginInfo).flatMap {

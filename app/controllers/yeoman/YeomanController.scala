@@ -8,8 +8,8 @@ import play.api.mvc.{Action, AnyContent}
   * It needs to be used to prevent swagger-doc generation for yeoman.Routes
   */
 class YeomanController {
-  
-      val index : Action[AnyContent] = Yeoman.index
-  
-      def at (file: String) : Action[AnyContent] = Yeoman.at(file)
-  }
+
+  val index: Action[AnyContent] = Yeoman.index
+
+  def at(file: String): Action[AnyContent] = Yeoman.at(file)
+}

@@ -59,7 +59,7 @@ class CredentialsAuthController @Inject()(
     *
     * @return The result to display.
     */
-  def authenticate : Action[JsValue] = Action.async(parse.json) { implicit request =>
+  def authenticate: Action[JsValue] = Action.async(parse.json) { implicit request =>
     request.body.validate[SignInForm.Data].map { data =>
 
       logger.debug(s"Authentification Request: $data")

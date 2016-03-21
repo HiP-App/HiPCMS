@@ -31,7 +31,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     * @return the users matching the given filter parameters.
     * @todo Implement controller method
     */
-  def userList(search: Option[String], role: Option[String])  : Action[AnyContent] = SecuredAction.async { implicit request =>
+  def userList(search: Option[String], role: Option[String]): Action[AnyContent] = SecuredAction.async { implicit request =>
     val emptyList = UsersResponse(List[UserResponseModel]())
     Future.successful(NotImplemented(Json.toJson(emptyList)))
   }
@@ -44,6 +44,6 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     * @todo Add documentationt
     * @todo Implement controller method
     */
-  def updateUser(id: UUID) : play.mvc.Result = play.mvc.Results.TODO
+  def updateUser(id: UUID): play.mvc.Result = play.mvc.Results.TODO
 
 }
