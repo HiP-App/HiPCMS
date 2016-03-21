@@ -35,4 +35,9 @@ object User {
    * Converts the [User] object to Json and vice versa.
    */
   implicit val jsonFormat = Json.format[User]
+  object Roles {
+    val Admin = "Admin"
+    val Student = "Student"
+    val Supervisor = "Supervisor"
+  }
 }
