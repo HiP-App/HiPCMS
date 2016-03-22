@@ -31,21 +31,16 @@ class ApplicationController @Inject()(
   /**
     * Returns the user.
     *
-    * @note We are using `parse.json` in the implementation so that we're able to return Action[JsValue].
-    *       There is no request validation.
     * @return The result to display.
     */
-  def user: Action[JsValue] = SecuredAction(WithRoles(User.Roles.Student, User.Roles.Admin)).async(parse.json) { implicit request =>
+  def user: Action[AnyContent] = SecuredAction(WithRoles(User.Roles.Student, User.Roles.Admin)).async { implicit request =>
     Future.successful(Ok(Json.toJson(request.identity)))
   }
 
   /**
     * Manages the sign out action.
-    *
-    * @note We are using `parse.json` in the implementation so that we're able to return Action[JsValue].
-    *       There is no request validation.
     */
-  def signOut: Action[JsValue] = SecuredAction.async(parse.json) { implicit request =>
+  def signOut: Action[AnyContent] = SecuredAction.async { implicit request =>
     env.eventBus.publish(LogoutEvent(request.identity, request, request2Messages))
     env.authenticatorService.discard(request.authenticator, Ok)
   }
