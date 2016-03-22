@@ -15,7 +15,7 @@ import play.api.libs.json._
   * @param lastName  the user's last name
   * @param email     the user's email address
   */
-case class UserResponseModel(userID: UUID,
+case class UserProtocolModel(userID: UUID,
                              firstName: Option[String],
                              lastName: Option[String],
                              email: Option[String]) extends Identity {
@@ -25,7 +25,7 @@ case class UserResponseModel(userID: UUID,
 /**
   * The companion object. Provides implicit Json formatting.
   */
-object UserResponseModel {
+object UserProtocolModel {
 
   /**
     * Deserializer for java.util.UUID
@@ -71,6 +71,6 @@ object UserResponseModel {
     */
   implicit val uuidWrites = Writes[UUID] { uuid => JsString(uuid.toString) }
 
-  implicit val implicitListUserModelFormats = Json.format[UserResponseModel]
+  implicit val implicitListUserModelFormats = Json.format[UserProtocolModel]
 
 }

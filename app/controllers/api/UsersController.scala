@@ -3,18 +3,18 @@ package controllers.api
 import java.util.UUID
 import javax.inject.Inject
 
-import com.mohiva.play.silhouette.api.{Environment, Silhouette}
+import com.mohiva.play.silhouette.api.{Environment, LoginInfo, Silhouette}
 import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
-import controllers.api.protocol.{UserResponseModel, UsersResponse}
+import com.mohiva.play.silhouette.impl.exceptions.IdentityNotFoundException
+import controllers.api.protocol.{UserProtocolModel, UsersResponse}
 import models.User
 import models.services.UserServiceImpl
 import play.api.i18n.{Messages, MessagesApi}
-import play.api.libs.json.{JsValue, Json}
+import play.api.libs.json.{JsError, JsValue, Json}
 import play.api.mvc.{Action, AnyContent}
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
-
 import play.api.libs.concurrent.Execution.Implicits._
 
 /**
@@ -38,7 +38,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     * @todo filter users by role
     */
   def userList(search: Option[String], role: Option[String]): Action[AnyContent] = SecuredAction.async { implicit request =>
-    val emptyList = UsersResponse(List[UserResponseModel]())
+    val emptyList = UsersResponse(List[UserProtocolModel]())
 
     val usersFoundBySearch = if (search.isDefined) {
       userServiceImpl.retrieve(search.get)
@@ -47,7 +47,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     }
 
     usersFoundBySearch.map(seq => {
-      val responseModels: Seq[UserResponseModel] = seq.map(u => UserResponseModel(u.userID, u.firstName, u.lastName, u.email))
+      val responseModels: Seq[UserProtocolModel] = seq.map(u => UserProtocolModel(u.userID, u.firstName, u.lastName, u.email))
       val json: JsValue = Json.toJson(responseModels)
       Ok(json)
     })
@@ -55,12 +55,35 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
 
 
   /**
+    * Updates the requested user.
     *
-    * @param id
-    * @return
-    * @todo Add documentationt
-    * @todo Implement controller method
+    * @param id the id of the user that should be updated
+    * @return the updated user as json or an error object
     */
-  def updateUser(id: UUID): play.mvc.Result = play.mvc.Results.TODO
+  def updateUser(id: UUID): Action[JsValue] = SecuredAction.async(parse.json) { request =>
+    request.body.validate[UserProtocolModel].map { data =>
+      userServiceImpl.retrieve(id).flatMap {
+        case Some(user) => {
+          val updateUser = User(id,
+            user.loginInfo,
+            Option(data.firstName.getOrElse(user.firstName.get)),
+            Option(data.lastName.getOrElse(user.lastName.get)),
+            user.fullName,
+            Option(data.email.getOrElse(user.email.get)),
+            user.avatarURL)
+
+          userServiceImpl
+            .save(updateUser)
+            .map { u => Ok(Json.toJson(u)) }
+        }
+        case None => Future.failed(new IdentityNotFoundException("Couldn't find user"))
+      }
+    }.recoverTotal {
+      case e: JsError =>
+        logger.error(e.toString)
+        Future.successful(Unauthorized(Json.obj("message" -> Messages("invalid.credentials"))))
+    }
+
+  }
 
 }
