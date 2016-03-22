@@ -27,6 +27,14 @@ class UserServiceImpl @Inject() (userDAO: UserDAO) extends UserService {
   def retrieve(loginInfo: LoginInfo): Future[Option[User]] = userDAO.find(loginInfo)
 
   /**
+    * Finds a user by its user ID.
+    *
+    * @param userID The ID of the user to find.
+    * @return The found user or None if no user for the given ID could be found.
+    */
+  def retrieve(userID: UUID): Future[Option[User]] = userDAO.find(userID)
+
+  /**
     * Retrieves all known users.
     *
     * @return All known users. May be empty.
