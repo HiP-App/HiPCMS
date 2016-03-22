@@ -2,17 +2,28 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
-GET         /                                com.tuplejump.playYeoman.Yeoman.index
+->          /api/users                       users.Routes
 
+### NoDocs ###
 GET         /user                            controllers.ApplicationController.user
+### NoDocs ###
 GET         /signOut                         controllers.ApplicationController.signOut
+### NoDocs ###
 POST        /signIn                          controllers.CredentialsAuthController.authenticate
+### NoDocs ###
 POST        /signUp                          controllers.SignUpController.signUp
 
-# Dynamic part of the url
+### NoDocs ###
+GET         /docs/swagger.json               @controllers.swagger.ApiSpecs.specs
+
+### NoDocs ###
 GET         /views/$template<.+>.html        controllers.ApplicationController.view(template)
 
-# Map static resources from the /public folder to the /assets URL path
+### NoDocs ###
 GET         /assets/*file                    controllers.Assets.at(path="/public", file)
 
-->          /                                yeoman.Routes
+# We override the yeoman routes with our own controller to prevent swagger-doc generation for them
+### NoDocs ###
+GET      /                                                     controllers.yeoman.YeomanController.index
+### NoDocs ###
+GET      /*file                                                controllers.yeoman.YeomanController.at(file)
