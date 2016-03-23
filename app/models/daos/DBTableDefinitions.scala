@@ -10,13 +10,13 @@ trait DBTableDefinitions {
   import driver.api._
 
   case class DBUser (
-    userID: String,
-    firstName: Option[String],
-    lastName: Option[String],
-    fullName: Option[String],
-    email: Option[String],
-    role: Option[String],
-    avatarURL: Option[String]
+                      userID: String,
+                      firstName: Option[String],
+                      lastName: Option[String],
+                      fullName: Option[String],
+                      email: Option[String],
+                      role: String,
+                      avatarURL: Option[String]
   )
 
   class Users(tag: Tag) extends Table[DBUser](tag, "user") {
@@ -25,7 +25,8 @@ trait DBTableDefinitions {
     def lastName = column[Option[String]]("lastName")
     def fullName = column[Option[String]]("fullName")
     def email = column[Option[String]]("email")
-    def role = column[Option[String]]("role")
+
+    def role = column[String]("role")
     def avatarURL = column[Option[String]]("avatarURL")
     def * = (id, firstName, lastName, fullName, email, role, avatarURL) <> (DBUser.tupled, DBUser.unapply)
   }

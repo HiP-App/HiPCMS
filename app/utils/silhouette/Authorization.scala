@@ -19,5 +19,5 @@ case class WithRoles(listOfRoles: String*) extends Authorization[User, JWTAuthen
 }
 object WithRoles {
   def isAuthorized(user: User, listOfRoles: String*): Boolean =
-    listOfRoles.contains(user.role.get)
+    listOfRoles.contains(user.role)
 }

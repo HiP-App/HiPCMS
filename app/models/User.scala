@@ -14,17 +14,18 @@ import play.api.libs.json.Json
  * @param lastName Maybe the last name of the authenticated user.
  * @param fullName Maybe the full name of the authenticated user.
  * @param email Maybe the email of the authenticated provider.
+ * @param role The user's role
  * @param avatarURL Maybe the avatar URL of the authenticated provider.
  */
 case class User(
-  userID: UUID,
-  loginInfo: LoginInfo,
-  firstName: Option[String],
-  lastName: Option[String],
-  fullName: Option[String],
-  email: Option[String],
-  role: Option[String],
-  avatarURL: Option[String]) extends Identity
+                 userID: UUID,
+                 loginInfo: LoginInfo,
+                 firstName: Option[String],
+                 lastName: Option[String],
+                 fullName: Option[String],
+                 email: Option[String],
+                 role: String = User.Roles.Student,
+                 avatarURL: Option[String]) extends Identity
 
 /**
  * The companion object.
