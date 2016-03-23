@@ -33,7 +33,8 @@ app.config(function ($urlRouterProvider, $stateProvider, $httpProvider, $authPro
   $urlRouterProvider.otherwise('/home');
 
   $stateProvider
-    .state('home', { url: '/home', templateUrl: '/views/home.html', resolve: {
+    .state('home', {
+      url: '/home', templateUrl: '/views/home_scala.html', resolve: {
       authenticated: function($q, $location, $auth) {
         var deferred = $q.defer();
 
@@ -46,8 +47,8 @@ app.config(function ($urlRouterProvider, $stateProvider, $httpProvider, $authPro
         return deferred.promise;
       }
     }})
-    .state('signUp', { url: '/signUp', templateUrl: '/views/signUp.html' })
-    .state('signIn', { url: '/signIn', templateUrl: '/views/signIn.html' })
+    .state('signUp', {url: '/signUp', templateUrl: '/views/signUp_scala.html'})
+    .state('signIn', {url: '/signIn', templateUrl: '/views/signIn_scala.html'})
     .state('signOut', { url: '/signOut', template: null,  controller: 'SignOutCtrl' });
 
   $httpProvider.interceptors.push(function($q, $injector) {
