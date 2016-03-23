@@ -7,7 +7,7 @@ import play.api.libs.json.Json
   *
   * @param users A list of users
   */
-case class UsersResponse(users: List[UserResponseModel])
+case class UsersResponse(users: List[UserProtocolModel])
 
 /**
   * The companion object. Provides implicit Json formatting.
