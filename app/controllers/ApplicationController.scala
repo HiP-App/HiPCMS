@@ -2,13 +2,19 @@ package controllers
 
 import javax.inject.Inject
 
+import models.User
+import utils.silhouette.AuthenticationController
+import utils.silhouette.WithRoles
+import play.api._
+import play.api.mvc._
 import com.mohiva.play.silhouette.api.{Environment, LogoutEvent, Silhouette}
 import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
+import com.mohiva.play.silhouette.impl.providers.SocialProviderRegistry
 import models.User
 import play.api.i18n.MessagesApi
 import play.api.libs.json.{JsValue, Json}
-import play.api.mvc.{Action, AnyContent}
 
+import scala.concurrent.ExecutionContext.Implicits._
 import scala.concurrent.Future
 
 /**
@@ -20,26 +26,21 @@ import scala.concurrent.Future
 class ApplicationController @Inject()(
                                        val messagesApi: MessagesApi,
                                        val env: Environment[User, JWTAuthenticator])
-  extends Silhouette[User, JWTAuthenticator] {
+  extends Silhouette[User, JWTAuthenticator] with AuthenticationController {
 
   /**
     * Returns the user.
     *
-    * @note We are using `parse.json` in the implementation so that we're able to return Action[JsValue].
-    *       There is no request validation.
     * @return The result to display.
     */
-  def user: Action[JsValue] = SecuredAction.async(parse.json) { implicit request =>
+  def user: Action[AnyContent] = SecuredAction(WithRoles(User.Roles.Student, User.Roles.Admin)).async { implicit request =>
     Future.successful(Ok(Json.toJson(request.identity)))
   }
 
   /**
     * Manages the sign out action.
-    *
-    * @note We are using `parse.json` in the implementation so that we're able to return Action[JsValue].
-    *       There is no request validation.
     */
-  def signOut: Action[JsValue] = SecuredAction.async(parse.json) { implicit request =>
+  def signOut: Action[AnyContent] = SecuredAction.async { implicit request =>
     env.eventBus.publish(LogoutEvent(request.identity, request, request2Messages))
     env.authenticatorService.discard(request.authenticator, Ok)
   }

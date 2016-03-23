@@ -78,6 +78,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
             Option(data.lastName.getOrElse(user.lastName.get)),
             user.fullName,
             Option(data.email.getOrElse(user.email.get)),
+            user.role,
             user.avatarURL)
 
           userServiceImpl
