@@ -83,7 +83,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
             .save(updateUser)
             .map { u => Ok(Json.toJson(u)) }
         }
-        case None => Future.failed(new IdentityNotFoundException("Couldn't find user"))
+        case _ => Future.failed(new IdentityNotFoundException("Couldn't find user"))
       }
     }.recoverTotal {
       case e: JsError =>
