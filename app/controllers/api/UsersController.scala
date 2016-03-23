@@ -25,6 +25,11 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
                                 val userServiceImpl: UserServiceImpl)
   extends Silhouette[User, JWTAuthenticator] {
 
+  /** Function to convert a User to a UserProtocolModel */
+  val mapUserToUserProtocolModel: (User) => UserProtocolModel = { u =>
+    UserProtocolModel(u.userID, u.firstName, u.lastName, u.email)
+  }
+
   /**
     * Finds the users matching the given filters.
     *
@@ -45,7 +50,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     }
 
     usersFoundBySearch.map(seq => {
-      val responseModels: Seq[UserProtocolModel] = seq.map(u => UserProtocolModel(u.userID, u.firstName, u.lastName, u.email))
+      val responseModels: Seq[UserProtocolModel] = seq.map(mapUserToUserProtocolModel)
       val json: JsValue = Json.toJson(responseModels)
       Ok(json)
     })
