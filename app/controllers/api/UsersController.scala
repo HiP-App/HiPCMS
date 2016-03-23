@@ -38,8 +38,6 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     * @todo filter users by role
     */
   def userList(search: Option[String], role: Option[String]): Action[AnyContent] = SecuredAction.async { implicit request =>
-    val emptyList = UsersResponse(List[UserProtocolModel]())
-
     val usersFoundBySearch = if (search.isDefined) {
       userServiceImpl.retrieve(search.get)
     } else {
