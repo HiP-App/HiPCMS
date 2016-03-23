@@ -19,12 +19,37 @@ import scala.concurrent.Future
 class UserServiceImpl @Inject() (userDAO: UserDAO) extends UserService {
 
   /**
-   * Retrieves a user that matches the specified login info.
-   *
-   * @param loginInfo The login info to retrieve a user.
-   * @return The retrieved user or None if no user could be retrieved for the given login info.
-   */
+    * Retrieves a user that matches the specified login info.
+    *
+    * @param loginInfo The login info to retrieve a user.
+    * @return The retrieved user or None if no user could be retrieved for the given login info.
+    */
   def retrieve(loginInfo: LoginInfo): Future[Option[User]] = userDAO.find(loginInfo)
+
+  /**
+    * Finds a user by its user ID.
+    *
+    * @param userID The ID of the user to find.
+    * @return The found user or None if no user for the given ID could be found.
+    */
+  def retrieve(userID: UUID): Future[Option[User]] = userDAO.find(userID)
+
+  /**
+    * Retrieves all known users.
+    *
+    * @return All known users. May be empty.
+    */
+  def retrieveAll(): Future[Seq[User]] = userDAO.findAll()
+
+
+  /**
+    * Retrieves a user whose names or email address contain the specified search string.
+    *
+    * @param search The search string.
+    * @return The retrieved users. May be empty.
+    */
+  def retrieve(search: String): Future[Seq[User]] = userDAO.findByEmailOrName(search)
+
 
   /**
    * Saves a user.

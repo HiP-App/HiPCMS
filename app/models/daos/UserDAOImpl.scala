@@ -1,27 +1,29 @@
 package models.daos
 
 import java.util.UUID
+import javax.inject.Inject
+
 import com.mohiva.play.silhouette.api.LoginInfo
 import models.User
-import play.api.libs.concurrent.Execution.Implicits.defaultContext
-import slick.dbio.DBIOAction
-import javax.inject.Inject
 import play.api.db.slick.DatabaseConfigProvider
+import play.api.libs.concurrent.Execution.Implicits.defaultContext
+
 import scala.concurrent.Future
 
+
 /**
- * Give access to the user object using Slick
- */
+  * Give access to the user object using Slick
+  */
 class UserDAOImpl @Inject()(protected val dbConfigProvider: DatabaseConfigProvider) extends UserDAO with DAOSlick {
 
   import driver.api._
 
   /**
-   * Finds a user by its login info.
-   *
-   * @param loginInfo The login info of the user to find.
-   * @return The found user or None if no user for the given login info could be found.
-   */
+    * Finds a user by its login info.
+    *
+    * @param loginInfo The login info of the user to find.
+    * @return The found user or None if no user for the given login info could be found.
+    */
   def find(loginInfo: LoginInfo) = {
     val userQuery = for {
       dbLoginInfo <- loginInfoQuery(loginInfo)
@@ -36,11 +38,11 @@ class UserDAOImpl @Inject()(protected val dbConfigProvider: DatabaseConfigProvid
   }
 
   /**
-   * Finds a user by its user ID.
-   *
-   * @param userID The ID of the user to find.
-   * @return The found user or None if no user for the given ID could be found.
-   */
+    * Finds a user by its user ID.
+    *
+    * @param userID The ID of the user to find.
+    * @return The found user or None if no user for the given ID could be found.
+    */
   def find(userID: UUID) = {
     val query = for {
       dbUser <- slickUsers.filter(_.id === userID.toString)
@@ -63,12 +65,71 @@ class UserDAOImpl @Inject()(protected val dbConfigProvider: DatabaseConfigProvid
     }
   }
 
+  def findAll(): Future[Seq[User]] = {
+    val query = for {
+      dbUser <- slickUsers
+      dbUserLoginInfo <- slickUserLoginInfos.filter(_.userID === dbUser.id)
+      dbLoginInfo <- slickLoginInfos.filter(_.id === dbUserLoginInfo.loginInfoId)
+    } yield (dbUser, dbLoginInfo)
+    db.run(query.result).map { resultOption =>
+      resultOption.map {
+        case (user, loginInfo) =>
+          User(
+            UUID.fromString(user.userID),
+            LoginInfo(loginInfo.providerID, loginInfo.providerKey),
+            user.firstName,
+            user.lastName,
+            user.fullName,
+            user.email,
+            user.role,
+            user.avatarURL)
+      }
+    }
+  }
+
+
   /**
-   * Saves a user.
-   *
-   * @param user The user to save.
-   * @return The saved user.
-   */
+    * Finds a user by part of its email address or name fields.
+    *
+    * @param search A search string.
+    * @return The found users. May be empty.
+    */
+  def findByEmailOrName(search: String): Future[Seq[User]] = {
+
+    val searchFilter: (Users) => Rep[Option[Boolean]] =
+      u => {
+        ((u.firstName indexOf search) =!= -1) ||
+          ((u.lastName indexOf search) =!= -1) ||
+          ((u.email indexOf search) =!= -1)
+      }
+
+    val query = for {
+      dbUser <- slickUsers.filter(searchFilter)
+      dbUserLoginInfo <- slickUserLoginInfos.filter(_.userID === dbUser.id)
+      dbLoginInfo <- slickLoginInfos.filter(_.id === dbUserLoginInfo.loginInfoId)
+    } yield (dbUser, dbLoginInfo)
+    db.run(query.result).map { resultOption =>
+      resultOption.map {
+        case (user, loginInfo) =>
+          User(
+            UUID.fromString(user.userID),
+            LoginInfo(loginInfo.providerID, loginInfo.providerKey),
+            user.firstName,
+            user.lastName,
+            user.fullName,
+            user.email,
+            user.role,
+            user.avatarURL)
+      }
+    }
+  }
+
+  /**
+    * Saves a user.
+    *
+    * @param user The user to save.
+    * @return The saved user.
+    */
   def save(user: User) = {
     val dbUser = DBUser(user.userID.toString, user.firstName, user.lastName, user.fullName, user.email, user.role, user.avatarURL)
     val dbLoginInfo = DBLoginInfo(None, user.loginInfo.providerID, user.loginInfo.providerKey)
@@ -77,7 +138,7 @@ class UserDAOImpl @Inject()(protected val dbConfigProvider: DatabaseConfigProvid
     val loginInfoAction = {
       val retrieveLoginInfo = slickLoginInfos.filter(
         info => info.providerID === user.loginInfo.providerID &&
-        info.providerKey === user.loginInfo.providerKey).result.headOption
+          info.providerKey === user.loginInfo.providerKey).result.headOption
       val insertLoginInfo = slickLoginInfos.returning(slickLoginInfos.map(_.id)).
         into((info, id) => info.copy(id = Some(id))) += dbLoginInfo
       for {
