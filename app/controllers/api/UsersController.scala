@@ -3,6 +3,7 @@ package controllers.api
 import java.util.UUID
 import javax.inject.Inject
 
+import com.mohiva.play.silhouette.api.exceptions.ProviderException
 import com.mohiva.play.silhouette.api.{Environment, LoginInfo, Silhouette}
 import com.mohiva.play.silhouette.impl.authenticators.JWTAuthenticator
 import com.mohiva.play.silhouette.impl.exceptions.IdentityNotFoundException
@@ -84,11 +85,22 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
             .map { u => Ok(Json.toJson(u)) }
         }
         case _ => Future.failed(new IdentityNotFoundException("Couldn't find user"))
+      }.recover {
+        case e: IdentityNotFoundException => {
+          logger.error(s"ProviderException: $e.getMessage", e)
+          NotFound(Json.obj("message" -> Messages("User not found.")))
+        }
+        case _ => {
+          InternalServerError(Json.obj("message" -> "Unknown error"))
+        }
       }
     }.recoverTotal {
       case e: JsError =>
         logger.error(e.toString)
         Future.successful(Unauthorized(Json.obj("message" -> Messages("invalid.credentials"))))
+      case _ => {
+        Future.successful(InternalServerError(Json.obj("message" -> "Unknown error")))
+      }
     }
 
   }
