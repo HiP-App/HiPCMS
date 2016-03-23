@@ -1,6 +1,8 @@
 package controllers.yeoman
 
 import com.tuplejump.playYeoman.Yeoman
+import controllers.Assets
+import play.Logger
 import play.api.mvc.{Action, AnyContent}
 
 /**
@@ -9,7 +11,22 @@ import play.api.mvc.{Action, AnyContent}
   */
 class YeomanController {
 
-  val index: Action[AnyContent] = Yeoman.index
+  val index: Action[AnyContent] = {
+    Logger.debug("index")
+    Yeoman.index
+  }
 
-  def at(file: String): Action[AnyContent] = Yeoman.at(file)
+  def at(file: String): Action[AnyContent] = {
+    Logger.debug(s"at($file)")
+
+    val adaptedFilePath: String = if (file.contains("Angular")) {
+      Logger.info("adapting path")
+      "/scripts/" + file
+    }
+    else {
+      file
+    }
+    Logger.debug(s"Returning Yeoman.at($adaptedFilePath)")
+    Yeoman.at(adaptedFilePath)
+  }
 }

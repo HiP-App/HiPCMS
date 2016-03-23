@@ -48,7 +48,7 @@ app.config(function ($urlRouterProvider, $stateProvider, $httpProvider, $authPro
       }
     }})
     .state('signUp', {url: '/signUp', templateUrl: '/views/signUp_scala.html'})
-    .state('signIn', {url: '/signIn', templateUrl: '/views/signIn_scala.html'})
+    .state('signIn', {url: '/signIn', templateUrl: '/viewsAngular/signIn.html'})
     .state('signOut', { url: '/signOut', template: null,  controller: 'SignOutCtrl' });
 
   $httpProvider.interceptors.push(function($q, $injector) {
