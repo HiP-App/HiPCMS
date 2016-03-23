@@ -50,9 +50,7 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     }
 
     usersFoundBySearch.map(seq => {
-      val responseModels: Seq[UserProtocolModel] = seq.map(mapUserToUserProtocolModel)
-      val json: JsValue = Json.toJson(responseModels)
-      Ok(json)
+      Ok(Json.toJson(seq.map(mapUserToUserProtocolModel)))
     })
   }
 
