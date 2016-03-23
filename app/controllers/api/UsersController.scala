@@ -50,7 +50,13 @@ class UsersController @Inject()(val messagesApi: MessagesApi,
     }
 
     usersFoundBySearch.map(seq => {
-      Ok(Json.toJson(seq.map(mapUserToUserProtocolModel)))
+      val jsonResponse: JsValue = Json.toJson(seq.map(mapUserToUserProtocolModel))
+      // Return not implemented until role filter is implemented
+      if (role.isDefined) {
+        NotImplemented(jsonResponse)
+      } else {
+        Ok(jsonResponse)
+      }
     })
   }
 
