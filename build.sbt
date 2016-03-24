@@ -8,7 +8,15 @@ version := "1.0-SNAPSHOT"
 
 scalaVersion := "2.11.7"
 
-resolvers := ("Atlassian Releases" at "https://maven.atlassian.com/public/") +: resolvers.value
+lazy val root = (project in file(".")).enablePlugins(PlayScala)
+
+resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
+
+resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
+
+resolvers += Resolver.sonatypeRepo("snapshots")
+
+resolvers += ("Atlassian Releases" at "https://maven.atlassian.com/public/")
 
 resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
 
@@ -53,17 +61,6 @@ libraryDependencies ++= Seq(
   filters
 )
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
-
-resolvers += "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases"
-
-// syncing the binary with the sbt-plugin-releases repo
-resolvers += Resolver.url("scoverage-bintray", url("https://dl.bintray.com/sksamuel/sbt-plugins/"))(Resolver.ivyStylePatterns)
-
-resolvers += Resolver.sonatypeRepo("snapshots")
-
-resolvers += ("Atlassian Releases" at "https://maven.atlassian.com/public/")
-
 routesGenerator := InjectedRoutesGenerator
 
 scalacOptions ++= Seq(
@@ -80,28 +77,28 @@ scalacOptions ++= Seq(
 )
 
 
-//To enable coverage directly in your build
+//********************************************************
+// Coverage settings
+//********************************************************
 coverageEnabled := true
-
-//Minimum coverage condition
 coverageMinimum := 80
-
-//Condition to fail the build when minimu condition is not met
 coverageFailOnMinimum := false
+
 
 // Play provides two styles of routers, one expects its actions to be injected, the
 // other, legacy style, accesses its actions statically.
 routesGenerator := InjectedRoutesGenerator
+
 
 //********************************************************
 // Yeoman settings
 //********************************************************
 Yeoman.yeomanSettings
 
+
 //********************************************************
 // Scalariform settings
 //********************************************************
-
 defaultScalariformSettings
 
 ScalariformKeys.preferences := ScalariformKeys.preferences.value
