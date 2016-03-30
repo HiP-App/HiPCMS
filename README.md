@@ -1,63 +1,94 @@
-https://hip.upb.de/
-===================
+HiPCMS
+======
 
-This application is developed to fill the system 'History in Paderborn' with data. We also develop an [Android app](https://git.cs.upb.de/HiP/HiP-Android/) to view the data, i.e. end users can use this app to view the data in HiP.
+**Deprecated: This project is not actively developed anymore; the rewrite of hip.upb.de will be done in ASP.NET + EF for the REST API and AngularJS for the Frontend.**
 
-See the LICENSE file for licensing information. 
+Develop: [![Codacy Badge](https://api.codacy.com/project/badge/grade/b905a3e6757a49979e2135f84f8feaef)](https://www.codacy.com/app/HiP-App/HiPCMS)
+[![Build Status](https://travis-ci.org/HiP-App/HiPCMS.svg?branch=develop)](https://travis-ci.org/HiP-App/HiPCMS)
 
-See the git history for information about authors. The [graphs page](https://git.cs.upb.de/HiP/HiPCMS/graphs/master) has a nice visual overview of contributors.
+This content management system is developed by the project group [History in 
+Paderborn](http://is.uni-paderborn.de/fachgebiete/fg-engels/lehre/ss15/hip-app/pg-hip-app.html).
+It is developed to fill the system 'History in Paderborn' with data. This 
+Backend is only used to manage the data. We also develop an Android app to 
+view the data, i.e. end users can use this app to view the data in HiP.
 
-Documentation
-=============
+In another team of the project group, an Android app is developed that will 
+make the content of HiPCMS accessable to the public. Information about the app 
+will be added as soon as it is available.
 
-The documentation of this project is done in the [project groups's Confluence wiki](http://jira-hip.cs.upb.de:8090/display/DOC/).
+HiPCMS will replace the original project which was known as [HiPBackend](https://hip.upb.de/).
+HiPBackend's code unfortunately was not maintainable anymore and a rewrite was decided. 
 
-Getting Started
-===============
+See the LICENSE file for licensing information.
 
-A step-wise guide to setup your development environment can be found in the Confluence article ["Set up development environment"](http://jira-hip.cs.upb.de:8090/display/DOC/Set+up+development+environment).
+See [the graphs page](https://github.com/HiP-App/HiPCMS/graphs/contributors) 
+for a list of code contributions.
 
-Running HiP
-===========
+## Requirements:
 
- 1. Clone the repository
- 2. Run ```./activator run```
+ * [Java JDK 8](http://www.oracle.com/technetwork/java/javase/)
+ * [SBT 0.13.8](http://www.scala-sbt.org/)
+ * [node.js](http://nodejs.org/)
+ * [MySQL](https://www.mysql.de/)
 
-More information about the activator can be found at [typesafe](https://www.typesafe.com/get-started).
+By default HiPCMS expects a database called ```HiPCMSdb``` and uses ```hipcms``` 
+without password to connect. You can override this setting by specifying a 
+jdbc-URL in an Environment Variable called ```DATABASE_URL```.
 
-How to develop
-==============
+Then you must install the node packages [yo](http://yeoman.io), [grunt](http://gruntjs.com/) 
+and [bower](http://bower.io/):
 
-The source code is hosted at [the gitlab server of the University of Paderborn](https://git.cs.upb.de/HiP/HiPBackend).
+```
+npm install -g yo grunt grunt-cli bower
+```
+
+## Technolgies and Frameworks
+
+HiPCMS is a Play-Application based on Play 2.4.6 and AngularJs.
+
+We are using [Silhouette](http://silhouette.mohiva.com/) as an Authentification framework.
+
+## Getting started
+
+ * Use ```setup.sh``` to install all sbt and node-dependencies
+ * Use ```test.sh``` to execute the tests
+ * You can **start the application** via ```./activator run``` with auto-reload enabled
+ * For more information about the Activator see [the product homepage](https://www.lightbend.com/activator/download)
+
+Note: the scripts setup.sh and test.sh are also used by TravisCI; they were 
+created to keep setup and test-execution independent of a CI server.
 
 
-To run the application you can either use your IDE or you can use the activator file: ```./activator run```
+## How to develop
 
-For more information about using the activator script, see https://www.typesafe.com/community/core-tools/activator-and-sbt
+ * The latest code is available on [the project's Github-page](https://github.com/HiP-App/HiPCMS/)
+ * You can [fork the repo](https://help.github.com/articles/fork-a-repo/) or [clone our repo](https://help.github.com/articles/cloning-a-repository/)
+   * To submit patches you should fork and then [create a Pull Request](https://help.github.com/articles/using-pull-requests/)
+   * If you are part of the project group, you can create new branches on the main repo as described [in our internal
+     Confluence](http://atlassian-hip.cs.upb.de:8090/display/DCS/Conventions+for+git)
 
-Dependency updates
-------------------
+We are using [IntelliJ Ultimate](https://www.jetbrains.com/idea/) which is [free-to-use for students](https://www.jetbrains.com/student/). 
+To import the project into IntelliJ, you can use *import project* (*from 
+external model* - *SBT*). Just select the ```build.sbt``` which is located in 
+the project root directory.
 
-To see the dependencies that can be updated, the plugin [sbt-updates](https://github.com/rtimush/sbt-updates) is used. It 
-provides the tasks "dependencyUpdates" and "dependencyUpdatesReport". The first one shows the updateable dependencies whereas the second one 
-generates a report file.
+## How to submit Defects and Feature Proposals
 
-Testing
-=======
+Please write an email to [hip-app@campus.upb.de](mailto:hip-app@campus.upb.de).
 
-TODO: Add testing description.
+## Documentation
+
+Documentation is currently collected in our [internal Confluence](http://atlassian-hip.cs.upb.de:8090/dashboard.action). If something is missing in 
+this README, just [send an email](mailto:hip-app@campus.upb.de).
 
 
-Reporting issues
-================
+## Contact
 
-This project group is using the Scaled Agile Framework. See [Scaled Agile Framework® (SAFe®)](http://jira-hip.cs.upb.de:8090/pages/viewpage.action?pageId=3276965) and [Scrum](http://jira-hip.cs.upb.de:8090/display/SEM/Scrum) for an introduction.
+> HiP (History in Paderborn) ist eine Plattform der:
+> Universität Paderborn
+> Warburger Str. 100
+> 33098 Paderborn
+> http://www.uni-paderborn.de
+> Tel.: +49 5251 60-0
 
-All Issues of this project are tracked on http://jira-hip.cs.upb.de:8080/
-
-Application stack
-=================
-
-From A full application stack for a Modern Web application, lets review the components:
-
-TODO: add the list of components.
+You can also [write an email](mailto:hip-app@campus.upb.de).
