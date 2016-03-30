@@ -1,6 +1,8 @@
 HiPCMS
 ======
 
+**Deprecated: This project is not actively developed anymore; the rewrite of hip.upb.de will be done in ASP.NET + EF for the REST API and AngularJS for the Frontend.**
+
 Develop: [![Codacy Badge](https://api.codacy.com/project/badge/grade/b905a3e6757a49979e2135f84f8feaef)](https://www.codacy.com/app/HiP-App/HiPCMS)
 [![Build Status](https://travis-ci.org/HiP-App/HiPCMS.svg?branch=develop)](https://travis-ci.org/HiP-App/HiPCMS)
 
