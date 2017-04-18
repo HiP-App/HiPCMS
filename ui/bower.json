@@ -12,6 +12,7 @@
     "angular-strap": "2.1.5",
     "angular-route": "1.4.3",
     "angular-cookies": "1.4.3",
-    "ui-router": "0.2.15"
+    "ui-router": "0.2.15",
+    "angular-material": "^1.0.6"
   }
 }

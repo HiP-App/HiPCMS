@@ -56,6 +56,7 @@ class ApplicationController @Inject()(
       case "signUp" => Ok(views.html.signUp())
       case "signIn" => Ok(views.html.signIn())
       case "navigation" => Ok(views.html.navigation())
+      case "test" => Ok(views.html.test())
       case _ => NotFound
     }
   }

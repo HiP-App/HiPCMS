@@ -5,7 +5,7 @@
 /**
  * The navigation controller.
  */
-app.controller('NavigationCtrl', ['$scope', '$auth', function($scope, $auth) {
+angular.module('uiApp').controller('NavigationCtrl', ['AuthFactory','$scope',  function(AuthFactory, $scope ) {
 
   /**
    * Indicates if the user is authenticated or not.
@@ -13,6 +13,7 @@ app.controller('NavigationCtrl', ['$scope', '$auth', function($scope, $auth) {
    * @returns {boolean} True if the user is authenticated, false otherwise.
    */
   $scope.isAuthenticated = function() {
-    return $auth.isAuthenticated();
+   return AuthFactory.isAuthenticated();
+
   };
 }]);

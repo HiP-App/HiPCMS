@@ -5,7 +5,7 @@
 /**
  * The sign in controller.
  */
-app.controller('SignInCtrl', ['$scope', '$alert', '$auth', function($scope, $alert, $auth) {
+angular.module('uiApp').controller('SignInCtrl', ['$scope', '$alert', '$auth', function($scope, $alert, $auth) {
 
   /**
    * Submits the login form.

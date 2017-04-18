@@ -5,12 +5,13 @@
 /**
  * The home controller.
  */
-app.controller('HomeCtrl', ['$rootScope', '$scope', '$alert', 'UserFactory', function($rootScope, $scope, $alert, UserFactory) {
+angular.module('uiApp').controller('HomeCtrl', ['$rootScope', '$scope', '$alert', 'UserFactory', function($rootScope, $scope, $alert, UserFactory) {
 
   /**
    * Initializes the controller.
    */
   $scope.init = function() {
+
     UserFactory.get()
       .success(function(data) {
         $rootScope.user = data;
